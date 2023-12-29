@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => {
   switch (env.VITE_APPLICATION) {
     case 'BeehiveApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Beehive Corporation",
         "short_name":"Beehive",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -37,6 +38,7 @@ export default defineConfig(({ mode }) => {
 
     case 'AndromedaApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Andromeda Organisation",
         "short_name":"Andromeda",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -59,6 +61,7 @@ export default defineConfig(({ mode }) => {
     
     case 'PinwheelApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Pinwheel Organisation",
         "short_name":"Pinwheel",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -81,6 +84,7 @@ export default defineConfig(({ mode }) => {
       
     case 'TadpoleApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Tadpole Organisation",
         "short_name":"Tadpole",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -103,6 +107,7 @@ export default defineConfig(({ mode }) => {
         
     case 'AcruxApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Acrux Enterprise",
         "short_name":"Acrux",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -125,6 +130,7 @@ export default defineConfig(({ mode }) => {
           
     case 'AnserApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Anser Enterprise",
         "short_name":"Anser",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -147,6 +153,7 @@ export default defineConfig(({ mode }) => {
             
     case 'AquilaApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Aquila Enterprise",
         "short_name":"Aquila",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -169,6 +176,7 @@ export default defineConfig(({ mode }) => {
               
     case 'BellatrixApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Bellatrix Enterprise",
         "short_name":"Bellatrix",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -191,6 +199,7 @@ export default defineConfig(({ mode }) => {
                 
     case 'CapellaApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Capella Enterprise",
         "short_name":"Capella",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -213,6 +222,7 @@ export default defineConfig(({ mode }) => {
                   
     case 'ArionApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Arion",
         "short_name":"Arion",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -235,6 +245,7 @@ export default defineConfig(({ mode }) => {
                     
     case 'AnkasApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Ankas",
         "short_name":"Ankas",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -257,6 +268,7 @@ export default defineConfig(({ mode }) => {
                       
     case 'AbolApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Abol",
         "short_name":"Abol",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -279,6 +291,7 @@ export default defineConfig(({ mode }) => {
                         
     case 'TechfolioApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Techfolio Firm",
         "short_name":"Techfolio",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -301,6 +314,7 @@ export default defineConfig(({ mode }) => {
                           
     case 'ApurvChaturApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Apurv Chatur",
         "short_name":"Apurv",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -323,6 +337,7 @@ export default defineConfig(({ mode }) => {
                             
     case 'AnushreeMandapeApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Anushree Mandape",
         "short_name":"Anushree",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -345,6 +360,7 @@ export default defineConfig(({ mode }) => {
                               
     case 'SofieBerkinApplication':
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"Sofie Berkin",
         "short_name":"Sofie",
         "display_override": ["fullscreen", "minimal-ui"],
@@ -368,6 +384,7 @@ export default defineConfig(({ mode }) => {
                                                                                                                                                                                                                                                   
     default:
       MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
         "name":"",
         "short_name":"",
         "display_override": ["fullscreen", "minimal-ui"],
