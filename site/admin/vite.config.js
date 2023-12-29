@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => {
     case 'BeehiveApplication':
       MANIFEST_DATA = {
         "name":"Beehive Corporation",
+        "short_name":"Beehive",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -24,7 +25,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Beehive/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -32,6 +38,7 @@ export default defineConfig(({ mode }) => {
     case 'AndromedaApplication':
       MANIFEST_DATA = {
         "name":"Andromeda Organisation",
+        "short_name":"Andromeda",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -40,7 +47,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Andromeda/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -48,6 +60,7 @@ export default defineConfig(({ mode }) => {
     case 'PinwheelApplication':
       MANIFEST_DATA = {
         "name":"Pinwheel Organisation",
+        "short_name":"Pinwheel",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -56,7 +69,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Pinwheel/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -64,6 +82,7 @@ export default defineConfig(({ mode }) => {
     case 'TadpoleApplication':
       MANIFEST_DATA = {
         "name":"Tadpole Organisation",
+        "short_name":"Tadpole",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -72,7 +91,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Tadpole/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -80,6 +104,7 @@ export default defineConfig(({ mode }) => {
     case 'AcruxApplication':
       MANIFEST_DATA = {
         "name":"Acrux Enterprise",
+        "short_name":"Acrux",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -88,7 +113,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Acrux/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -96,6 +126,7 @@ export default defineConfig(({ mode }) => {
     case 'AnserApplication':
       MANIFEST_DATA = {
         "name":"Anser Enterprise",
+        "short_name":"Anser",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -104,7 +135,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Anser/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -112,6 +148,7 @@ export default defineConfig(({ mode }) => {
     case 'AquilaApplication':
       MANIFEST_DATA = {
         "name":"Aquila Enterprise",
+        "short_name":"Aquila",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -120,7 +157,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Aquila/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -128,6 +170,7 @@ export default defineConfig(({ mode }) => {
     case 'BellatrixApplication':
       MANIFEST_DATA = {
         "name":"Bellatrix Enterprise",
+        "short_name":"Bellatrix",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -136,7 +179,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Bellatrix/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -144,6 +192,7 @@ export default defineConfig(({ mode }) => {
     case 'CapellaApplication':
       MANIFEST_DATA = {
         "name":"Capella Enterprise",
+        "short_name":"Capella",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -152,7 +201,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Capella/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -160,6 +214,7 @@ export default defineConfig(({ mode }) => {
     case 'ArionApplication':
       MANIFEST_DATA = {
         "name":"Arion",
+        "short_name":"Arion",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -168,7 +223,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Arion/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -176,6 +236,7 @@ export default defineConfig(({ mode }) => {
     case 'AnkasApplication':
       MANIFEST_DATA = {
         "name":"Ankas",
+        "short_name":"Ankas",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -184,7 +245,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Ankas/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -192,6 +258,7 @@ export default defineConfig(({ mode }) => {
     case 'AbolApplication':
       MANIFEST_DATA = {
         "name":"Abol",
+        "short_name":"Abol",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -200,7 +267,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Abol/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -208,6 +280,7 @@ export default defineConfig(({ mode }) => {
     case 'TechfolioApplication':
       MANIFEST_DATA = {
         "name":"Techfolio Firm",
+        "short_name":"Techfolio",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -216,7 +289,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/Techfolio/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -224,6 +302,7 @@ export default defineConfig(({ mode }) => {
     case 'ApurvChaturApplication':
       MANIFEST_DATA = {
         "name":"Apurv Chatur",
+        "short_name":"Apurv",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -232,7 +311,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/ApurvChatur/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -240,6 +324,7 @@ export default defineConfig(({ mode }) => {
     case 'AnushreeMandapeApplication':
       MANIFEST_DATA = {
         "name":"Anushree Mandape",
+        "short_name":"Anushree",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -248,7 +333,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/AnushreeMandape/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -256,6 +346,7 @@ export default defineConfig(({ mode }) => {
     case 'SofieBerkinApplication':
       MANIFEST_DATA = {
         "name":"Sofie Berkin",
+        "short_name":"Sofie",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -264,7 +355,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business/SofieBerkin/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
@@ -273,6 +369,7 @@ export default defineConfig(({ mode }) => {
     default:
       MANIFEST_DATA = {
         "name":"",
+        "short_name":"",
         "display_override": ["fullscreen", "minimal-ui"],
         "display": "standalone",
         "icons":[
@@ -281,7 +378,12 @@ export default defineConfig(({ mode }) => {
             sizes: "512x512",
             type: "image/png",
             purpose: "any maskable"
-          }
+          },
+          {
+            src: "Business//favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
         ],
       }
       break;
