@@ -1,0 +1,6 @@
+/* Content container */
+.content {
+  display: flex;
+  /* flex-direction: column; Stack children vertically */
+  /* height: 100vh; Make it take the full viewport height */
+}
