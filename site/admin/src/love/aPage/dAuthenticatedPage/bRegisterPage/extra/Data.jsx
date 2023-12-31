@@ -46,11 +46,13 @@ const Data = (Redux) => {
       ],
       links: [
         {
+          note: "Already have an account?",
           label: "Login",
           route: FinalRouteName.AuthRoute.LoginRoute
         },
         {
-          label: "Forgot Password",
+          note: "Forgot password?",
+          label: "Reset",
           route: FinalRouteName.AuthRoute.ForgotPasswordRoute
         },
       ]

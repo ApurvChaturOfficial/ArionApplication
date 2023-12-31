@@ -150,7 +150,7 @@ function DashboardNavbar({ ReduxUltimate, absolute, light, isMini }) {
                 ReduxUltimate.state.ReceivedObject?.ProfileRetrieve && (
                   <React.Fragment>
                     <MDBox display="flex" mr={2} alignItems="center" lineHeight={0.5} component={Link} to={FinalRouteName.ContentRoute.TopbarRoute.ProfileRoute} >
-                      <MDAvatar src={ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.aImage?.url || defaultUser} size="sm" />
+                      <MDAvatar src={ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.eImage?.url || defaultUser} size="sm" />
                       <MDBox ml={1} lineHeight={0.5} display={{ xs: "none", lg: "inline-block" }} >
                         <MDTypography display="block" variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
                           {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.aTitle}

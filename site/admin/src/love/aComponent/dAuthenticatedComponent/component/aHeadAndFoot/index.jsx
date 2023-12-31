@@ -22,7 +22,7 @@ import DefaultNavbar from "src/love/iTemplate/examples/Navbars/DefaultNavbar";
 import PageLayout from "src/love/iTemplate/examples/LayoutContainers/PageLayout";
 
 // Images
-import bgImage from "src/love/iTemplate/assets/images/bg-sign-in-basic.jpeg";
+import bgImage from "src/love/iTemplate/assets/images/bg-profile.jpeg";
 
 // Routes 
 import FinalRouteName from 'src/love/gRoute/FinalRouteName';
@@ -49,8 +49,8 @@ const HeadAndFoot = ({ children }) => {
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
             bgImage &&
             `${linearGradient(
-              rgba(gradients.dark.main, 0.6),
-              rgba(gradients.dark.state, 0.6)
+              rgba(gradients.dark.main, 0.3),
+              rgba(gradients.dark.state, 0.3)
             )}, url(${bgImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",

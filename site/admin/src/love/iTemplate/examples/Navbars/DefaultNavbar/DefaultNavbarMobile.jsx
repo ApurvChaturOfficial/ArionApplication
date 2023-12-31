@@ -66,7 +66,7 @@ function DefaultNavbarMobile({ open, close, Redux, LogoutAPICall }) {
                 sx={{ cursor: "pointer", userSelect: "none" }}
               >
                 <MDBox display="flex" alignItems="center" lineHeight={0.5} >
-                  <MDAvatar src={Redux.state.ReceivedObject?.ProfileRetrieve?.aImage?.url || defaultUser} size="sm" />
+                  <MDAvatar src={Redux.state.ReceivedObject?.ProfileRetrieve?.eImage?.url || defaultUser} size="sm" />
                   <MDBox ml={1} lineHeight={0.5} display="inline-block" >
                     <MDTypography display="block" variant="button" fontWeight="medium" color="dark">
                       {Redux.state.ReceivedObject?.ProfileRetrieve?.aTitle}

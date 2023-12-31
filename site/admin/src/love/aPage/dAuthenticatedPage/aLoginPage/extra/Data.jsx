@@ -37,7 +37,8 @@ const Data = (Redux) => {
           route: FinalRouteName.AuthRoute.RegisterRoute
         },
         {
-          label: "Forgot Password",
+          note: "Forgot password?",
+          label: "Reset",
           route: FinalRouteName.AuthRoute.ForgotPasswordRoute
         },
       ]

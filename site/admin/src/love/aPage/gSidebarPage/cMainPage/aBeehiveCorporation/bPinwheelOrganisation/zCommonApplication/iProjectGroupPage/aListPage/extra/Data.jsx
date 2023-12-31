@@ -82,24 +82,24 @@ const Data = (Redux) => {
               created: (
                 each?.createdBy &&
                 <MDBox display="flex" alignItems="center" lineHeight={1}>
-                  <MDAvatar src={each?.createdBy?.aImage?.url || defaultUser} name={each?.title} size="sm" />
+                  <MDAvatar src={each?.createdBy?.eImage?.url || defaultUser} name={each?.title} size="sm" />
                   <MDBox ml={2} lineHeight={1}>
                     <MDTypography display="block" variant="button" fontWeight="medium">
-                      {`${each?.createdBy?.first_name} ${each?.createdBy?.last_name}`}
+                      {`${each?.createdBy?.eFirstName} ${each?.createdBy?.eLastName}`}
                     </MDTypography>
-                    <MDTypography variant="caption">{each?.createdBy?.email}</MDTypography>
+                    <MDTypography variant="caption">{each?.createdBy?.eEmail}</MDTypography>
                   </MDBox>
                 </MDBox>
               ),
               updated: (
                 each?.updatedBy &&
                 <MDBox display="flex" alignItems="center" lineHeight={1}>
-                  <MDAvatar src={each?.updatedBy?.aImage?.url || defaultUser} name={each?.title} size="sm" />
+                  <MDAvatar src={each?.updatedBy?.eImage?.url || defaultUser} name={each?.title} size="sm" />
                   <MDBox ml={2} lineHeight={1}>
                     <MDTypography display="block" variant="button" fontWeight="medium">
-                      {`${each?.updatedBy?.first_name} ${each?.updatedBy?.last_name}`}
+                      {`${each?.updatedBy?.eFirstName} ${each?.updatedBy?.eLastName}`}
                     </MDTypography>
-                    <MDTypography variant="caption">{each?.updatedBy?.email}</MDTypography>
+                    <MDTypography variant="caption">{each?.updatedBy?.eEmail}</MDTypography>
                   </MDBox>
                 </MDBox>
               ),

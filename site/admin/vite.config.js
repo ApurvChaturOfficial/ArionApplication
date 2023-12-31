@@ -25,7 +25,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Beehive/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Beehive/favicon_io/android-chrome-192x192.png",
@@ -48,7 +47,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Andromeda/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Andromeda/favicon_io/android-chrome-192x192.png",
@@ -71,7 +69,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Pinwheel/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Pinwheel/favicon_io/android-chrome-192x192.png",
@@ -94,7 +91,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Tadpole/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Tadpole/favicon_io/android-chrome-192x192.png",
@@ -117,7 +113,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Acrux/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Acrux/favicon_io/android-chrome-192x192.png",
@@ -140,7 +135,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Anser/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Anser/favicon_io/android-chrome-192x192.png",
@@ -163,7 +157,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Aquila/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Aquila/favicon_io/android-chrome-192x192.png",
@@ -186,7 +179,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Bellatrix/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Bellatrix/favicon_io/android-chrome-192x192.png",
@@ -209,7 +201,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Capella/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Capella/favicon_io/android-chrome-192x192.png",
@@ -232,7 +223,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Arion/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Arion/favicon_io/android-chrome-192x192.png",
@@ -255,7 +245,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Ankas/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Ankas/favicon_io/android-chrome-192x192.png",
@@ -278,7 +267,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Abol/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Abol/favicon_io/android-chrome-192x192.png",
@@ -301,7 +289,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/Techfolio/favicon_io/android-chrome-192x192.png",
@@ -324,7 +311,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/ApurvChatur/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/ApurvChatur/favicon_io/android-chrome-192x192.png",
@@ -347,7 +333,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/AnushreeMandape/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/AnushreeMandape/favicon_io/android-chrome-192x192.png",
@@ -370,7 +355,6 @@ export default defineConfig(({ mode }) => {
             src: "Business/SofieBerkin/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business/SofieBerkin/favicon_io/android-chrome-192x192.png",
@@ -394,7 +378,6 @@ export default defineConfig(({ mode }) => {
             src: "Business//favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable"
           },
           {
             src: "Business//favicon_io/android-chrome-192x192.png",

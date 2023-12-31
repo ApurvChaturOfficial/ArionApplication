@@ -82,7 +82,7 @@ const Data = (Redux) => {
               created: (
                 each?.createdBy &&
                 <MDBox display="flex" alignItems="center" lineHeight={1}>
-                  <MDAvatar src={each?.createdBy?.aImage?.url || defaultUser} name={each?.title} size="sm" />
+                  <MDAvatar src={each?.createdBy?.eImage?.url || defaultUser} name={each?.title} size="sm" />
                   <MDBox ml={2} lineHeight={1}>
                     <MDTypography display="block" variant="button" fontWeight="medium">
                       {`${each?.createdBy?.eFirstName} ${each?.createdBy?.eLastName}`}
@@ -94,7 +94,7 @@ const Data = (Redux) => {
               updated: (
                 each?.updatedBy &&
                 <MDBox display="flex" alignItems="center" lineHeight={1}>
-                  <MDAvatar src={each?.updatedBy?.aImage?.url || defaultUser} name={each?.title} size="sm" />
+                  <MDAvatar src={each?.updatedBy?.eImage?.url || defaultUser} name={each?.title} size="sm" />
                   <MDBox ml={2} lineHeight={1}>
                     <MDTypography display="block" variant="button" fontWeight="medium">
                       {`${each?.updatedBy?.eFirstName} ${each?.updatedBy?.eLastName}`}
