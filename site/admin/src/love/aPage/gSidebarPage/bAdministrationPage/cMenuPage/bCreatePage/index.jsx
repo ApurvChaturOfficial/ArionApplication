@@ -38,11 +38,11 @@ const MenuCreatePage = ({ ReduxUltimate }) => {
   // JSX
   return (
     <React.Fragment>
-			{/* {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.create ?  */}
+			{ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.create ? 
 				<MainSection2 Data={Data(Redux)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
-				{/* :
+				:
 				"Fuck Off! You don't have access to this route."
-			} */}
+			}
 		</React.Fragment>
   )
 }
