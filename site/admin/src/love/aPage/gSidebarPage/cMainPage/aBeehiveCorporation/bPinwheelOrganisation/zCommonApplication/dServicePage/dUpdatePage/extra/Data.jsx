@@ -11,7 +11,7 @@ const Data = (Redux, id) => {
         buttons: [
           {
             label: "Delete",
-            route: `${FinalRouteName.ContentRoute.SidebarRoute.SettingRoute.ServiceRoute.DeleteRoute}/${id}`
+            route: `${FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.DeleteRoute}/${id}`
           },
         ]
       },
