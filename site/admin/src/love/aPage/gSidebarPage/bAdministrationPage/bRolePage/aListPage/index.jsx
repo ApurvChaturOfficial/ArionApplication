@@ -36,7 +36,7 @@ const RoleListPage = ({ ReduxUltimate }) => {
 			{ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Role')[0]?.access?.list ? 
 				<MainSection2 Data={Data(Redux)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
 				:  
-				// "Fuck Off! You don't have access to this route."
+				"Fuck Off! You don't have access to this route."
 			}
     </React.Fragment>
   )
