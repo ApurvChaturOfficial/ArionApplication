@@ -307,6 +307,7 @@ function App() {
   }, []);
 
   // Open sidenav when mouse enter on mini sidenav
+  // jkjh
   const handleOnMouseEnter = () => {
     if (miniSidenav && !onMouseEnter) {
       setMiniSidenav(dispatch, false);
