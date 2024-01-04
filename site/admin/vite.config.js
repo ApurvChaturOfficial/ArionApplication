@@ -18,9 +18,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Beehive Corporation Admin",
         "short_name":"Beehive Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#071952",
         "theme_color": "#071952",
         "icons":[
@@ -43,9 +41,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Andromeda Organisation Admin",
         "short_name":"Andromeda Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#22092C",
         "theme_color": "#22092C",
         "icons":[
@@ -68,9 +64,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Pinwheel Organisation Admin",
         "short_name":"Pinwheel Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#241468",
         "theme_color": "#241468",
         "icons":[
@@ -93,9 +87,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Tadpole Organisation Admin",
         "short_name":"Tadpole Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#3D0C11",
         "theme_color": "#3D0C11",
         "icons":[
@@ -118,9 +110,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Acrux Enterprise Admin",
         "short_name":"Acrux Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#451952",
         "theme_color": "#451952",
         "icons":[
@@ -143,9 +133,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Anser Enterprise Admin",
         "short_name":"Anser Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#004225",
         "theme_color": "#004225",
         "icons":[
@@ -168,9 +156,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Aquila Enterprise Admin",
         "short_name":"Aquila Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#141E46",
         "theme_color": "#141E46",
         "icons":[
@@ -193,9 +179,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Bellatrix Enterprise Admin",
         "short_name":"Bellatrix Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#35155D",
         "theme_color": "#35155D",
         "icons":[
@@ -218,9 +202,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Capella Enterprise Admin",
         "short_name":"Capella Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#4C4B16",
         "theme_color": "#4C4B16",
         "icons":[
@@ -243,9 +225,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Arion Admin",
         "short_name":"Arion Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#420516",
         "theme_color": "#420516",
         "icons":[
@@ -268,9 +248,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Ankas Admin",
         "short_name":"Ankas Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#352F44",
         "theme_color": "#352F44",
         "icons":[
@@ -293,9 +271,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Abol Admin",
         "short_name":"Abol Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#072227",
         "theme_color": "#072227",
         "icons":[
@@ -318,9 +294,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Techfolio Firm Admin",
         "short_name":"Techfolio Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#0F2167",
         "theme_color": "#0F2167",
         "icons":[
@@ -343,9 +317,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Apurv Chatur Admin",
         "short_name":"Apurv Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#4db5ff",
         "theme_color": "#4db5ff",
         "icons":[
@@ -368,9 +340,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Anushree Mandape Admin",
         "short_name":"Anushree Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#C8A2C8",
         "theme_color": "#C8A2C8",
         "icons":[
@@ -393,9 +363,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"Sofie Berkin Admin",
         "short_name":"Sofie Admin",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#06b7b7",
         "theme_color": "#06b7b7",
         "icons":[
@@ -419,9 +387,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"",
         "short_name":"",
-        "display_override": ["minimal-ui"],
         "display": "standalone",
-        "start_url": "/",
         "background_color": "#fff",
         "theme_color": "#fff",
         "icons":[
