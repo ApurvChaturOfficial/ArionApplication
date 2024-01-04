@@ -20,6 +20,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Beehive Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#071952",
+        "theme_color": "#071952",
         "icons":[
           {
             src: "Business/Beehive/favicon_io/android-chrome-512x512.png",
@@ -42,6 +45,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Andromeda Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#22092C",
+        "theme_color": "#22092C",
         "icons":[
           {
             src: "Business/Andromeda/favicon_io/android-chrome-512x512.png",
@@ -64,6 +70,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Pinwheel Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#241468",
+        "theme_color": "#241468",
         "icons":[
           {
             src: "Business/Pinwheel/favicon_io/android-chrome-512x512.png",
@@ -86,6 +95,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Tadpole Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#3D0C11",
+        "theme_color": "#3D0C11",
         "icons":[
           {
             src: "Business/Tadpole/favicon_io/android-chrome-512x512.png",
@@ -108,6 +120,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Acrux Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#451952",
+        "theme_color": "#451952",
         "icons":[
           {
             src: "Business/Acrux/favicon_io/android-chrome-512x512.png",
@@ -130,6 +145,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Anser Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#004225",
+        "theme_color": "#004225",
         "icons":[
           {
             src: "Business/Anser/favicon_io/android-chrome-512x512.png",
@@ -152,6 +170,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Aquila Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#141E46",
+        "theme_color": "#141E46",
         "icons":[
           {
             src: "Business/Aquila/favicon_io/android-chrome-512x512.png",
@@ -174,6 +195,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Bellatrix Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#35155D",
+        "theme_color": "#35155D",
         "icons":[
           {
             src: "Business/Bellatrix/favicon_io/android-chrome-512x512.png",
@@ -196,6 +220,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Capella Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#4C4B16",
+        "theme_color": "#4C4B16",
         "icons":[
           {
             src: "Business/Capella/favicon_io/android-chrome-512x512.png",
@@ -218,6 +245,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Arion Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#420516",
+        "theme_color": "#420516",
         "icons":[
           {
             src: "Business/Arion/favicon_io/android-chrome-512x512.png",
@@ -240,6 +270,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Ankas Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#352F44",
+        "theme_color": "#352F44",
         "icons":[
           {
             src: "Business/Ankas/favicon_io/android-chrome-512x512.png",
@@ -262,6 +295,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Abol Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#072227",
+        "theme_color": "#072227",
         "icons":[
           {
             src: "Business/Abol/favicon_io/android-chrome-512x512.png",
@@ -284,6 +320,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Techfolio Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#0F2167",
+        "theme_color": "#0F2167",
         "icons":[
           {
             src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
@@ -306,6 +345,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Apurv Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#4db5ff",
+        "theme_color": "#4db5ff",
         "icons":[
           {
             src: "Business/ApurvChatur/favicon_io/android-chrome-512x512.png",
@@ -328,6 +370,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Anushree Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#C8A2C8",
+        "theme_color": "#C8A2C8",
         "icons":[
           {
             src: "Business/AnushreeMandape/favicon_io/android-chrome-512x512.png",
@@ -350,6 +395,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"Sofie Admin",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#06b7b7",
+        "theme_color": "#06b7b7",
         "icons":[
           {
             src: "Business/SofieBerkin/favicon_io/android-chrome-512x512.png",
@@ -373,6 +421,9 @@ export default defineConfig(({ mode }) => {
         "short_name":"",
         "display_override": ["minimal-ui"],
         "display": "standalone",
+        "start_url": "/",
+        "background_color": "#fff",
+        "theme_color": "#fff",
         "icons":[
           {
             src: "Business//favicon_io/android-chrome-512x512.png",
