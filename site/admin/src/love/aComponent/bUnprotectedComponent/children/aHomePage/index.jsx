@@ -38,8 +38,8 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
           Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.image &&
             `${linearGradient(
-              rgba(gradients.dark.main, 0),
-              rgba(gradients.dark.state, 0)
+              rgba(gradients.dark.main, 0.2),
+              rgba(gradients.dark.state, 0.2)
             )}, url(${Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.image?.url || backgroundImageasd})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -62,7 +62,7 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                   Welcome to the Administration
                 </MDTypography> */}
                 <MDBox>
-                  <MDBadge badgeContent={Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle} color="primary" variant="gradient" size="lg" />
+                  <MDBadge badgeContent={Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle} color="info" variant="gradient" size="lg" />
                 </MDBox>
                 <MDTypography
                   variant="h1"

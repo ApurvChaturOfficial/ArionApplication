@@ -16,9 +16,9 @@ export default defineConfig(({ mode }) => {
     case 'BeehiveApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Beehive Corporation",
-        "short_name":"Beehive",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Beehive Corporation Admin",
+        "short_name":"Beehive Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -38,9 +38,9 @@ export default defineConfig(({ mode }) => {
     case 'AndromedaApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Andromeda Organisation",
-        "short_name":"Andromeda",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Andromeda Organisation Admin",
+        "short_name":"Andromeda Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -60,9 +60,9 @@ export default defineConfig(({ mode }) => {
     case 'PinwheelApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Pinwheel Organisation",
-        "short_name":"Pinwheel",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Pinwheel Organisation Admin",
+        "short_name":"Pinwheel Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -82,9 +82,9 @@ export default defineConfig(({ mode }) => {
     case 'TadpoleApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Tadpole Organisation",
-        "short_name":"Tadpole",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Tadpole Organisation Admin",
+        "short_name":"Tadpole Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -104,9 +104,9 @@ export default defineConfig(({ mode }) => {
     case 'AcruxApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Acrux Enterprise",
-        "short_name":"Acrux",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Acrux Enterprise Admin",
+        "short_name":"Acrux Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -126,9 +126,9 @@ export default defineConfig(({ mode }) => {
     case 'AnserApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Anser Enterprise",
-        "short_name":"Anser",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Anser Enterprise Admin",
+        "short_name":"Anser Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -148,9 +148,9 @@ export default defineConfig(({ mode }) => {
     case 'AquilaApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Aquila Enterprise",
-        "short_name":"Aquila",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Aquila Enterprise Admin",
+        "short_name":"Aquila Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -170,9 +170,9 @@ export default defineConfig(({ mode }) => {
     case 'BellatrixApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Bellatrix Enterprise",
-        "short_name":"Bellatrix",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Bellatrix Enterprise Admin",
+        "short_name":"Bellatrix Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -192,9 +192,9 @@ export default defineConfig(({ mode }) => {
     case 'CapellaApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Capella Enterprise",
-        "short_name":"Capella",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Capella Enterprise Admin",
+        "short_name":"Capella Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -214,9 +214,9 @@ export default defineConfig(({ mode }) => {
     case 'ArionApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Arion",
-        "short_name":"Arion",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Arion Admin",
+        "short_name":"Arion Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -236,9 +236,9 @@ export default defineConfig(({ mode }) => {
     case 'AnkasApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Ankas",
-        "short_name":"Ankas",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Ankas Admin",
+        "short_name":"Ankas Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -258,9 +258,9 @@ export default defineConfig(({ mode }) => {
     case 'AbolApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Abol",
-        "short_name":"Abol",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Abol Admin",
+        "short_name":"Abol Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -280,9 +280,9 @@ export default defineConfig(({ mode }) => {
     case 'TechfolioApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Techfolio Firm",
-        "short_name":"Techfolio",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Techfolio Firm Admin",
+        "short_name":"Techfolio Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -302,9 +302,9 @@ export default defineConfig(({ mode }) => {
     case 'ApurvChaturApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Apurv Chatur",
-        "short_name":"Apurv",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Apurv Chatur Admin",
+        "short_name":"Apurv Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -324,9 +324,9 @@ export default defineConfig(({ mode }) => {
     case 'AnushreeMandapeApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Anushree Mandape",
-        "short_name":"Anushree",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Anushree Mandape Admin",
+        "short_name":"Anushree Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -346,9 +346,9 @@ export default defineConfig(({ mode }) => {
     case 'SofieBerkinApplication':
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',
-        "name":"Sofie Berkin",
-        "short_name":"Sofie",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "name":"Sofie Berkin Admin",
+        "short_name":"Sofie Admin",
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
@@ -371,7 +371,7 @@ export default defineConfig(({ mode }) => {
         "registerType": 'autoUpdate',
         "name":"",
         "short_name":"",
-        "display_override": ["fullscreen", "minimal-ui"],
+        "display_override": ["minimal-ui"],
         "display": "standalone",
         "icons":[
           {
