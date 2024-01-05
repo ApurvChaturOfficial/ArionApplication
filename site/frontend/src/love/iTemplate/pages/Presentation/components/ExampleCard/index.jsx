@@ -12,6 +12,7 @@ import MKBox from "src/love/iTemplate/components/MKBox";
 import MKTypography from "src/love/iTemplate/components/MKTypography";
 import MKButton from "src/love/iTemplate/components/MKButton";
 import { Link } from "react-router-dom";
+import MKBadge from "src/love/iTemplate/components/MKBadge";
 
 function ExampleCard({ image, name, name2, count, pro, subtitle, links, badge, ...rest }) {
   const imageTemplate = (
