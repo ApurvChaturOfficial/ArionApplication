@@ -46,8 +46,15 @@ const Data = (Redux, EventHandler) => {
                 {
                   label: "Description",
                   placeholder: "Description",
-                  type: "text",
+                  type: "rich-text",
                   name: "description",
+                  onChange: event => handleInput(event, Redux),
+                },    
+                {
+                  label: "Detail",
+                  placeholder: "Detail",
+                  type: "rich-text",
+                  name: "detail",
                   onChange: event => handleInput(event, Redux),
                 },    
                 {

@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
+import JoditEditor from 'jodit-react';
 
 // @mui material components
 import Grid from "@mui/material/Grid";
@@ -26,6 +27,8 @@ import defaultUser from "src/love/iTemplate/assets/images/default-user-image.jpg
 const MainForm = ({ Content, Redux }) => {
 	const inputElement1 = useRef()
 	const inputElement2 = useRef()
+
+	const editor1 = useRef()
 
   return (
     <React.Fragment>
@@ -378,7 +381,29 @@ const MainForm = ({ Content, Redux }) => {
                                   })}
                                 </React.Fragment>
             
-                                        )
+                              )
+                              
+                              case 'rich-text':
+                              return (
+                                <React.Fragment>
+                                  <MDBox display="flex" py={1} pr={2}>
+                                    <JoditEditor
+                                      value={each1.value}
+                                      tabIndex={1}
+                                      onChange={value => Redux.dispatch({
+                                        type: Redux.action.FormObject,
+                                        payload: {
+                                          ...Redux.state.FormObject,
+                                          FormValue: {
+                                            ...Redux.state.FormObject?.FormValue,
+                                            [each1.name]: value,
+                                          },
+                                        },
+                                      })}
+                                    />
+                                  </MDBox>
+                                </React.Fragment>
+                              )
                               
                               default:
                               return (
