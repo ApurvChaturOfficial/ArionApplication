@@ -34,7 +34,6 @@ const APIs = {
 
             address: serverResponse.profile_retrieve.dAddress,
             links: serverResponse.profile_retrieve.dLinks,
-            
           }
         }})
       }

@@ -19,10 +19,21 @@ const APIs = {
         Redux.dispatch({ type: Redux.action.ReceivedObject, payload: {
           ...Redux.state.ReceivedObject,
           Retrieve: {
-            image: serverResponse.profile_retrieve.aImage,
-            firstName: serverResponse.profile_retrieve.first_name,
-            lastName: serverResponse.profile_retrieve.last_name,
-            email: serverResponse.profile_retrieve.email,
+            firstName: serverResponse.profile_retrieve.eFirstName,
+            lastName: serverResponse.profile_retrieve.eLastName,
+            email: serverResponse.profile_retrieve.eEmail,
+            mobile: serverResponse.profile_retrieve.eMobile,
+            image: serverResponse.profile_retrieve.eImage,
+            
+            title: serverResponse.profile_retrieve.aTitle,
+            subtitle: serverResponse.profile_retrieve.aSubtitle,
+            description: serverResponse.profile_retrieve.aDescription,
+            coverImage: serverResponse.profile_retrieve.aImage,
+
+            role: serverResponse.profile_retrieve.cRole,
+
+            address: serverResponse.profile_retrieve.dAddress,
+            links: serverResponse.profile_retrieve.dLinks,
           }
         }})
       }

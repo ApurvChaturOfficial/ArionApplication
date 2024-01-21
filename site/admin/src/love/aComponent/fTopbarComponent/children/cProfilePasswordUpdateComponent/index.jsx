@@ -56,7 +56,7 @@ const ProfilePasswordUpdateComponent = ({ Redux, EventHandler, OnClick }) => {
   return (
     <React.Fragment>
       <MDBox mb={2} />
-      <HeaderComponent>
+      <HeaderComponent Redux={Redux}>
         <MDBox mt={5} mb={3}>
           <Grid container spacing={1}>
             <Grid item xs={12} md={6} xl={4}>
@@ -67,14 +67,14 @@ const ProfilePasswordUpdateComponent = ({ Redux, EventHandler, OnClick }) => {
                   </MDTypography>
                 </MDBox>
                 <MDBox p={2}>
-                  <MDBox mb={2} lineHeight={1}>
+                  {/* <MDBox mb={2} lineHeight={1}>
                     <MDTypography variant="button" color="text" fontWeight="light">
                       Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no.
                     </MDTypography>
                   </MDBox>
                   <MDBox opacity={0.3}>
                     <Divider />
-                  </MDBox>
+                  </MDBox> */}
                   <MDBox>
 
                     {/* {renderItems} */}

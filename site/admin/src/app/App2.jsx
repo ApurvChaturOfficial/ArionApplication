@@ -43,6 +43,8 @@ import brandDark from "src/love/iTemplate/assets/images/logo-ct-dark.png";
 import React, { useEffect, useMemo, useState } from 'react';
 import { Action } from 'src/love/aLayout/aGlobalLayout/extra/State';
 
+import { Helmet } from 'react-helmet-async';
+
 // Layout
 import GlobalLayout from 'src/love/aLayout/aGlobalLayout';
 import UnprotectedLayout from 'src/love/aLayout/bUnprotectedLayout';
@@ -274,6 +276,109 @@ import BlogCardDeletePage4 from 'src/love/aPage/gSidebarPage/cMainPage/aBeehiveC
 
 
 function App() {
+  // Variable
+  let helmet = (
+    import.meta.env.VITE_APPLICATION === "BeehiveApplication" ? (
+      <Helmet>
+        <title>Beehive Corporation - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Beehive/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AndromedaApplication" ? (
+      <Helmet>
+        <title>Andromeda Organisation - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Andromeda/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "PinwheelApplication" ? (
+      <Helmet>
+        <title>Pinwheel Organisation - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Pinwheel/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "TadpoleApplication" ? (
+      <Helmet>
+        <title>Tadpole Organisation - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Tadpole/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AcruxApplication" ? (
+      <Helmet>
+        <title>Acrux Enterprise - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Acrux/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AnserApplication" ? (
+      <Helmet>
+        <title>Anser Enterprise - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Anser/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AquilaApplication" ? (
+      <Helmet>
+        <title>Aquila Enterprise - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Aquila/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "BellatrixApplication" ? (
+      <Helmet>
+        <title>Bellatrix Enterprise - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Bellatrix/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "CapellaApplication" ? (
+      <Helmet>
+        <title>Capella Enterprise - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Capella/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "ArionApplication" ? (
+      <Helmet>
+        <title>Arion - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Arion/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AnkasApplication" ? (
+      <Helmet>
+        <title>Ankas - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Ankas/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AbolApplication" ? (
+      <Helmet>
+        <title>Abol - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Abol/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "TechfolioApplication" ? (
+      <Helmet>
+        <title>Techfolio Firm - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Techfolio/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "ApurvChaturApplication" ? (
+      <Helmet>
+        <title>Apurv Chatur - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/ApurvChatur/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "AnushreeMandapeApplication" ? (
+      <Helmet>
+        <title>Anushree Mandape - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/AnushreeMandape/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
+    import.meta.env.VITE_APPLICATION === "SofieBerkinApplication" ? (
+      <Helmet>
+        <title>Sofie Berkin - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/SofieBerkin/favicon_io/favicon.ico" />
+      </Helmet>
+    ) : (
+      <Helmet>
+        <title>You are lost in environment...</title>
+      </Helmet>
+    )
+  )
   // Redux
 	const Redux = {
 		state: useSelector((fullState) => fullState.GlobalLayoutState),
@@ -377,6 +482,7 @@ function App() {
   // JSX
   return (
     <React.Fragment>
+      { helmet }
       <ThemeProvider theme={darkMode ? themeDark : theme}>
         <CssBaseline />
         {layout === "dashboard" && (

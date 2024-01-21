@@ -16,6 +16,27 @@ const APIs = {
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {
+        Redux.dispatch({ type: Redux.action.ReceivedObject, payload: {
+          ...Redux.state.ReceivedObject,
+          Retrieve: {
+            firstName: serverResponse.profile_retrieve.eFirstName,
+            lastName: serverResponse.profile_retrieve.eLastName,
+            email: serverResponse.profile_retrieve.eEmail,
+            mobile: serverResponse.profile_retrieve.eMobile,
+            image: serverResponse.profile_retrieve.eImage,
+            
+            title: serverResponse.profile_retrieve.aTitle,
+            subtitle: serverResponse.profile_retrieve.aSubtitle,
+            description: serverResponse.profile_retrieve.aDescription,
+            coverImage: serverResponse.profile_retrieve.aImage,
+
+            role: serverResponse.profile_retrieve.cRole,
+
+            address: serverResponse.profile_retrieve.dAddress,
+            links: serverResponse.profile_retrieve.dLinks,
+          }
+        }})
+
         Redux.dispatch({ type: Redux.action.FormObject, payload: {
           ...Redux.state.FormObject,
           FormValue: {

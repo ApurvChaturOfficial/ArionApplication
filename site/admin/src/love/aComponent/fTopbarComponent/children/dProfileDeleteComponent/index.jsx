@@ -56,21 +56,21 @@ const ProfileDeleteComponent = ({ Redux, EventHandler, OnClick }) => {
   return (
     <React.Fragment>
       <MDBox mb={2} />
-      <HeaderComponent>
+      <HeaderComponent Redux={Redux}>
         <MDBox mt={5} mb={3}>
           <MDTypography variant="h6" fontWeight="medium" textTransform="capitalize">
             Critical Information
           </MDTypography>
         </MDBox>
-        <MDBox p={2}>
+        <MDBox px={2}>
           <MDBox mb={2} lineHeight={1}>
             <MDTypography variant="button" color="text" fontWeight="light">
-              Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no.
+              Are you sure, you want to close this account?
             </MDTypography>
           </MDBox>
         </MDBox>
         <MDBox
-          py={3}
+          pb={3}
           px={2}
           display="flex" 
           justifyContent="left" 

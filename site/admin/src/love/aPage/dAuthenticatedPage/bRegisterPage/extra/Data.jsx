@@ -6,7 +6,7 @@ import Function from "./Function"
 const Data = (Redux) => {
   return (
     {
-      title: "Register asdsa",
+      title: "Register",
       inputs: [
         {
           label: "First Name",

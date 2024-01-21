@@ -69,7 +69,8 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
   ));
 
   // Render the card social media icons
-  const renderSocial = social.map(({ link, icon, color }) => (
+  console.log(social)
+  const renderSocial = social?.map(({ link, icon, color }) => (
     <MDBox
       key={color}
       component="a"
@@ -95,14 +96,14 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
           </MDTypography>
         </MDBox>
         <MDBox p={2}>
-          <MDBox mb={2} lineHeight={1}>
+          {/* <MDBox mb={2} lineHeight={1}>
             <MDTypography variant="button" color="text" fontWeight="light">
               {description}
             </MDTypography>
           </MDBox>
           <MDBox opacity={0.3}>
             <Divider />
-          </MDBox>
+          </MDBox> */}
           <MDBox>
             <MDBox display="flex" pt={1} pb={1}>
               <MDTypography variant="button" fontWeight="bold" textTransform="capitalize">
@@ -126,14 +127,14 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
           </MDTypography>
         </MDBox>
         <MDBox p={2}>
-          <MDBox mb={2} lineHeight={1}>
+          {/* <MDBox mb={2} lineHeight={1}>
             <MDTypography variant="button" color="text" fontWeight="light">
               {description}
             </MDTypography>
           </MDBox>
           <MDBox opacity={0.3}>
             <Divider />
-          </MDBox>
+          </MDBox> */}
           <MDBox>
             <MDBox display="flex" pt={1} pb={1}>
               <MDTypography variant="button" fontWeight="bold" textTransform="capitalize">
@@ -157,16 +158,24 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
           </MDTypography>
         </MDBox>
         <MDBox p={2}>
-          <MDBox mb={2} lineHeight={1}>
+          {/* <MDBox mb={2} lineHeight={1}>
             <MDTypography variant="button" color="text" fontWeight="light">
               {description}
             </MDTypography>
           </MDBox>
           <MDBox opacity={0.3}>
             <Divider />
-          </MDBox>
+          </MDBox> */}
           <MDBox>
             {renderItems}
+            <MDBox display="flex" py={1}>
+              <MDTypography variant="button" fontWeight="bold" textTransform="capitalize">
+                social: &nbsp;
+              </MDTypography>
+            </MDBox>
+            <MDBox display="flex" pb={1}>
+              {renderSocial}
+            </MDBox>
           </MDBox>
         </MDBox>
       </Card>
@@ -197,12 +206,7 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
           </MDBox>
 
           {renderItems}
-          <MDBox display="flex" py={1} pr={2}>
-            <MDTypography variant="button" fontWeight="bold" textTransform="capitalize">
-              social: &nbsp;
-            </MDTypography>
-            {renderSocial}
-          </MDBox>
+          
         </MDBox>
       </MDBox>
     </Card>
@@ -220,10 +224,10 @@ ProfileInfoCard.propTypes = {
   description: PropTypes.string.isRequired,
   info: PropTypes.objectOf(PropTypes.string).isRequired,
   social: PropTypes.arrayOf(PropTypes.object).isRequired,
-  action: PropTypes.shape({
-    route: PropTypes.string.isRequired,
-    tooltip: PropTypes.string.isRequired,
-  }).isRequired,
+  // action: PropTypes.shape({
+  //   route: PropTypes.string.isRequired,
+  //   tooltip: PropTypes.string.isRequired,
+  // }).isRequired,
   shadow: PropTypes.bool,
 };
 

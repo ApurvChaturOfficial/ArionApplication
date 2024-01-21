@@ -8,6 +8,8 @@ import Divider from "@mui/material/Divider";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { Link } from '@mui/icons-material';
+
 import Icon from "@mui/material/Icon";
 
 // Material Dashboard 2 React components
@@ -60,7 +62,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
               <ProfileInfoCard
                 type="Critical"
                 title="Critical Information"
-                description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
+                // description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
                 image={Redux.state.ReceivedObject?.Retrieve?.image?.url || defaultUser}
                 info={{
                   firstName: Redux.state.ReceivedObject?.Retrieve?.firstName || '-',
@@ -68,24 +70,6 @@ const ProfileRetrieveComponent = ({ Redux }) => {
                   email: Redux.state.ReceivedObject?.Retrieve?.email || '-',
                   mobile: Redux.state.ReceivedObject?.Retrieve?.mobile || '-',
                 }}
-                social={[
-                  {
-                    link: "https://www.facebook.com/CreativeTim/",
-                    icon: <FacebookIcon />,
-                    color: "facebook",
-                  },
-                  {
-                    link: "https://twitter.com/creativetim",
-                    icon: <TwitterIcon />,
-                    color: "twitter",
-                  },
-                  {
-                    link: "https://www.instagram.com/creativetimofficial/",
-                    icon: <InstagramIcon />,
-                    color: "instagram",
-                  },
-                ]}
-                action={{ route: "", tooltip: "Edit Profile" }}
                 shadow={false}
               />
             </Grid>
@@ -93,7 +77,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
               <ProfileInfoCard
                 type="Basic"
                 title="Basic Information"
-                description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
+                // description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
                 image={Redux.state.ReceivedObject?.Retrieve?.coverImage?.url || defaultUser}
                 info={{
                   title: Redux.state.ReceivedObject?.Retrieve?.title || '-',
@@ -117,7 +101,6 @@ const ProfileRetrieveComponent = ({ Redux }) => {
                     color: "instagram",
                   },
                 ]}
-                action={{ route: "", tooltip: "Edit Profile" }}
                 shadow={false}
               />
             </Grid>
@@ -125,7 +108,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
               <ProfileInfoCard
                 type="More"
                 title="More Information"
-                description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
+                // description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."
                 info={{
                   address: Redux.state.ReceivedObject?.Retrieve?.address ? `
                     ${Redux.state.ReceivedObject?.Retrieve?.address?.lane}, 
@@ -136,24 +119,13 @@ const ProfileRetrieveComponent = ({ Redux }) => {
                     ${Redux.state.ReceivedObject?.Retrieve?.address?.pinCode}, 
                   ` : '-',
                 }}
-                social={[
-                  {
-                    link: "https://www.facebook.com/CreativeTim/",
-                    icon: <FacebookIcon />,
-                    color: "facebook",
-                  },
-                  {
-                    link: "https://twitter.com/creativetim",
-                    icon: <TwitterIcon />,
-                    color: "twitter",
-                  },
-                  {
-                    link: "https://www.instagram.com/creativetimofficial/",
-                    icon: <InstagramIcon />,
-                    color: "instagram",
-                  },
-                ]}
-                action={{ route: "", tooltip: "Edit Profile" }}
+                social={Redux.state.ReceivedObject?.Retrieve?.links?.map((each, index) => {
+                  return ({
+                    link: each?.url,
+                    icon: each?.title === 'Instagram' ? <InstagramIcon /> : each?.title === "Twitter" ? <TwitterIcon /> : <Link />,
+                    color: "facebook"
+                  })
+                })}
                 shadow={false}
               />
             </Grid>
@@ -164,14 +136,14 @@ const ProfileRetrieveComponent = ({ Redux }) => {
           <MDTypography variant="h6" fontWeight="medium">
             Relation Information
           </MDTypography>
-          <MDBox mb={2} mt={2} lineHeight={1}>
+          {/* <MDBox mb={2} mt={2} lineHeight={1}>
             <MDTypography variant="button" color="text" fontWeight="light">
               {"Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no."}
             </MDTypography>
           </MDBox>
           <MDBox opacity={0.3}>
             <Divider />
-          </MDBox>
+          </MDBox> */}
 
           <MDBox mb={1}>
             <MDTypography variant="button" fontWeight="bold" textTransform="capitalize">

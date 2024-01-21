@@ -30,6 +30,8 @@ const APIs = {
             description: serverResponse.profile_retrieve.aDescription,
             coverImage: serverResponse.profile_retrieve.aImage,
 
+            role: serverResponse.profile_retrieve.cRole,
+
             address: serverResponse.profile_retrieve.dAddress,
             links: serverResponse.profile_retrieve.dLinks,
           }
