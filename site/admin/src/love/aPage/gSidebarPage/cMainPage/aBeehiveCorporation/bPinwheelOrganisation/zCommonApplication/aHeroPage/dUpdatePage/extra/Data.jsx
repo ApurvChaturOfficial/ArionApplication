@@ -94,6 +94,14 @@ const Data = (Redux, id, EventHandler) => {
               title: "More Info",
               inputs: [
                 {
+                  label: "Tag",
+                  placeholder: "Tag",
+                  type: "text",
+                  name: "tag",
+                  onChange: event => handleInput(event, Redux),
+                  value: Redux.state.FormObject.FormValue?.tag,
+                },    
+                {
                   label: "Type",
                   placeholder: "Type",
                   type: "radio-new",

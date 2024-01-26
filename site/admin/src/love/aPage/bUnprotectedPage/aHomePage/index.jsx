@@ -9,6 +9,7 @@ import APIs from './extra/APIs';
 
 // Component
 import HomePageComponent from 'src/love/aComponent/bUnprotectedComponent/children/aHomePage'
+import Loader from 'src/love/aComponent/aGlobalComponent/component/aLoader';
 
 
 const HomePage = ({ ReduxUltimate }) => {
@@ -39,7 +40,7 @@ const HomePage = ({ ReduxUltimate }) => {
   return (
     <React.Fragment>
       {
-        ReduxUltimate.state.RequiredObject?.Loading ? "Loading..."
+        ReduxUltimate.state.RequiredObject?.Loading ? <Loader />
         :
         <HomePageComponent Redux={Redux} ReduxUltimate={ReduxUltimate} />
       }

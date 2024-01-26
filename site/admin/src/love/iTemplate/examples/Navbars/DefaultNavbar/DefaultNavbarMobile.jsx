@@ -35,7 +35,7 @@ import FinalRouteName from "src/love/gRoute/FinalRouteName";
 import { Icon } from "@mui/material";
 
 
-function DefaultNavbarMobile({ open, close, Redux, LogoutAPICall }) {
+function DefaultNavbarMobile({ open, close, Redux, LogoutAPICall, light }) {
   const { width } = open && open.getBoundingClientRect();
 
   return (
@@ -75,8 +75,8 @@ function DefaultNavbarMobile({ open, close, Redux, LogoutAPICall }) {
                   </MDBox>
                 </MDBox>
               </MDBox>
-              <DefaultNavbarLink icon="person" name="Profile" route={FinalRouteName.ContentRoute.TopbarRoute.ProfileRoute} />
-              <DefaultNavbarLink icon="donut_large" name="Dashboard" route={FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute} />
+              <DefaultNavbarLink light={light} icon="person" name="Profile" route={FinalRouteName.ContentRoute.TopbarRoute.ProfileRoute} />
+              <DefaultNavbarLink light={light} icon="donut_large" name="Dashboard" route={FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute} />
               <MDBox
                 mx={1}
                 p={1}
@@ -106,8 +106,8 @@ function DefaultNavbarMobile({ open, close, Redux, LogoutAPICall }) {
             </React.Fragment>
           ) : (
             <React.Fragment>
-              <DefaultNavbarLink icon="account_circle" name="Register" route={FinalRouteName.AuthRoute.RegisterRoute} />
-              <DefaultNavbarLink icon="key" name="Login" route={FinalRouteName.AuthRoute.LoginRoute} />
+              <DefaultNavbarLink light={light} icon="account_circle" name="Register" route={FinalRouteName.AuthRoute.RegisterRoute} />
+              <DefaultNavbarLink light={light} icon="key" name="Login" route={FinalRouteName.AuthRoute.LoginRoute} />
             </React.Fragment>
 
           )

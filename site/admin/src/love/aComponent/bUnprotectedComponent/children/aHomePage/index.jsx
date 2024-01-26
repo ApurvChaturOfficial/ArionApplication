@@ -29,6 +29,7 @@ import PublicIcon from '@mui/icons-material/Public';
 
 const HomePageComponent = ({ Redux, ReduxUltimate }) => {
   return (
+    Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve &&
     <React.Fragment>
       <MDBox
         position="absolute"
@@ -47,8 +48,8 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
         }}
       >
         <MDBox px={1} width="100%" height="100vh" mx="auto">
-          <Grid container spacing={1}  xs={12} lg={7} mx="auto" justifyContent="center" alignItems="center" height="100%">
-            <Grid item >
+          <Grid container spacing={1} mx="auto" justifyContent="center" alignItems="center" height="100%">
+            <Grid item lg={7} xs={12}>
               <MDBox
                 p={2}
                 textAlign="center"
@@ -62,7 +63,7 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                   Welcome to the Administration
                 </MDTypography> */}
                 <MDBox>
-                  <MDBadge badgeContent={Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle} color="info" variant="gradient" size="lg" />
+                  <MDBadge badgeContent={Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.tag} color="info" variant="gradient" size="lg" circular />
                 </MDBox>
                 <MDTypography
                   variant="h1"
@@ -94,7 +95,7 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                     Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.webLinks?.map((each, index) => {
                       return (
                         <MDBox mx={1} key={index} component="a" href={each?.url} target="_blank">
-                          <MDButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+                          <MDButton color="light" sx={{ color: ({ palette: { dark } }) => dark.main }}>
                             {each?.title}
                           </MDButton>
                         </MDBox>

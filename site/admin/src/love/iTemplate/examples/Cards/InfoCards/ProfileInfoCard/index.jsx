@@ -69,7 +69,6 @@ function ProfileInfoCard({ title, description, info, social, action, shadow, ima
   ));
 
   // Render the card social media icons
-  console.log(social)
   const renderSocial = social?.map(({ link, icon, color }) => (
     <MDBox
       key={color}
@@ -221,9 +220,9 @@ ProfileInfoCard.defaultProps = {
 // Typechecking props for the ProfileInfoCard
 ProfileInfoCard.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  // description: PropTypes.string.isRequired,
   info: PropTypes.objectOf(PropTypes.string).isRequired,
-  social: PropTypes.arrayOf(PropTypes.object).isRequired,
+  // social: PropTypes.arrayOf(PropTypes.object).isRequired,
   // action: PropTypes.shape({
   //   route: PropTypes.string.isRequired,
   //   tooltip: PropTypes.string.isRequired,

@@ -31,9 +31,9 @@ const ProfileRetrievePage = ({ ReduxUltimate }) => {
 	}, [])
 
 	// Extra Render
-	useEffect(() => {
-		console.log(Redux.state)
-	}, [Redux.state])
+	// useEffect(() => {
+	// 	console.log(Redux.state)
+	// }, [Redux.state])
 
   // JSX
   return (

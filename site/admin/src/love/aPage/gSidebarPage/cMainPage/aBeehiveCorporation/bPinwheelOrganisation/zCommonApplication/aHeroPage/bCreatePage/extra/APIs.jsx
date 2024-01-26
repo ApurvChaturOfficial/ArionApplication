@@ -16,6 +16,7 @@ const APIs = {
         aImage: Redux.state.FormObject.FormValue.image,
         aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false,
 
+        dTag: Redux.state.FormObject.FormValue.tag,
         dType: Redux.state.FormObject.FormValue.type,
         dSocialLinks: Redux.state.FormObject.FormValue.socialLinks,
         dWebLinks: Redux.state.FormObject.FormValue.webLinks,

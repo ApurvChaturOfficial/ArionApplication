@@ -230,7 +230,7 @@ function DefaultNavbar({ transparent, light, action }) {
           <Icon fontSize="default">{mobileNavbar ? "close" : "menu"}</Icon>
         </MDBox>
       </MDBox>
-      {mobileView && <DefaultNavbarMobile open={mobileNavbar} close={closeMobileNavbar} Redux={Redux} LogoutAPICall={() => APIs.LogoutAPI(navigate, Redux)} />}
+      {mobileView && <DefaultNavbarMobile open={mobileNavbar} close={closeMobileNavbar} Redux={Redux} LogoutAPICall={() => APIs.LogoutAPI(navigate, Redux)} light />}
     </Container>
   );
 }

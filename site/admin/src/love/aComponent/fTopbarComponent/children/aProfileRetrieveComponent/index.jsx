@@ -53,6 +53,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
 
   // JSX
   return (
+    Redux.state.ReceivedObject?.Retrieve &&
     <React.Fragment>
       <MDBox mb={2} />
       <HeaderComponent Redux={Redux}>
