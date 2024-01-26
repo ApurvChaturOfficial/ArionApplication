@@ -146,7 +146,7 @@ function DefaultNavbar({ transparent, light, action }) {
                   <MDAvatar src={Redux.state.ReceivedObject?.ProfileRetrieve?.eImage?.url || defaultUser} size="sm" />
                   <MDBox ml={1} lineHeight={0.5} display={{ xs: "none", lg: "inline-block" }} >
                     <MDTypography display="block" variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
-                      {Redux.state.ReceivedObject?.ProfileRetrieve?.aTitle}
+                      {`${Redux.state.ReceivedObject?.ProfileRetrieve?.eFirstName} ${Redux.state.ReceivedObject?.ProfileRetrieve?.eLastName}`}
                     </MDTypography>
                     <MDTypography variant="caption" color={light ? "white" : "secondary"}>{Redux.state.ReceivedObject?.ProfileRetrieve?.cRole?.aTitle}</MDTypography>
                   </MDBox>

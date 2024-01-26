@@ -688,7 +688,7 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                 ) : null 
             }
             
-            {/* {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'User')[0]?.access?.list && */}
+            {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'User')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.UserRoute.ListRoute}>
                 <SidenavCollapse 
                   name={"User"} 
@@ -699,8 +699,9 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                   }
                 />
               </NavLink>
+            }
 
-            {/* {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Role')[0]?.access?.list && */}
+            {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Role')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.RoleRoute.ListRoute}>
                 <SidenavCollapse 
                   name={"Role"} 
@@ -711,8 +712,9 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                   }
                 />
               </NavLink>
+            }
 
-            {/* {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.list && */}
+            {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.MenuRoute.ListRoute}>
                 <SidenavCollapse 
                   name={"Menu"} 
@@ -723,6 +725,7 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                   }
                 />
               </NavLink>
+            }
 
             {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Base')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.ListRoute}>

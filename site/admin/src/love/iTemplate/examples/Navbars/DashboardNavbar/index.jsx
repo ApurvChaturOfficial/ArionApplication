@@ -153,7 +153,7 @@ function DashboardNavbar({ ReduxUltimate, absolute, light, isMini }) {
                       <MDAvatar src={ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.eImage?.url || defaultUser} size="sm" />
                       <MDBox ml={1} lineHeight={0.5} display={{ xs: "none", lg: "inline-block" }} >
                         <MDTypography display="block" variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
-                          {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.aTitle}
+                          {`${ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.eFirstName} ${ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.eLastName}`}
                         </MDTypography>
                         <MDTypography variant="caption" color={light ? "white" : "secondary"}>{ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.aTitle}</MDTypography>
                       </MDBox>
