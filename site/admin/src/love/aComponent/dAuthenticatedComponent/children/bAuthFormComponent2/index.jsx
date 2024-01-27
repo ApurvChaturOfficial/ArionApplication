@@ -17,9 +17,55 @@ import MDBox from "src/love/iTemplate/components/MDBox";
 import MDTypography from "src/love/iTemplate/components/MDTypography";
 import MDInput from "src/love/iTemplate/components/MDInput";
 import MDButton from "src/love/iTemplate/components/MDButton";
+import MDAlert from 'src/love/iTemplate/components/MDAlert';
 
 
 const AuthFormComponent2 = ({ Data, Redux, ReduxUltimate }) => {
+  const alertContent = (name) => (
+    <MDTypography variant="button" color="white">
+      Login with this sample user{" "}
+      <MDBox>
+        <MDTypography variant="button" fontWeight="medium" color="white">
+          {
+            import.meta.env.VITE_APPLICATION === "BeehiveApplication" ? "shraddha.kapoor@beehive.com" :
+            import.meta.env.VITE_APPLICATION === "AndromedaApplication" ? "shraddha.kapoor@andromeda.com" :
+            import.meta.env.VITE_APPLICATION === "PinwheelApplication" ? "shraddha.kapoor@pinwheel.com" :
+            import.meta.env.VITE_APPLICATION === "TadpoleApplication" ? "shraddha.kapoor@tadpole.com" :
+            import.meta.env.VITE_APPLICATION === "AcruxApplication" ? "shraddha.kapoor@acrux.com" :
+            import.meta.env.VITE_APPLICATION === "AnserApplication" ? "shraddha.kapoor@anser.com" :
+            import.meta.env.VITE_APPLICATION === "AquilaApplication" ? "shraddha.kapoor@aquila.com" :
+            import.meta.env.VITE_APPLICATION === "BellatrixApplication" ? "shraddha.kapoor@bellatrix.com" :
+            import.meta.env.VITE_APPLICATION === "CapellaApplication" ? "shraddha.kapoor@capella.com" :
+            import.meta.env.VITE_APPLICATION === "ArionApplication" ? "shraddha.kapoor@arion.com" :
+            import.meta.env.VITE_APPLICATION === "AnkasApplication" ? "shraddha.kapoor@ankas.com" :
+            import.meta.env.VITE_APPLICATION === "AbolApplication" ? "shraddha.kapoor@abol.com" :
+            import.meta.env.VITE_APPLICATION === "TechfolioApplication" ? "shraddha.kapoor@techfolio.com" :
+            import.meta.env.VITE_APPLICATION === "ApurvChaturApplication" ? "shraddha.kapoor@apurvchatur.com" :
+            import.meta.env.VITE_APPLICATION === "AnushreeMandapeApplication" ? "shraddha.kapoor@anushreemandape.com" :
+            import.meta.env.VITE_APPLICATION === "SofieBerkinApplication" ? "shraddha.kapoor@sofieberkin.com" :
+            null
+          }
+        </MDTypography>
+      </MDBox>
+      <MDBox>
+        <MDTypography variant="button" fontWeight="medium" color="white">
+          Password: {" "}
+        </MDTypography>
+        <MDTypography variant="button" color="white">
+          Shraddha@123
+        </MDTypography>
+      </MDBox>
+      <MDBox>
+        <MDTypography variant="button" fontWeight="medium" color="white">
+          Role: {" "}
+        </MDTypography>
+        <MDTypography variant="button" color="white">
+          Super Admin
+        </MDTypography>
+      </MDBox>
+    </MDTypography>
+  );
+
   // JSX
   return (
     <Card>
@@ -56,6 +102,9 @@ const AuthFormComponent2 = ({ Data, Redux, ReduxUltimate }) => {
         </Grid> */}
       </MDBox>
       <MDBox pt={4} pb={3} px={3}>
+        <MDAlert mt={-3} color="secondary">
+          {alertContent()}
+        </MDAlert>
         {
           ReduxUltimate.state.RequiredObject?.Loading ? "Loading..."
           :
