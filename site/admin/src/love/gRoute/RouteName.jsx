@@ -26,6 +26,13 @@ const RouteName = {
 					UpdateRoute: "base-update",
 					DeleteRoute: "base-delete",
 				},
+				AdminHeroRoute: {
+					ListRoute: "admin-hero-list",
+					CreateRoute: "admin-hero-create",
+					RetrieveRoute: "admin-hero-retrieve",
+					UpdateRoute: "admin-hero-update",
+					DeleteRoute: "admin-hero-delete",
+				},
 			},
 			AdministrationRoute: {
 				UserRoute: {
@@ -333,7 +340,16 @@ const RouteName = {
 					) :
 					import.meta.env.VITE_ENTERPRISE === "CapellaEnterprise" ? ({}) : null
 				) : null
-			) : null
+			) : null,
+			AssetRoute: {
+				StaticDataRoute: {
+					ListRoute: "static-data-list",
+					CreateRoute: "static-data-create",
+					RetrieveRoute: "static-data-retrieve",
+					UpdateRoute: "static-data-update",
+					DeleteRoute: "static-data-delete",
+				},
+			},
 		},
 	},
 };

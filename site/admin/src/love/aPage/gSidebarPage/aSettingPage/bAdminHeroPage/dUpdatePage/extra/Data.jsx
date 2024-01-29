@@ -3,15 +3,15 @@ import Function from "./Function"
 import handleInput from "src/love/dFunction/dHandleInput"
 import validateFormObject from "src/love/dFunction/bValidateFormObject"
 
-const Data = (Redux, id) => {
+const Data = (Redux, id, EventHandler) => {
   return (
     {
       header: {
-        label: "Role Update",
+        label: "Admin Hero Update",
         buttons: [
           {
             label: "Delete",
-            route: `${FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.RoleRoute.DeleteRoute}/${id}`
+            route: `${FinalRouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.DeleteRoute}/${id}`
           },
         ]
       },
@@ -94,60 +94,33 @@ const Data = (Redux, id) => {
               title: "More Info",
               inputs: [
                 {
-                  label: "Menu Access",
-                  placeholder: "Special Checkbox",
-                  type: "special-checkbox",
-                  name: "status",
-                  columns: ['Items', 'List', 'Create', 'Retrieve', 'Update', 'Delete' ],
-                  data: Redux.state.RequiredObject.MenuList &&
-                    Redux.state.RequiredObject.MenuList.map((each, index) => {
-                      return (
-                        <tr key={index} >
-                          <td>{each.title}</td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="list"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.list}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="create"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.create}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="retrieve"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.retrieve}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="update"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.update}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="delete"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.delete}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                        </tr>    
-                      )
-                    })
+                  label: "Tag",
+                  placeholder: "Tag",
+                  type: "text",
+                  name: "tag",
+                  onChange: event => handleInput(event, Redux),
+                  value: Redux.state.FormObject.FormValue?.tag,
                 },    
+                {
+                  label: "Web Links",
+                  placeholder: "Web Links",
+                  type: "dynamic-multiple",
+                  name: "webLinks",
+                  onChange: (event, index) => EventHandler.WebLink.Change(event, Redux, index),
+                  onAdd: () => EventHandler.WebLink.Add(Redux),
+                  onRemove: (index) => EventHandler.WebLink.Remove(Redux, index),
+                  inputs: Redux.state.FormObject.FormValue?.webLinks
+                },
+                {
+                  label: "Social Links",
+                  placeholder: "Social Links",
+                  type: "dynamic-multiple",
+                  name: "socialLinks",
+                  onChange: (event, index) => EventHandler.SocialLink.Change(event, Redux, index),
+                  onAdd: () => EventHandler.SocialLink.Add(Redux),
+                  onRemove: (index) => EventHandler.SocialLink.Remove(Redux, index),
+                  inputs: Redux.state.FormObject.FormValue?.socialLinks
+                },
               ],  
             },
           ],

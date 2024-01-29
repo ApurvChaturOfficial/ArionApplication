@@ -32,16 +32,17 @@ const Function = {
 		return errors;	
 	},
 
-	handleSpecialCheckboxInput: (event, Redux, index) => {
+	handleSpecialCheckboxInput: (event, Redux, index, id) => {
 		const { name, checked } = event.target;
 		const menus = Redux.state.FormObject.FormValue.menus
 
 		menus[index] = {
 			...menus[index],
 			access: {
-				...menus[index].access,
+				...menus[index]?.access,
 				[name]: checked
-			}
+			},
+			menu: id
 		}
 
 		return (

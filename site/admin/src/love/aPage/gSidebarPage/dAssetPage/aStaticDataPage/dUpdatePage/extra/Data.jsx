@@ -3,15 +3,15 @@ import Function from "./Function"
 import handleInput from "src/love/dFunction/dHandleInput"
 import validateFormObject from "src/love/dFunction/bValidateFormObject"
 
-const Data = (Redux, id) => {
+const Data = (Redux, id, EventHandler) => {
   return (
     {
       header: {
-        label: "Role Update",
+        label: "Static Data Update",
         buttons: [
           {
             label: "Delete",
-            route: `${FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.RoleRoute.DeleteRoute}/${id}`
+            route: `${FinalRouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.DeleteRoute}/${id}`
           },
         ]
       },
@@ -94,60 +94,18 @@ const Data = (Redux, id) => {
               title: "More Info",
               inputs: [
                 {
-                  label: "Menu Access",
-                  placeholder: "Special Checkbox",
-                  type: "special-checkbox",
-                  name: "status",
-                  columns: ['Items', 'List', 'Create', 'Retrieve', 'Update', 'Delete' ],
-                  data: Redux.state.RequiredObject.MenuList &&
-                    Redux.state.RequiredObject.MenuList.map((each, index) => {
-                      return (
-                        <tr key={index} >
-                          <td>{each.title}</td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="list"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.list}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="create"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.create}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="retrieve"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.retrieve}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="update"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.update}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                          <td>
-                            <input 
-                              type="checkbox" 
-                              name="delete"
-                              checked={Redux.state.FormObject.FormValue?.menus?.[index]?.access?.delete}
-                              onChange={event => Function.handleSpecialCheckboxInput(event, Redux, index, each.id)}
-                            />
-                          </td>
-                        </tr>    
-                      )
-                    })
-                },    
+                  label: "Cards",
+                  placeholder: "Cards",
+                  type: "dynamic-multiple",
+                  name: "cards",
+                  onChange: (event, index) => EventHandler.Card.Change(event, Redux, index),
+                  onAdd: () => EventHandler.Card.Add(Redux),
+                  onRemove: (index) => EventHandler.Card.Remove(Redux, index),
+                  onChange2: (event, index, index2) => EventHandler.Point.Change(event, Redux, index, index2),
+                  onAdd2: (index) => EventHandler.Point.Add(Redux, index),
+                  onRemove2: (index, index2) => EventHandler.Point.Remove(Redux, index, index2),
+                  inputs: Redux.state.FormObject.FormValue?.cards
+                },
               ],  
             },
           ],

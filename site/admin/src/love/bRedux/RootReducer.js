@@ -27,6 +27,12 @@ import BaseRetrievePageState from '../aPage/gSidebarPage/aSettingPage/aBasePage/
 import BaseUpdatePageState from '../aPage/gSidebarPage/aSettingPage/aBasePage/dUpdatePage/extra/State';
 import BaseDeletePageState from '../aPage/gSidebarPage/aSettingPage/aBasePage/eDeletePage/extra/State';
 
+import AdminHeroListPageState from '../aPage/gSidebarPage/aSettingPage/bAdminHeroPage/aListPage/extra/State';
+import AdminHeroCreatePageState from '../aPage/gSidebarPage/aSettingPage/bAdminHeroPage/bCreatePage/extra/State';
+import AdminHeroRetrievePageState from '../aPage/gSidebarPage/aSettingPage/bAdminHeroPage/cRetrievePage/extra/State';
+import AdminHeroUpdatePageState from '../aPage/gSidebarPage/aSettingPage/bAdminHeroPage/dUpdatePage/extra/State';
+import AdminHeroDeletePageState from '../aPage/gSidebarPage/aSettingPage/bAdminHeroPage/eDeletePage/extra/State';
+
 import UserListPageState from '../aPage/gSidebarPage/bAdministrationPage/aUserPage/aListPage/extra/State';
 import UserCreatePageState from '../aPage/gSidebarPage/bAdministrationPage/aUserPage/bCreatePage/extra/State';
 import UserRetrievePageState from '../aPage/gSidebarPage/bAdministrationPage/aUserPage/cRetrievePage/extra/State';
@@ -44,6 +50,12 @@ import MenuCreatePageState from '../aPage/gSidebarPage/bAdministrationPage/cMenu
 import MenuRetrievePageState from '../aPage/gSidebarPage/bAdministrationPage/cMenuPage/cRetrievePage/extra/State';
 import MenuUpdatePageState from '../aPage/gSidebarPage/bAdministrationPage/cMenuPage/dUpdatePage/extra/State';
 import MenuDeletePageState from '../aPage/gSidebarPage/bAdministrationPage/cMenuPage/eDeletePage/extra/State';
+
+import StaticDataListPageState from '../aPage/gSidebarPage/dAssetPage/aStaticDataPage/aListPage/extra/State';
+import StaticDataCreatePageState from '../aPage/gSidebarPage/dAssetPage/aStaticDataPage/bCreatePage/extra/State';
+import StaticDataRetrievePageState from '../aPage/gSidebarPage/dAssetPage/aStaticDataPage/cRetrievePage/extra/State';
+import StaticDataUpdatePageState from '../aPage/gSidebarPage/dAssetPage/aStaticDataPage/dUpdatePage/extra/State';
+import StaticDataDeletePageState from '../aPage/gSidebarPage/dAssetPage/aStaticDataPage/eDeletePage/extra/State';
 
 // Number 1
 import HeroListPageState1 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/aAndromedaOrganisation/aAcruxEnterprise/zCommonApplication/aHeroPage/aListPage/extra/State';
@@ -254,6 +266,12 @@ const RootReducer = combineReducers({
 	BaseUpdatePageState,
 	BaseDeletePageState,
 
+	AdminHeroListPageState,
+	AdminHeroCreatePageState,
+	AdminHeroRetrievePageState,
+	AdminHeroUpdatePageState,
+	AdminHeroDeletePageState,
+
 	UserListPageState,
 	UserCreatePageState,
 	UserRetrievePageState,
@@ -271,6 +289,12 @@ const RootReducer = combineReducers({
 	MenuRetrievePageState,
 	MenuUpdatePageState,
 	MenuDeletePageState,
+
+	StaticDataListPageState,
+	StaticDataCreatePageState,
+	StaticDataRetrievePageState,
+	StaticDataUpdatePageState,
+	StaticDataDeletePageState,
 
 	...(
 		import.meta.env.VITE_CORPORATION === "BeehiveCorporation" ? (

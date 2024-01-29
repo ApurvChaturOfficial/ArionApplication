@@ -688,6 +688,13 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                 ) : null 
             }
             
+            <Divider
+              light={
+                (!darkMode && !whiteSidenav && !transparentSidenav) ||
+                (darkMode && !transparentSidenav && whiteSidenav)
+              }
+            />
+
             {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'User')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.UserRoute.ListRoute}>
                 <SidenavCollapse 
@@ -727,6 +734,13 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
               </NavLink>
             }
 
+            <Divider
+              light={
+                (!darkMode && !whiteSidenav && !transparentSidenav) ||
+                (darkMode && !transparentSidenav && whiteSidenav)
+              }
+            />
+
             {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Base')[0]?.access?.list &&
               <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.ListRoute}>
                 <SidenavCollapse 
@@ -739,6 +753,46 @@ function Sidenav({ ReduxUltimate, color, brand, brandName, brandApp, routes, ...
                 />
               </NavLink>
             }
+
+            {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Admin Hero')[0]?.access?.list &&
+              <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.ListRoute}>
+                <SidenavCollapse 
+                  name={"Admin Hero"} 
+                  icon={<Icon fontSize="small">crib</Icon>} 
+                  active={
+                    collapseName === 
+                      RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.ListRoute            
+                  }
+                />
+              </NavLink>
+            }
+
+            <Divider
+              light={
+                (!darkMode && !whiteSidenav && !transparentSidenav) ||
+                (darkMode && !transparentSidenav && whiteSidenav)
+              }
+            />
+
+            {ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Static Data')[0]?.access?.list &&
+              <NavLink to={FinalRouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.ListRoute}>
+                <SidenavCollapse 
+                  name={"Static Data"} 
+                  icon={<Icon fontSize="small">crib</Icon>} 
+                  active={
+                    collapseName === 
+                      RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.ListRoute            
+                  }
+                />
+              </NavLink>
+            }
+
+            <Divider
+              light={
+                (!darkMode && !whiteSidenav && !transparentSidenav) ||
+                (darkMode && !transparentSidenav && whiteSidenav)
+              }
+            />
 
           </List>
         )

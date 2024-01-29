@@ -80,6 +80,13 @@ const BaseRetrievePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aS
 const BaseUpdatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/aBasePage/dUpdatePage'));
 const BaseDeletePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/aBasePage/eDeletePage'));
 
+// Admin Hero
+const AdminHeroListPage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/bAdminHeroPage/aListPage'));
+const AdminHeroCreatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/bAdminHeroPage/bCreatePage'));
+const AdminHeroRetrievePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/bAdminHeroPage/cRetrievePage'));
+const AdminHeroUpdatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/bAdminHeroPage/dUpdatePage'));
+const AdminHeroDeletePage = React.lazy(() => import('src/love/aPage/gSidebarPage/aSettingPage/bAdminHeroPage/eDeletePage'));
+
 // User Page
 const UserListPage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdministrationPage/aUserPage/aListPage'));
 const UserCreatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdministrationPage/aUserPage/bCreatePage'));
@@ -100,6 +107,13 @@ const MenuCreatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdm
 const MenuRetrievePage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdministrationPage/cMenuPage/cRetrievePage'));
 const MenuUpdatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdministrationPage/cMenuPage/dUpdatePage'));
 const MenuDeletePage = React.lazy(() => import('src/love/aPage/gSidebarPage/bAdministrationPage/cMenuPage/eDeletePage'));
+
+// Static Data Page
+const StaticDataListPage = React.lazy(() => import('src/love/aPage/gSidebarPage/dAssetPage/aStaticDataPage/aListPage'));
+const StaticDataCreatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/dAssetPage/aStaticDataPage/bCreatePage'));
+const StaticDataRetrievePage = React.lazy(() => import('src/love/aPage/gSidebarPage/dAssetPage/aStaticDataPage/cRetrievePage'));
+const StaticDataUpdatePage = React.lazy(() => import('src/love/aPage/gSidebarPage/dAssetPage/aStaticDataPage/dUpdatePage'));
+const StaticDataDeletePage = React.lazy(() => import('src/love/aPage/gSidebarPage/dAssetPage/aStaticDataPage/eDeletePage'));
 
 // Acrux Page
 const HeroListPage1 = React.lazy(() => import('src/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/aAndromedaOrganisation/aAcruxEnterprise/zCommonApplication/aHeroPage/aListPage'));
@@ -520,11 +534,17 @@ function App() {
                   </Route>
 
                   <Route element={<SidebarLayout ReduxUltimate={Redux} />} >
-                    <Route path={RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.ListRoute} element={<BaseListPage ReduxUltimate={Redux} />} />
+                  <Route path={RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.ListRoute} element={<BaseListPage ReduxUltimate={Redux} />} />
                     <Route path={RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.CreateRoute} element={<BaseCreatePage ReduxUltimate={Redux} />} />
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.RetrieveRoute}/:id`} element={<BaseRetrievePage ReduxUltimate={Redux} />} />
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.UpdateRoute}/:id`} element={<BaseUpdatePage ReduxUltimate={Redux} />} />
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.DeleteRoute}/:id`} element={<BaseDeletePage ReduxUltimate={Redux} />} />
+
+                    <Route path={RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.ListRoute} element={<AdminHeroListPage ReduxUltimate={Redux} />} />
+                    <Route path={RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.CreateRoute} element={<AdminHeroCreatePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.RetrieveRoute}/:id`} element={<AdminHeroRetrievePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.UpdateRoute}/:id`} element={<AdminHeroUpdatePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.DeleteRoute}/:id`} element={<AdminHeroDeletePage ReduxUltimate={Redux} />} />
 
                     <Route path={RouteName.ContentRoute.SidebarRoute.AdministrationRoute.UserRoute.ListRoute} element={<UserListPage ReduxUltimate={Redux} />} />
                     <Route path={RouteName.ContentRoute.SidebarRoute.AdministrationRoute.UserRoute.CreateRoute} element={<UserCreatePage ReduxUltimate={Redux} />} />
@@ -543,6 +563,12 @@ function App() {
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.AdministrationRoute.MenuRoute.RetrieveRoute}/:id`} element={<MenuRetrievePage ReduxUltimate={Redux} />} />
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.AdministrationRoute.MenuRoute.UpdateRoute}/:id`} element={<MenuUpdatePage ReduxUltimate={Redux} />} />
                     <Route path={`${RouteName.ContentRoute.SidebarRoute.AdministrationRoute.MenuRoute.DeleteRoute}/:id`} element={<MenuDeletePage ReduxUltimate={Redux} />} />
+
+                    <Route path={RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.ListRoute} element={<StaticDataListPage ReduxUltimate={Redux} />} />
+                    <Route path={RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.CreateRoute} element={<StaticDataCreatePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.RetrieveRoute}/:id`} element={<StaticDataRetrievePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.UpdateRoute}/:id`} element={<StaticDataUpdatePage ReduxUltimate={Redux} />} />
+                    <Route path={`${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.DeleteRoute}/:id`} element={<StaticDataDeletePage ReduxUltimate={Redux} />} />
 
                     {import.meta.env.VITE_CORPORATION === "BeehiveCorporation" ? (
                       import.meta.env.VITE_ORGANISATION === "AndromedaOrganisation" ? (

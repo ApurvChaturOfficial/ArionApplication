@@ -268,6 +268,50 @@ const API = {
 						)
 					}, 
 				},		
+				AdminHeroAPI: {
+					ListAPI: (props) => {
+						return (
+							APIBase({
+								method: "GET",
+								url: `/api/v1/admin-hero/list`,
+							})
+						)
+					}, 
+					CreateAPI: (props) => {
+						return (
+							APIBase({
+								method: "POST",
+								url: `/api/v1/admin-hero/create`,
+								data: props.data,
+							})
+						)
+					}, 
+					RetrieveAPI: (props) => {
+						return (
+							APIBase({
+								method: "GET",
+								url: `/api/v1/admin-hero/retrieve/${props.id}`,
+							})
+						)
+					}, 
+					UpdateAPI: (props) => {
+						return (
+							APIBase({
+								method: "PUT",
+								url: `/api/v1/admin-hero/update/${props.id}`,
+								data: props.data,
+							})
+						)
+					}, 
+					DeleteAPI: (props) => {
+						return (
+							APIBase({
+								method: "DELETE",
+								url: `/api/v1/admin-hero/delete/${props.id}`,
+							})
+						)
+					}, 
+				},		
 			},
 			AdministrationAPI: {
 				UserAPI: {
@@ -1990,7 +2034,54 @@ const API = {
 					) :
 					import.meta.env.VITE_ENTERPRISE === "CapellaEnterprise" ? ({}) : null
 				) : null
-			) : null
+			) : null,
+			AssetAPI: {
+				StaticDataAPI: {
+					ListAPI: (props) => {
+						return (
+							APIBase({
+								method: "GET",
+								url: `/api/v1/static-data/list`,
+							})
+						)
+					}, 
+					CreateAPI: (props) => {
+						return (
+							APIBase({
+								method: "POST",
+								url: `/api/v1/static-data/create`,
+								data: props.data,
+							})
+						)
+					}, 
+					RetrieveAPI: (props) => {
+						return (
+							APIBase({
+								method: "GET",
+								url: `/api/v1/static-data/retrieve/${props.id}`,
+							})
+						)
+					}, 
+					UpdateAPI: (props) => {
+						return (
+							APIBase({
+								method: "PUT",
+								url: `/api/v1/static-data/update/${props.id}`,
+								data: props.data,
+							})
+						)
+					}, 
+					DeleteAPI: (props) => {
+						return (
+							APIBase({
+								method: "DELETE",
+								url: `/api/v1/static-data/delete/${props.id}`,
+							})
+						)
+					}, 
+				},		
+			},
+
 		}
 	}
 }

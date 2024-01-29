@@ -28,6 +28,13 @@ const FinalRouteName = {
 					UpdateRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.UpdateRoute}`,
 					DeleteRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.BaseRoute.DeleteRoute}`,
 				},
+				AdminHeroRoute: {
+					ListRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.ListRoute}`,
+					CreateRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.CreateRoute}`,
+					RetrieveRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.RetrieveRoute}`,
+					UpdateRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.UpdateRoute}`,
+					DeleteRoute: `/${RouteName.ContentRoute.SidebarRoute.SettingRoute.AdminHeroRoute.DeleteRoute}`,
+				},
 			},
 			AdministrationRoute: {
 				UserRoute: {
@@ -335,7 +342,16 @@ const FinalRouteName = {
 					) :
 					import.meta.env.VITE_ENTERPRISE === "CapellaEnterprise" ? ({}) : null
 				) : null
-			) : null
+			) : null,
+			AssetRoute: {
+				StaticDataRoute: {
+					ListRoute: `/${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.ListRoute}`,
+					CreateRoute: `/${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.CreateRoute}`,
+					RetrieveRoute: `/${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.RetrieveRoute}`,
+					UpdateRoute: `/${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.UpdateRoute}`,
+					DeleteRoute: `/${RouteName.ContentRoute.SidebarRoute.AssetRoute.StaticDataRoute.DeleteRoute}`,
+				},
+			},
 		},
 	},
 };

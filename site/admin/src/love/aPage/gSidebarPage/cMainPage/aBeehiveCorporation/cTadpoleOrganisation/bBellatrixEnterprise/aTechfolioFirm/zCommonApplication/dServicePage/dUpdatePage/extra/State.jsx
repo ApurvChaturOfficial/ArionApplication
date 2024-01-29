@@ -12,13 +12,13 @@ const InitialState = {
 
 const ServiceUpdatePageState = (state=InitialState, action) => {
 	switch (action.type) {
-		case 'form-object-hero-update-page':
+		case 'form-object-service-update-page':
 			return {...state, FormObject: action.payload}
-		case 'received-object-hero-update-page':
+		case 'received-object-service-update-page':
 			return {...state, ReceivedObject: action.payload}
-		case 'required-object-hero-update-page':
+		case 'required-object-service-update-page':
 			return {...state, RequiredObject: action.payload}
-		case 'extra-object-hero-update-page':
+		case 'extra-object-service-update-page':
 			return {...state, ExtraObject: action.payload}
 		default:
 			return state
@@ -26,10 +26,10 @@ const ServiceUpdatePageState = (state=InitialState, action) => {
 }
 
 export const Action = {
-	FormObject: 'form-object-hero-update-page',
-	ReceivedObject: 'received-object-hero-update-page',
-	RequiredObject: 'required-object-hero-update-page',
-	ExtraObject: 'extra-object-hero-update-page',
+	FormObject: 'form-object-service-update-page',
+	ReceivedObject: 'received-object-service-update-page',
+	RequiredObject: 'required-object-service-update-page',
+	ExtraObject: 'extra-object-service-update-page',
 }  
 
 export default ServiceUpdatePageState
