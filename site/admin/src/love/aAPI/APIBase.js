@@ -16,13 +16,13 @@ const APIBase = (props) => {
 
                             switch (import.meta.env.VITE_APPLICATION) {
                                 case 'ArionApplication':
-                                    BASE_URL = "https://backend-soup-for-arion-application.onrender.com"
+                                    BASE_URL = "https://soup-arion-backend.onrender.com"
                                     break;
                                 case 'AnkasApplication':
-                                    BASE_URL = "https://backend-soup-for-ankas-application.onrender.com"
+                                    BASE_URL = "https://soup-ankas-backend.onrender.com"
                                     break;
                                 case 'AbolApplication':
-                                    BASE_URL = "https://backend-soup-for-abol-application.onrender.com"
+                                    BASE_URL = "https://soup-abol-backend.onrender.com"
                                     break;
                                 default:
                                     break;
@@ -41,31 +41,31 @@ const APIBase = (props) => {
     
                     switch (import.meta.env.VITE_APPLICATION) {
                         case 'BeehiveApplication':
-                            BASE_URL = "https://backend-soup-for-beehive-application.onrender.com"
+                            BASE_URL = "https://soup-beehive-backend.onrender.com"
                             break;
                         case 'AndromedaApplication':
-                            BASE_URL = "https://backend-soup-for-andromeda-application.onrender.com"
+                            BASE_URL = "https://soup-andromeda-backend.onrender.com"
                             break;
                         case 'PinwheelApplication':
-                            BASE_URL = "https://backend-soup-for-pinwheel-application.onrender.com"
+                            BASE_URL = "https://soup-pinwheel-backend.onrender.com"
                             break;
                         case 'TadpoleApplication':
-                            BASE_URL = "https://backend-soup-for-tadpole-application.onrender.com"
+                            BASE_URL = "https://soup-tadpole-backend.onrender.com"
                             break;
                         case 'AcruxApplication':
-                            BASE_URL = "https://backend-soup-for-acrux-application.onrender.com"
+                            BASE_URL = "https://soup-acrux-backend.onrender.com"
                             break;
                         case 'AnserApplication':
-                            BASE_URL = "https://backend-soup-for-anser-application.onrender.com"
+                            BASE_URL = "https://soup-anser-backend.onrender.com"
                             break;
                         case 'AquilaApplication':
-                            BASE_URL = "https://backend-soup-for-aquila-application.onrender.com"
+                            BASE_URL = "https://soup-aquila-backend.onrender.com"
                             break;
                         case 'BellatrixApplication':
-                            BASE_URL = "https://backend-soup-for-bellatrix-application.onrender.com"
+                            BASE_URL = "https://soup-bellatrix-backend.onrender.com"
                             break;
                         case 'CapellaApplication':
-                            BASE_URL = "https://backend-soup-for-capella-application.onrender.com"
+                            BASE_URL = "https://soup-capella-backend.onrender.com"
                             break;
                         default:
                             break;
@@ -85,16 +85,36 @@ const APIBase = (props) => {
 
                                     switch (import.meta.env.VITE_APPLICATION) {
                                         case 'TechfolioApplication':
-                                            BASE_URL = "https://backend-soup-for-techfolio-application.onrender.com"
+                                            BASE_URL = "https://soup-techfolio-backend.onrender.com"
                                             break;
                                         case 'ApurvChaturApplication':
-                                            BASE_URL = "https://backend-soup-for-apurv-chatur-application.onrender.com"
+                                            BASE_URL = "https://soup-apurv-chatur-backend.onrender.com"
                                             break;
                                         case 'AnushreeMandapeApplication':
-                                            BASE_URL = "https://backend-soup-for-anushree-mandape.onrender.com"
+                                            BASE_URL = "https://soup-anushree-mandape.onrender.com"
                                             break;
                                         case 'SofieBerkinApplication':
-                                            BASE_URL = "https://backend-soup-for-sofie-berkin-application.onrender.com"
+                                            BASE_URL = "https://soup-sofie-berkin-backend.onrender.com"
+                                            break;
+                                        default:
+                                            break;
+                                    }   
+                                    break;
+
+                                case 'BlogifyFirm':
+
+                                    switch (import.meta.env.VITE_APPLICATION) {
+                                        case 'BlogifyApplication':
+                                            BASE_URL = "https://soup-techfolio-backend.onrender.com"
+                                            break;
+                                        case 'SrimadBhagwatamApplication':
+                                            BASE_URL = "https://soup-apurv-chatur-backend.onrender.com"
+                                            break;
+                                        case 'BhagwadGitaApplication':
+                                            BASE_URL = "https://soup-anushree-mandape-backend.onrender.com"
+                                            break;
+                                        case 'InterviewQuestionApplication':
+                                            BASE_URL = "https://soup-sofie-berkin-backend.onrender.com"
                                             break;
                                         default:
                                             break;
