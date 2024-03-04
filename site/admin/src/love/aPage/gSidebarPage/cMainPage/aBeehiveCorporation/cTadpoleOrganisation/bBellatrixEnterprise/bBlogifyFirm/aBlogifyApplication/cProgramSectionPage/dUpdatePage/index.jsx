@@ -4,8 +4,8 @@ import { Action } from './extra/State';
 import Data from './extra/Data';
 import APIs from './extra/APIs';
 import { useNavigate, useParams } from 'react-router-dom';
-import submitFormObject from 'src/love/dFunction/cSubmitFormObject';
-import MainSection2 from 'src/love/aComponent/gSidebarComponent/children/aMain2';
+import submitFormObject from '@/love/dFunction/cSubmitFormObject';
+import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
 
 
 const ProgramSectionUpdatePage = ({ ReduxUltimate }) => {

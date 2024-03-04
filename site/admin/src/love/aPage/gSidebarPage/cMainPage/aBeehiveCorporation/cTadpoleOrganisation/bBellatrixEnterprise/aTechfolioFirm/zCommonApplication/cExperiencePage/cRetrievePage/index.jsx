@@ -5,7 +5,7 @@ import Data from './extra/Data';
 import APIs from './extra/APIs';
 import { useParams } from 'react-router-dom';
 
-import MainSection2 from 'src/love/aComponent/gSidebarComponent/children/aMain2';
+import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
 
 
 const ExperienceRetrievePage = ({ ReduxUltimate }) => {

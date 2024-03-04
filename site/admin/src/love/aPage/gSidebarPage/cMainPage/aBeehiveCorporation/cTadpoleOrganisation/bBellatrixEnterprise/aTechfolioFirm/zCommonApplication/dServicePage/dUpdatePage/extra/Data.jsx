@@ -1,7 +1,7 @@
-import FinalRouteName from "src/love/gRoute/FinalRouteName"
+import FinalRouteName from "@/love/gRoute/FinalRouteName"
 import Function from "./Function"
-import handleInput from "src/love/dFunction/dHandleInput"
-import validateFormObject from "src/love/dFunction/bValidateFormObject"
+import handleInput from "@/love/dFunction/dHandleInput"
+import validateFormObject from "@/love/dFunction/bValidateFormObject"
 
 const Data = (Redux, id, EventHandler) => {
   return (

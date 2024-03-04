@@ -1,6 +1,6 @@
-import handleInput from "src/love/dFunction/dHandleInput"
+import handleInput from "@/love/dFunction/dHandleInput"
 import Function from "./Function"
-import validateFormObject from "src/love/dFunction/bValidateFormObject"
+import validateFormObject from "@/love/dFunction/bValidateFormObject"
 
 const Data = (Redux, EventHandler) => {
   const handleCheckboxInput = (event, Redux1) => {

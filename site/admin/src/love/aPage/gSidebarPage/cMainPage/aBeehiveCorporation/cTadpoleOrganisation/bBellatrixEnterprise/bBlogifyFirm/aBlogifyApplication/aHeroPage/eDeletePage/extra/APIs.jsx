@@ -1,7 +1,7 @@
-import { toast } from "react-toastify";
-import API from "src/love/aAPI/API";
-import loading from "src/love/dFunction/fLoading";
-import FinalRouteName from "src/love/gRoute/FinalRouteName";
+
+import API from "@/love/aAPI/API";
+import loading from "@/love/dFunction/fLoading";
+import FinalRouteName from "@/love/gRoute/FinalRouteName";
 
 const APIs = {
   // Retrieve API
@@ -41,7 +41,7 @@ const APIs = {
   },
 
    // Delete API
-   DeleteAPI: (Redux, ReduxUltimate, id, navigate) => {
+   DeleteAPI: (Redux, ReduxUltimate, id, navigate, toast) => {
     loading(ReduxUltimate, true)
 
     API.ContentAPI.SidebarAPI.MainAPI.HeroAPI.DeleteAPI({id})
@@ -50,7 +50,9 @@ const APIs = {
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {
-        toast.success(serverResponse.message, { position: "top-center" });
+        toast({
+          description: serverResponse.message,
+        });
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute)
       }
     })

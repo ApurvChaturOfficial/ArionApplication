@@ -4,9 +4,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Action } from './extra/State';
 import Data from './extra/Data';
 import APIs from './extra/APIs';
-import submitFormObject from 'src/love/dFunction/cSubmitFormObject';
+import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 
-import MainSection2 from 'src/love/aComponent/gSidebarComponent/children/aMain2';
+import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
 
 
 const ProgramSectionCreatePage = ({ ReduxUltimate }) => {

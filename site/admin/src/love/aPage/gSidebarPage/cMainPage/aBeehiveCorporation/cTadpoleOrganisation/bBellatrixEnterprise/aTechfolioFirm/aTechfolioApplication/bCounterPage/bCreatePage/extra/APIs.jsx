@@ -1,11 +1,11 @@
-import { toast } from "react-toastify";
-import API from "src/love/aAPI/API";
-import clearFormObject from "src/love/dFunction/aClearFormObject";
-import loading from "src/love/dFunction/fLoading";
-import FinalRouteName from "src/love/gRoute/FinalRouteName";
+
+import API from "@/love/aAPI/API";
+import clearFormObject from "@/love/dFunction/aClearFormObject";
+import loading from "@/love/dFunction/fLoading";
+import FinalRouteName from "@/love/gRoute/FinalRouteName";
 
 const APIs = {
-  CreateAPI: (Redux, ReduxUltimate, navigate) => {
+  CreateAPI: (Redux, ReduxUltimate, navigate, toast) => {
     loading(ReduxUltimate, true)
 
     API.ContentAPI.SidebarAPI.MainAPI.CounterAPI.CreateAPI({
@@ -22,7 +22,9 @@ const APIs = {
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {
-        toast.success(serverResponse.message, { position: "top-center" });
+        toast({
+          description: serverResponse.message,
+        });
         clearFormObject(Redux)
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute)
       }

@@ -5,9 +5,9 @@ import { Link, NavLink } from 'react-router-dom';
 import Icon from "@mui/material/Icon";
 
 // Material Dashboard 2 React components
-import MDBox from "src/love/iTemplate/components/MDBox";
-import MDTypography from "src/love/iTemplate/components/MDTypography";
-import MDButton from 'src/love/iTemplate/components/MDButton';
+import MDBox from "@/love/iTemplate/components/MDBox";
+import MDTypography from "@/love/iTemplate/components/MDTypography";
+import MDButton from '@/love/iTemplate/components/MDButton';
 
 
 const MainHeader = ({ Header }) => {

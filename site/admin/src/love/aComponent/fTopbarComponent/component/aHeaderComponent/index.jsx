@@ -29,17 +29,17 @@ import { useNavigate } from "react-router-dom";
 
 
 // Material Dashboard 2 React components
-import MDBox from "src/love/iTemplate/components/MDBox";
-import MDTypography from "src/love/iTemplate/components/MDTypography";
-import MDAvatar from "src/love/iTemplate/components/MDAvatar";
+import MDBox from "@/love/iTemplate/components/MDBox";
+import MDTypography from "@/love/iTemplate/components/MDTypography";
+import MDAvatar from "@/love/iTemplate/components/MDAvatar";
 
 // Material Dashboard 2 React base styles
-import breakpoints from "src/love/iTemplate/assets/theme/base/breakpoints";
+import breakpoints from "@/love/iTemplate/assets/theme/base/breakpoints";
 
 // Images
-import burceMars from "src/love/iTemplate/assets/images/bruce-mars.jpg";
-import backgroundImage from "src/love/iTemplate/assets/images/bg-profile.jpeg";
-import MDButton from "src/love/iTemplate/components/MDButton";
+import burceMars from "@/love/iTemplate/assets/images/bruce-mars.jpg";
+import backgroundImage from "@/love/iTemplate/assets/images/bg-profile.jpeg";
+import MDButton from "@/love/iTemplate/components/MDButton";
 import { Link } from "react-router-dom";
 import FinalRouteName from "@/love/gRoute/FinalRouteName";
 import Menu from "@mui/material/Menu";

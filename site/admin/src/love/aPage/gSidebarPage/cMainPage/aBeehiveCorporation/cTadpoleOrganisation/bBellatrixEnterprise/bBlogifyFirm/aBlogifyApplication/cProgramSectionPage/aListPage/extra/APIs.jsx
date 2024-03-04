@@ -1,6 +1,6 @@
-import API from "src/love/aAPI/API";
-import loading from "src/love/dFunction/fLoading";
-import FinalRouteName from "src/love/gRoute/FinalRouteName";
+import API from "@/love/aAPI/API";
+import loading from "@/love/dFunction/fLoading";
+import FinalRouteName from "@/love/gRoute/FinalRouteName";
 
 const APIs = {
   ListAPI: (Redux, ReduxUltimate) => {

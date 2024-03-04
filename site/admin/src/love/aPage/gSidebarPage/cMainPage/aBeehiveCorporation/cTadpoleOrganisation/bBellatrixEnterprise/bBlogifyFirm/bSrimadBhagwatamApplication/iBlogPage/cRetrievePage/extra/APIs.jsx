@@ -1,5 +1,5 @@
-import API from "src/love/aAPI/API";
-import loading from "src/love/dFunction/fLoading";
+import API from "@/love/aAPI/API";
+import loading from "@/love/dFunction/fLoading";
 
 const APIs = {
   // Retrieve API

@@ -8,7 +8,7 @@ import { Action } from './extra/State';
 import APIs from './extra/APIs';
 
 // Component
-import ProfileDeleteComponent from 'src/love/aComponent/fTopbarComponent/children/dProfileDeleteComponent';
+import ProfileDeleteComponent from '@/love/aComponent/fTopbarComponent/children/dProfileDeleteComponent';
 
 
 const ProfileDeletePage = ({ ReduxUltimate }) => {

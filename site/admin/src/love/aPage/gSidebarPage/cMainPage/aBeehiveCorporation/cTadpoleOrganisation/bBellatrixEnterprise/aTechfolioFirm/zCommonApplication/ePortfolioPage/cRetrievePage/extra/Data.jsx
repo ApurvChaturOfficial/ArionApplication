@@ -1,4 +1,4 @@
-import FinalRouteName from "src/love/gRoute/FinalRouteName"
+import FinalRouteName from "@/love/gRoute/FinalRouteName"
 
 const Data = (Redux, id) => {
   return (
