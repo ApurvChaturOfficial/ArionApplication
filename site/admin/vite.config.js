@@ -381,7 +381,98 @@ export default defineConfig(({ mode }) => {
       }
       break;
 
-                                                                                                                                                                                                                                                  
+    case 'BlogifyApplication':
+      MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
+        "name":"Blogify Firm Admin",
+        "short_name":"Blogify Admin",
+        "display": "standalone",
+        "background_color": "#0F2167",
+        "theme_color": "#0F2167",
+        "icons":[
+          {
+            src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "Business/Techfolio/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+      }
+      break;
+                          
+    case 'SrimadBhagwatamApplication':
+      MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
+        "name":"Srimad Bhagwatam Admin",
+        "short_name":"Srimad Bhagwatam Admin",
+        "display": "standalone",
+        "background_color": "#4db5ff",
+        "theme_color": "#4db5ff",
+        "icons":[
+          {
+            src: "Business/ApurvChatur/favicon_io/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "Business/ApurvChatur/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+      }
+      break;
+                            
+    case 'BhagwadGitaApplication':
+      MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
+        "name":"Bhagwad Gita Admin",
+        "short_name":"Bhagwad Gita Admin",
+        "display": "standalone",
+        "background_color": "#C8A2C8",
+        "theme_color": "#C8A2C8",
+        "icons":[
+          {
+            src: "Business/AnushreeMandape/favicon_io/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "Business/AnushreeMandape/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+      }
+      break;
+                              
+    case 'InterviewQuestionApplication':
+      MANIFEST_DATA = {
+        "registerType": 'autoUpdate',
+        "name":"Interview Question Admin",
+        "short_name":"Interview Question Admin",
+        "display": "standalone",
+        "background_color": "#06b7b7",
+        "theme_color": "#06b7b7",
+        "icons":[
+          {
+            src: "Business/SofieBerkin/favicon_io/android-chrome-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "Business/SofieBerkin/favicon_io/android-chrome-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+      }
+      break;
+                                                                                                                                                                                                                                            
     default:
       MANIFEST_DATA = {
         "registerType": 'autoUpdate',

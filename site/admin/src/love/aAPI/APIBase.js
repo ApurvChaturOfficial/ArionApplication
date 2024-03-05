@@ -91,7 +91,7 @@ const APIBase = (props) => {
                                             BASE_URL = "https://soup-apurv-chatur-backend.onrender.com"
                                             break;
                                         case 'AnushreeMandapeApplication':
-                                            BASE_URL = "https://soup-anushree-mandape.onrender.com"
+                                            BASE_URL = "https://soup-anushree-mandape-backend.onrender.com"
                                             break;
                                         case 'SofieBerkinApplication':
                                             BASE_URL = "https://soup-sofie-berkin-backend.onrender.com"
@@ -105,16 +105,16 @@ const APIBase = (props) => {
 
                                     switch (import.meta.env.VITE_APPLICATION) {
                                         case 'BlogifyApplication':
-                                            BASE_URL = "https://soup-techfolio-backend.onrender.com"
+                                            BASE_URL = "https://soup-blogify-backend.onrender.com"
                                             break;
                                         case 'SrimadBhagwatamApplication':
-                                            BASE_URL = "https://soup-apurv-chatur-backend.onrender.com"
+                                            BASE_URL = "https://soup-srimad-bhagwatam-backend.onrender.com"
                                             break;
                                         case 'BhagwadGitaApplication':
-                                            BASE_URL = "https://soup-anushree-mandape-backend.onrender.com"
+                                            BASE_URL = "https://soup-bhagwad-gita-backend.onrender.com"
                                             break;
                                         case 'InterviewQuestionApplication':
-                                            BASE_URL = "https://soup-sofie-berkin-backend.onrender.com"
+                                            BASE_URL = "https://soup-interview-question-backend.onrender.com"
                                             break;
                                         default:
                                             break;
