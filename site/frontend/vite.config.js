@@ -9,19 +9,19 @@ export default defineConfig({
     VitePWA({
       manifest: {
         "registerType": 'autoUpdate',
-        "name":"Beehive Corporation",
-        "short_name":"Beehive",
+        "name":"Arion",
+        "short_name":"Arion",
         "display": "standalone",
         "background_color": "#071952",
         "theme_color": "#071952",
         "icons":[
           {
-            src: "Business/Beehive/favicon_io/android-chrome-512x512.png",
+            src: "Business/Arion/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "Business/Beehive/favicon_io/android-chrome-192x192.png",
+            src: "Business/Arion/favicon_io/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
