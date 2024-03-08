@@ -18,14 +18,14 @@ const APIs = {
         Redux.dispatch({ type: Redux.action.ReceivedObject, payload: {
           ...Redux.state.ReceivedObject,
           Retrieve: {
-            HeroRetrieve: serverResponse.retrieve?.hero_retrieve?.admin && {
-              image: serverResponse.retrieve?.hero_retrieve?.admin?.aImage,
-              title: serverResponse.retrieve?.hero_retrieve?.admin?.aTitle,
-              subtitle: serverResponse.retrieve?.hero_retrieve?.admin?.aSubtitle,
-              description: serverResponse.retrieve?.hero_retrieve?.admin?.aDescription,
-              tag: serverResponse.retrieve?.hero_retrieve?.admin?.dTag,
-              webLinks: serverResponse.retrieve?.hero_retrieve?.admin?.dWebLinks,
-              socialLinks: serverResponse.retrieve?.hero_retrieve?.admin?.dSocialLinks,
+            HeroRetrieve: serverResponse.retrieve?.hero_retrieve && {
+              image: serverResponse.retrieve?.hero_retrieve?.aImage,
+              title: serverResponse.retrieve?.hero_retrieve?.aTitle,
+              subtitle: serverResponse.retrieve?.hero_retrieve?.aSubtitle,
+              description: serverResponse.retrieve?.hero_retrieve?.aDescription,
+              tag: serverResponse.retrieve?.hero_retrieve?.dTag,
+              webLinks: serverResponse.retrieve?.hero_retrieve?.dWebLinks,
+              socialLinks: serverResponse.retrieve?.hero_retrieve?.dSocialLinks,
             },
           }
         }})

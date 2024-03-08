@@ -535,6 +535,12 @@ function App() {
         <link rel="icon" href="./public/Business/Abol/favicon_io/favicon.ico" />
       </Helmet>
     ) :
+    import.meta.env.VITE_APPLICATION === "SwiftTalkApplication" ? (
+      <Helmet>
+        <title>Swift Talk - Admin by Arion</title>
+        <link rel="icon" href="./public/Business/Abol/favicon_io/favicon.ico" />
+      </Helmet>
+    ) :
     import.meta.env.VITE_APPLICATION === "TechfolioApplication" ? (
       <Helmet>
         <title>Techfolio Firm - Admin by Arion</title>
@@ -703,7 +709,13 @@ function App() {
                           </React.Fragment>
                         ) : null
                       ) :
-                      import.meta.env.VITE_ENTERPRISE === "AnserEnterprise" ? ({}) : null
+                      import.meta.env.VITE_ENTERPRISE === "AnserEnterprise" ? (
+                        import.meta.env.VITE_APPLICATION === "SwiftTalkApplication" ? (
+                          <React.Fragment>
+                            
+                          </React.Fragment>
+                        ) : null
+                      ) : null
                     ) :
                     import.meta.env.VITE_ORGANISATION === "PinwheelOrganisation" ? (
                       import.meta.env.VITE_APPLICATION === "BeehiveApplication" ||

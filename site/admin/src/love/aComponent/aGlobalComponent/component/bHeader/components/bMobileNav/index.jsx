@@ -449,12 +449,11 @@ const docsConfig = (ReduxUltimate) => ({
 })
 
 function MobileLink({ href, onOpenChange, className, children, ...props }) {
-  const router = useNavigate()
   return (
     <Link
-      href={href}
+      to={href}
       onClick={() => {
-        router.push(href.toString())
+        // router.push(href.toString())
         onOpenChange?.(false)
       }}
       className={cn(className)}

@@ -24,7 +24,7 @@ const API = {
 				return (
 					APIBase({
 						method: "GET",
-						url: `/api/v1/home-page/retrieve`,
+						url: `/api/v1/home-page/admin-retrieve`,
 					})
 				)
 			}, 

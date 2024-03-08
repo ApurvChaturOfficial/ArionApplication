@@ -54,13 +54,13 @@ const Header = ({ Redux, LogoutAPICall }) => {
                 </div>
               ) : (
                 <React.Fragment>
-                  <Button variant="outline" asChild >
+                  <Button variant="outline" asChild className="hidden md:flex">
                     <Link to="/login" >
                       <LogIn className="mr-2 h-4 w-4" /> Sign In
                     </Link>
                   </Button>
 
-                  <Button variant="outline" asChild >
+                  <Button variant="outline" asChild className="hidden md:flex">
                     <Link to="/register" >
                       <Signpost className="mr-2 h-4 w-4" /> Sign Up
                     </Link>

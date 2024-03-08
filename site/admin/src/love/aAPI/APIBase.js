@@ -30,6 +30,13 @@ const APIBase = (props) => {
                             break;
 
                         case 'AnserEnterprise':
+                            switch (import.meta.env.VITE_APPLICATION) {
+                                case 'SwiftTalkApplication':
+                                    BASE_URL = "https://soup-swift-talk-backend.onrender.com"
+                                    break;
+                                default:
+                                    break;
+                            }   
                             break;
 
                         default:

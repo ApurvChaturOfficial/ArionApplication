@@ -53,6 +53,17 @@ const brand = () => {
 							break;
 
 						case 'AnserEnterprise':
+
+							switch (import.meta.env.VITE_APPLICATION) {
+								case 'SwiftTalkApplication':
+									brandObject = {
+										logo: abol,
+										name: "Swift Talk",
+									}
+									break;
+								default:
+									break;
+							}   
 							break;
 						default:
 							break;
