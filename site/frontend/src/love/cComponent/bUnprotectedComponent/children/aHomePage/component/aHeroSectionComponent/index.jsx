@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import FinalRouteName from '@/love/gRoute/FinalRouteName';
 import brand from '@/love/dFunction/gBrand';
+import { Separator } from '@/components/ui/separator';
 
 
 const HeroSectionComponent = ({ Redux, ReduxUltimate }) => {
@@ -34,6 +35,7 @@ const HeroSectionComponent = ({ Redux, ReduxUltimate }) => {
         )
       })}
 
+      <Separator />
     </React.Fragment>
   )
 }
