@@ -41,11 +41,13 @@ const APIs = {
                 image: serverResponse.retrieve?.about_retrieve?.actually?.aImage,
                 title: serverResponse.retrieve?.about_retrieve?.actually?.aTitle,
                 subtitle: serverResponse.retrieve?.about_retrieve?.actually?.aSubtitle,
+                description: serverResponse.retrieve?.about_retrieve?.actually?.aDescription,
               },
               comparatively: serverResponse.retrieve?.about_retrieve?.comparatively && {
                 image: serverResponse.retrieve?.about_retrieve?.comparatively?.aImage,
                 title: serverResponse.retrieve?.about_retrieve?.comparatively?.aTitle,
                 subtitle: serverResponse.retrieve?.about_retrieve?.comparatively?.aSubtitle,
+                description: serverResponse.retrieve?.about_retrieve?.comparatively?.aDescription,
               },
             },    
             ServiceList: serverResponse.retrieve?.service_list?.map(each => {
