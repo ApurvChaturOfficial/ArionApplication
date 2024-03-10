@@ -1,22 +1,20 @@
+import { Separator } from "@/components/ui/separator";
+import React from "react";
 
 
 function ServiceSectionComponent({ Redux }) {
   return (
-    <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
-      <Grid container spacing={3}>
+    <React.Fragment>
       {Redux.state.ReceivedObject?.Retrieve?.ServiceList?.map((each, index) => {
         return (
-          <Grid item xs={12} md={6} key={index} >
-            <DefaultInfoCard
-              icon="content_copy"
-              title={each.title}
-              description={each.description}
-            />
-          </Grid>
+          <React.Fragment key={index} >
+            {each?.title} <br/>
+            {each?.description} <br/>
+          </React.Fragment>
         )
       })}
-      </Grid>
-    </Grid>
+      <Separator />
+    </React.Fragment>
   );
 }
 
