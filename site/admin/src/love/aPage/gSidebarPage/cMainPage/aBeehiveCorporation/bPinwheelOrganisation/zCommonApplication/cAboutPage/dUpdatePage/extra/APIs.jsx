@@ -69,7 +69,7 @@ const APIs = {
           description: serverResponse.message,
         });
         clearFormObject(Redux)
-        navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute)
+        navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute)
       }
     })
     .catch(error => {

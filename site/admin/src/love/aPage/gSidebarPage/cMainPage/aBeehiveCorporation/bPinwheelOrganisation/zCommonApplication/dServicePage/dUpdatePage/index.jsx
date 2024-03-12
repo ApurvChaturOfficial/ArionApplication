@@ -6,6 +6,7 @@ import APIs from './extra/APIs';
 import { useNavigate, useParams } from 'react-router-dom';
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const ServiceUpdatePage = ({ ReduxUltimate }) => {
@@ -24,7 +25,7 @@ const ServiceUpdatePage = ({ ReduxUltimate }) => {
 	// API Calls
 	const APICalls = {
 		RetrieveAPICall: () => APIs.RetrieveAPI(Redux, ReduxUltimate, id),
-		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate),
+		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate, toast),
 	}		
 
   // All Render
