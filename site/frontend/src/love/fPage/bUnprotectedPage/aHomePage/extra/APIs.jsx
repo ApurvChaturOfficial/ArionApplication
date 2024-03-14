@@ -100,6 +100,21 @@ const APIs = {
                 }
               }),
             },
+            ProgramSectionRetrieve: serverResponse.retrieve?.program_section_retrieve && {
+              title: serverResponse.retrieve?.program_section_retrieve?.aTitle,
+              subtitle: serverResponse.retrieve?.program_section_retrieve?.aSubtitle,
+              description: serverResponse.retrieve?.program_section_retrieve?.aDescription,
+              programs: serverResponse.retrieve?.program_section_retrieve?.cPrograms?.map(each => {
+                return {
+                  image: each?.aImage,
+                  title: each?.aTitle,
+                  subtitle: each?.aSubtitle,
+                  description: each?.aDescription,
+                  status: each?.aStatus,
+                  links: each?.dWebLinks,
+                }
+              }),
+            },
           }
         }})
       }

@@ -66,7 +66,7 @@ const Data = (Redux, EventHandler) => {
                     { label: "Active", value: "Active" },
                     { label: "Inactive", value: "Inactive" },
                   ]
-                },
+                },  
               ],
             },
             {

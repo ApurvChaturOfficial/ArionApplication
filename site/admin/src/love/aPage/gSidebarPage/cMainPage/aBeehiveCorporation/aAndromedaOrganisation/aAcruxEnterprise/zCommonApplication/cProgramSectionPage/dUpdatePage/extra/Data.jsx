@@ -4,6 +4,24 @@ import handleInput from "@/love/dFunction/dHandleInput"
 import validateFormObject from "@/love/dFunction/bValidateFormObject"
 
 const Data = (Redux, id, EventHandler) => {
+  const handleCheckboxInput = (event, Redux1) => {
+    let list = Redux1.state.FormObject.FormValue?.[event.target.name] || []
+
+    Redux1.dispatch({
+      type: Redux1.action.FormObject,
+      payload: {
+        ...Redux1.state.FormObject,
+        FormValue: {
+          ...Redux1.state.FormObject?.FormValue,
+          [event.target.name]: list.includes(event.target.value) ? 
+            list.filter((selectedId) => selectedId !== event.target.value)
+            :
+            [...list, event.target.value],
+        },
+      },
+    })
+  }
+
   return (
     {
       header: {

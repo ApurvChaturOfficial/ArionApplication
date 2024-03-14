@@ -5,10 +5,12 @@ import Data from './extra/Data';
 import APIs from './extra/APIs';
 import { useNavigate, useParams } from 'react-router-dom';
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const ProgramSectionDeletePage = ({ ReduxUltimate }) => {
 	// Variables
+	const { toast } = useToast()
 	const { id } = useParams();
 	const navigate = useNavigate()
 
@@ -22,7 +24,7 @@ const ProgramSectionDeletePage = ({ ReduxUltimate }) => {
 	// API Calls
 	const APICalls = {
 		RetrieveAPICall: () => APIs.RetrieveAPI(Redux, ReduxUltimate, id),
-		DeleteAPICall: () => APIs.DeleteAPI(Redux, ReduxUltimate, id, navigate),
+		DeleteAPICall: () => APIs.DeleteAPI(Redux, ReduxUltimate, id, navigate, toast),
 	}		
 
   // All Render

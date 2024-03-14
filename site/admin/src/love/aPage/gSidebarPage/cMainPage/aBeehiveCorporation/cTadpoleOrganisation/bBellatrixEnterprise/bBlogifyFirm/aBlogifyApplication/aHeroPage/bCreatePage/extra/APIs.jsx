@@ -1,4 +1,3 @@
-
 import API from "@/love/aAPI/API";
 import clearFormObject from "@/love/dFunction/aClearFormObject";
 import loading from "@/love/dFunction/fLoading";
@@ -13,6 +12,7 @@ const APIs = {
         aTitle: Redux.state.FormObject.FormValue.title,
         aSubtitle: Redux.state.FormObject.FormValue.subtitle,
         aDescription: Redux.state.FormObject.FormValue.description,
+        aDetail: Redux.state.FormObject.FormValue.detail,
         aImage: Redux.state.FormObject.FormValue.image,
         aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false,
 
@@ -27,7 +27,9 @@ const APIs = {
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {
-        toast.success(serverResponse.message, { position: "top-center" });
+        toast({
+          description: serverResponse.message,
+        });
         clearFormObject(Redux)
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute)
       }

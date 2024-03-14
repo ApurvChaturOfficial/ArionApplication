@@ -1,4 +1,3 @@
-
 import API from "@/love/aAPI/API";
 import clearFormObject from "@/love/dFunction/aClearFormObject";
 import loading from "@/love/dFunction/fLoading";
@@ -23,6 +22,7 @@ const APIs = {
             title: serverResponse.retrieve.aTitle,
             subtitle: serverResponse.retrieve.aSubtitle,
             description: serverResponse.retrieve.aDescription,
+            detail: serverResponse.retrieve.aDetail,
             slug: serverResponse.retrieve.aSlug,
             status: serverResponse.retrieve.aStatus === true ? 'Active' : 'Inactive',
 
@@ -51,8 +51,9 @@ const APIs = {
         aTitle: Redux.state.FormObject.FormValue.title,
         aSubtitle: Redux.state.FormObject.FormValue.subtitle,
         aDescription: Redux.state.FormObject.FormValue.description,
+        aDetail: Redux.state.FormObject.FormValue.detail,
         aImage: Redux.state.FormObject.FormValue.image,
-        aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false
+        aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false,
 			}
     })
     .then(response => {

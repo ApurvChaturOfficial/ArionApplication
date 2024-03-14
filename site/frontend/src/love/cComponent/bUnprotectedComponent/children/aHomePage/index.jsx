@@ -7,6 +7,7 @@ const CounterSectionComponent = React.lazy(() => import('./component/bCounterSec
 const AboutAndServiceSectionComponent = React.lazy(() => import('./component/cAboutAndServiceSectionComponent'));
 const BranchSectionComponent = React.lazy(() => import('./component/dBranchSectionComponent'));
 const ProjectSectionComponent = React.lazy(() => import('./component/eProjectSectionComponent'));
+const ProgramSectionComponent = React.lazy(() => import('./component/fProgramSectionComponent'));
 
 
 const HomePageComponent = ({ Redux, ReduxUltimate }) => {
@@ -27,6 +28,7 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
             }
             {Redux.state.ReceivedObject?.Retrieve?.BranchRetrieve && <BranchSectionComponent Redux={Redux} />}
             {Redux.state.ReceivedObject?.Retrieve?.ProjectSectionRetrieve && <ProjectSectionComponent Redux={Redux} />}
+            {Redux.state.ReceivedObject?.Retrieve?.ProgramSectionRetrieve && <ProgramSectionComponent Redux={Redux} />}
           </React.Fragment>
         }
       </Suspense>

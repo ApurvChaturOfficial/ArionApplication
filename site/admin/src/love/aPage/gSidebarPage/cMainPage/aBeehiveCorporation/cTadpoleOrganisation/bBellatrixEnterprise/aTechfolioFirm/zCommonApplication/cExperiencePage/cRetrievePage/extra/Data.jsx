@@ -47,10 +47,13 @@ const Data = (Redux, id) => {
                   value: Redux.state.ReceivedObject?.Retrieve["description"]
                 },
                 {
+                  label: "Detail",
+                  value: Redux.state.ReceivedObject?.Retrieve["detail"]
+                },
+                {
                   label: "Slug",
                   value: Redux.state.ReceivedObject?.Retrieve["slug"]
-                },
-              ],
+                },              ],
             },
             {
               display: true,

@@ -57,7 +57,6 @@ const Data = (Redux) => {
             },
           ],
           data: Redux.state.ReceivedObject?.List
-
         }
       }
     }

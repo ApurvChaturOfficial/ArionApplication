@@ -27,9 +27,9 @@ const APIs = {
             status: serverResponse.retrieve.aStatus === true ? 'Active' : 'Inactive',
 
             createdBy: serverResponse.retrieve.bCreatedBy,
-            createdAt: moment(serverResponse.retrieve.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
+            createdAt: serverResponse.retrieve.bCreatedAt,
             updatedBy: serverResponse.retrieve.bUpdatedBy,
-            updatedAt: moment(serverResponse.retrieve.bUpdatedAt).format('MMM Do YYYY, h:mm:ss a'),
+            updatedAt: serverResponse.retrieve.bUpdatedAt,
 
             blogCards: serverResponse.retrieve.cBlogCards,
           }

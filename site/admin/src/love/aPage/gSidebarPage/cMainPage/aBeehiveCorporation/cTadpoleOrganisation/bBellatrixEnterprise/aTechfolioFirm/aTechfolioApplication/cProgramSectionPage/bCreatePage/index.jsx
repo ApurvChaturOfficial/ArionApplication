@@ -7,10 +7,12 @@ import APIs from './extra/APIs';
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const ProgramSectionCreatePage = ({ ReduxUltimate }) => {
 	// Variables
+	const { toast } = useToast()
 	const navigate = useNavigate()
 
   // Redux
@@ -22,7 +24,7 @@ const ProgramSectionCreatePage = ({ ReduxUltimate }) => {
 
 	// API Calls
 	const APICalls = {
-		CreateAPICall: () => APIs.CreateAPI(Redux, ReduxUltimate, navigate),
+		CreateAPICall: () => APIs.CreateAPI(Redux, ReduxUltimate, navigate, toast),
 		ProgramListAPICall: () => APIs.ProgramListAPI(Redux, ReduxUltimate),
 	}		
 

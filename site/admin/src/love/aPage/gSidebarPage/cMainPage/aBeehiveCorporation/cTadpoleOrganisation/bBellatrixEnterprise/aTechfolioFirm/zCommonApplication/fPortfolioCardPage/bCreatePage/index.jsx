@@ -8,10 +8,12 @@ import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
 import EventHandler from './extra/EventHandler';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const PortfolioCardCreatePage = ({ ReduxUltimate }) => {
 	// Variables
+	const { toast } = useToast()
 	const navigate = useNavigate()
 
   // Redux
@@ -23,7 +25,7 @@ const PortfolioCardCreatePage = ({ ReduxUltimate }) => {
 
 	// API Calls
 	const APICalls = {
-		CreateAPICall: () => APIs.CreateAPI(Redux, ReduxUltimate, navigate)
+		CreateAPICall: () => APIs.CreateAPI(Redux, ReduxUltimate, navigate, toast)
 	}		
 
   // All Render

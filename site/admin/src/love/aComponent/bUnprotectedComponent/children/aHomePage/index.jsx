@@ -107,8 +107,6 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                   {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle}
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                  {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description}{" "}
-                  {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description}{" "}
                   {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description}
                 </p>
                 {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">

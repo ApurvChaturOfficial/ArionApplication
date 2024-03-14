@@ -41,7 +41,7 @@ const APIs = {
   },
 
    // Delete API
-   DeleteAPI: (Redux, ReduxUltimate, id, navigate) => {
+   DeleteAPI: (Redux, ReduxUltimate, id, navigate, toast) => {
     loading(ReduxUltimate, true)
 
     API.ContentAPI.SidebarAPI.MainAPI.PortfolioAPI.DeleteAPI({id})

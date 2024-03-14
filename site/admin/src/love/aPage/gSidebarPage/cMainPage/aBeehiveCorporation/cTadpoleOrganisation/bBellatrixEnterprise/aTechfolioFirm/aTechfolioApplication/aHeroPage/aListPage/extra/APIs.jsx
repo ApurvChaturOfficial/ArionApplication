@@ -9,7 +9,7 @@ const APIs = {
 
     API.ContentAPI.SidebarAPI.MainAPI.HeroAPI.ListAPI()
     .then(response => {
-      console.log(response.data);
+      // console.log(response.data);
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {

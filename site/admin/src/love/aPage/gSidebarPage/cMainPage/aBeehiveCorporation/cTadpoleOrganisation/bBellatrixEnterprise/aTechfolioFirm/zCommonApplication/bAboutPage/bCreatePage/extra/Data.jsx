@@ -46,25 +46,26 @@ const Data = (Redux, EventHandler) => {
                 {
                   label: "Description",
                   placeholder: "Description",
-                  type: "rich-text",
+                  type: "text-area",
                   name: "description",
+                  onChange: event => handleInput(event, Redux),
+                },    
+                {
+                  label: "Detail",
+                  placeholder: "Detail",
+                  type: "text-area",
+                  name: "detail",
                   onChange: event => handleInput(event, Redux),
                 },    
                 {
                   label: "Status",
                   placeholder: "Status",
-                  type: "radio",
+                  type: "radio-new",
                   name: "status",
-                  onChange: event => Redux.dispatch({
-                    type: Redux.action.FormObject,
-                    payload: {
-                      ...Redux.state.FormObject,
-                      FormValue: {
-                        ...Redux.state.FormObject?.FormValue,
-                        [event.target.name]: event.target.checked ? 'Active' : 'Inactive',
-                      },
-                    },
-                  })
+                  options: [
+                    { label: "Active", value: "Active" },
+                    { label: "Inactive", value: "Inactive" },
+                  ]
                 },    
               ],
             },

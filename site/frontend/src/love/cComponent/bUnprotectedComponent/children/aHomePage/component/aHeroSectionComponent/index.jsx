@@ -25,8 +25,6 @@ const HeroSectionComponent = ({ Redux, ReduxUltimate }) => {
             </h2>
             <p className="leading-relaxed mb-4">
               {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description} {" "}
-              {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description} {" "}
-              {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description} {" "}
             </p>
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Button asChild>

@@ -1,6 +1,7 @@
 import API from "@/love/aAPI/API";
 import loading from "@/love/dFunction/fLoading";
 import FinalRouteName from "@/love/gRoute/FinalRouteName";
+import moment from "moment";
 
 const APIs = {
   ListAPI: (Redux, ReduxUltimate) => {
@@ -24,9 +25,9 @@ const APIs = {
               status: each.aStatus === true ? 'Active' : 'Inactive',
   
               createdBy: each?.bCreatedBy,
-              createdAt: each?.bCreatedAt,
+              createdAt: moment(each?.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
               updatedBy: each?.bUpdatedBy,
-              updatedAt: each?.bUpdatedAt,
+              updatedAt: moment(each?.bUpdatedAt).format('MMM Do YYYY, h:mm:ss a'),
   
               retrieve: `${FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProgramSectionRoute.RetrieveRoute}/${each._id}`,
               update: `${FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProgramSectionRoute.UpdateRoute}/${each._id}`,
