@@ -9,7 +9,7 @@ const APIs = {
 
     API.ContentAPI.SidebarAPI.MainAPI.ServiceAPI.ListAPI()
     .then(response => {
-      console.log(response.data);
+      // console.log(response.data);
       const serverResponse = response.data;
 
       if (serverResponse.success === true) {
@@ -23,7 +23,7 @@ const APIs = {
 							subtitle: each.aSubtitle,
 							slug: each.aSlug,
               status: each.aStatus === true ? 'Active' : 'Inactive',
-  
+              
               createdBy: each?.bCreatedBy,
               createdAt: moment(each?.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
               updatedBy: each?.bUpdatedBy,

@@ -261,17 +261,17 @@ import HeroRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorp
 import HeroUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/aHeroPage/dUpdatePage/extra/State';
 import HeroDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/aHeroPage/eDeletePage/extra/State';
 
-import AboutListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/aListPage/extra/State';
-import AboutCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/bCreatePage/extra/State';
-import AboutRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/cRetrievePage/extra/State';
-import AboutUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/dUpdatePage/extra/State';
-import AboutDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/eDeletePage/extra/State';
+import CounterListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/aListPage/extra/State';
+import CounterCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/bCreatePage/extra/State';
+import CounterRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/cRetrievePage/extra/State';
+import CounterUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/dUpdatePage/extra/State';
+import CounterDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/eDeletePage/extra/State';
 
-import ExperienceListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/aListPage/extra/State';
-import ExperienceCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/bCreatePage/extra/State';
-import ExperienceRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/cRetrievePage/extra/State';
-import ExperienceUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/dUpdatePage/extra/State';
-import ExperienceDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/eDeletePage/extra/State';
+import AboutListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/aListPage/extra/State';
+import AboutCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/bCreatePage/extra/State';
+import AboutRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/cRetrievePage/extra/State';
+import AboutUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/dUpdatePage/extra/State';
+import AboutDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/eDeletePage/extra/State';
 
 import ServiceListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/aListPage/extra/State';
 import ServiceCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/bCreatePage/extra/State';
@@ -279,41 +279,23 @@ import ServiceRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveC
 import ServiceUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/dUpdatePage/extra/State';
 import ServiceDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/eDeletePage/extra/State';
 
-import PortfolioListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/aListPage/extra/State';
-import PortfolioCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/bCreatePage/extra/State';
-import PortfolioRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/cRetrievePage/extra/State';
-import PortfolioUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/dUpdatePage/extra/State';
-import PortfolioDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/eDeletePage/extra/State';
+import ProjectSectionListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/aListPage/extra/State';
+import ProjectSectionCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/bCreatePage/extra/State';
+import ProjectSectionRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/cRetrievePage/extra/State';
+import ProjectSectionUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/dUpdatePage/extra/State';
+import ProjectSectionDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/eDeletePage/extra/State';
 
-import PortfolioCardListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/aListPage/extra/State';
-import PortfolioCardCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/bCreatePage/extra/State';
-import PortfolioCardRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/cRetrievePage/extra/State';
-import PortfolioCardUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/dUpdatePage/extra/State';
-import PortfolioCardDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/eDeletePage/extra/State';
+import ProjectGroupListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/aListPage/extra/State';
+import ProjectGroupCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/bCreatePage/extra/State';
+import ProjectGroupRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/cRetrievePage/extra/State';
+import ProjectGroupUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/dUpdatePage/extra/State';
+import ProjectGroupDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/eDeletePage/extra/State';
 
-import EventListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/aListPage/extra/State';
-import EventCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/bCreatePage/extra/State';
-import EventRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/cRetrievePage/extra/State';
-import EventUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/dUpdatePage/extra/State';
-import EventDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/eDeletePage/extra/State';
-
-import EventCardListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/aListPage/extra/State';
-import EventCardCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/bCreatePage/extra/State';
-import EventCardRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/cRetrievePage/extra/State';
-import EventCardUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/dUpdatePage/extra/State';
-import EventCardDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/eDeletePage/extra/State';
-
-import BlogListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/aListPage/extra/State';
-import BlogCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/bCreatePage/extra/State';
-import BlogRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/cRetrievePage/extra/State';
-import BlogUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/dUpdatePage/extra/State';
-import BlogDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/eDeletePage/extra/State';
-
-import BlogCardListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/aListPage/extra/State';
-import BlogCardCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/bCreatePage/extra/State';
-import BlogCardRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/cRetrievePage/extra/State';
-import BlogCardUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/dUpdatePage/extra/State';
-import BlogCardDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/eDeletePage/extra/State';
+import ProjectListPageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/aListPage/extra/State';
+import ProjectCreatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/bCreatePage/extra/State';
+import ProjectRetrievePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/cRetrievePage/extra/State';
+import ProjectUpdatePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/dUpdatePage/extra/State';
+import ProjectDeletePageState6 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/eDeletePage/extra/State';
 
 // Number 7
 import HeroListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/aListPage/extra/State';
@@ -322,17 +304,17 @@ import HeroRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorp
 import HeroUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/dUpdatePage/extra/State';
 import HeroDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/eDeletePage/extra/State';
 
-import AboutListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/aListPage/extra/State';
-import AboutCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/bCreatePage/extra/State';
-import AboutRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/cRetrievePage/extra/State';
-import AboutUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/dUpdatePage/extra/State';
-import AboutDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/eDeletePage/extra/State';
+import CounterListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/aListPage/extra/State';
+import CounterCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/bCreatePage/extra/State';
+import CounterRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/cRetrievePage/extra/State';
+import CounterUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/dUpdatePage/extra/State';
+import CounterDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/eDeletePage/extra/State';
 
-import ExperienceListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/aListPage/extra/State';
-import ExperienceCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/bCreatePage/extra/State';
-import ExperienceRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/cRetrievePage/extra/State';
-import ExperienceUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/dUpdatePage/extra/State';
-import ExperienceDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/eDeletePage/extra/State';
+import AboutListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/aListPage/extra/State';
+import AboutCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/bCreatePage/extra/State';
+import AboutRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/cRetrievePage/extra/State';
+import AboutUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/dUpdatePage/extra/State';
+import AboutDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/eDeletePage/extra/State';
 
 import ServiceListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/aListPage/extra/State';
 import ServiceCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/bCreatePage/extra/State';
@@ -340,41 +322,23 @@ import ServiceRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveC
 import ServiceUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/dUpdatePage/extra/State';
 import ServiceDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/eDeletePage/extra/State';
 
-import PortfolioListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/aListPage/extra/State';
-import PortfolioCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/bCreatePage/extra/State';
-import PortfolioRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/cRetrievePage/extra/State';
-import PortfolioUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/dUpdatePage/extra/State';
-import PortfolioDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/eDeletePage/extra/State';
+import ProjectSectionListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/aListPage/extra/State';
+import ProjectSectionCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/bCreatePage/extra/State';
+import ProjectSectionRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/cRetrievePage/extra/State';
+import ProjectSectionUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/dUpdatePage/extra/State';
+import ProjectSectionDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/eDeletePage/extra/State';
 
-import PortfolioCardListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/aListPage/extra/State';
-import PortfolioCardCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/bCreatePage/extra/State';
-import PortfolioCardRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/cRetrievePage/extra/State';
-import PortfolioCardUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/dUpdatePage/extra/State';
-import PortfolioCardDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/eDeletePage/extra/State';
+import ProjectGroupListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/aListPage/extra/State';
+import ProjectGroupCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/bCreatePage/extra/State';
+import ProjectGroupRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/cRetrievePage/extra/State';
+import ProjectGroupUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/dUpdatePage/extra/State';
+import ProjectGroupDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/eDeletePage/extra/State';
 
-import EventListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/aListPage/extra/State';
-import EventCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/bCreatePage/extra/State';
-import EventRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/cRetrievePage/extra/State';
-import EventUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/dUpdatePage/extra/State';
-import EventDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/eDeletePage/extra/State';
-
-import EventCardListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/aListPage/extra/State';
-import EventCardCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/bCreatePage/extra/State';
-import EventCardRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/cRetrievePage/extra/State';
-import EventCardUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/dUpdatePage/extra/State';
-import EventCardDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/eDeletePage/extra/State';
-
-import BlogListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/aListPage/extra/State';
-import BlogCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/bCreatePage/extra/State';
-import BlogRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/cRetrievePage/extra/State';
-import BlogUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/dUpdatePage/extra/State';
-import BlogDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/eDeletePage/extra/State';
-
-import BlogCardListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/aListPage/extra/State';
-import BlogCardCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/bCreatePage/extra/State';
-import BlogCardRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/cRetrievePage/extra/State';
-import BlogCardUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/dUpdatePage/extra/State';
-import BlogCardDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/eDeletePage/extra/State';
+import ProjectListPageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/aListPage/extra/State';
+import ProjectCreatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/bCreatePage/extra/State';
+import ProjectRetrievePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/cRetrievePage/extra/State';
+import ProjectUpdatePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/dUpdatePage/extra/State';
+import ProjectDeletePageState7 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/eDeletePage/extra/State';
 
 // Number 8
 import HeroListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/aListPage/extra/State';
@@ -383,17 +347,17 @@ import HeroRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorp
 import HeroUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/dUpdatePage/extra/State';
 import HeroDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/eDeletePage/extra/State';
 
-import AboutListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/aListPage/extra/State';
-import AboutCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/bCreatePage/extra/State';
-import AboutRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/cRetrievePage/extra/State';
-import AboutUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/dUpdatePage/extra/State';
-import AboutDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/eDeletePage/extra/State';
+import CounterListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/aListPage/extra/State';
+import CounterCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/bCreatePage/extra/State';
+import CounterRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/cRetrievePage/extra/State';
+import CounterUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/dUpdatePage/extra/State';
+import CounterDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/eDeletePage/extra/State';
 
-import ExperienceListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/aListPage/extra/State';
-import ExperienceCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/bCreatePage/extra/State';
-import ExperienceRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/cRetrievePage/extra/State';
-import ExperienceUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/dUpdatePage/extra/State';
-import ExperienceDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/eDeletePage/extra/State';
+import AboutListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/aListPage/extra/State';
+import AboutCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/bCreatePage/extra/State';
+import AboutRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/cRetrievePage/extra/State';
+import AboutUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/dUpdatePage/extra/State';
+import AboutDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/eDeletePage/extra/State';
 
 import ServiceListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/aListPage/extra/State';
 import ServiceCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/bCreatePage/extra/State';
@@ -401,41 +365,23 @@ import ServiceRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveC
 import ServiceUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/dUpdatePage/extra/State';
 import ServiceDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/eDeletePage/extra/State';
 
-import PortfolioListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/aListPage/extra/State';
-import PortfolioCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/bCreatePage/extra/State';
-import PortfolioRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/cRetrievePage/extra/State';
-import PortfolioUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/dUpdatePage/extra/State';
-import PortfolioDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/eDeletePage/extra/State';
+import ProjectSectionListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/aListPage/extra/State';
+import ProjectSectionCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/bCreatePage/extra/State';
+import ProjectSectionRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/cRetrievePage/extra/State';
+import ProjectSectionUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/dUpdatePage/extra/State';
+import ProjectSectionDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/eDeletePage/extra/State';
 
-import PortfolioCardListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/aListPage/extra/State';
-import PortfolioCardCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/bCreatePage/extra/State';
-import PortfolioCardRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/cRetrievePage/extra/State';
-import PortfolioCardUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/dUpdatePage/extra/State';
-import PortfolioCardDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/eDeletePage/extra/State';
+import ProjectGroupListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/aListPage/extra/State';
+import ProjectGroupCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/bCreatePage/extra/State';
+import ProjectGroupRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/cRetrievePage/extra/State';
+import ProjectGroupUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/dUpdatePage/extra/State';
+import ProjectGroupDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/eDeletePage/extra/State';
 
-import EventListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/aListPage/extra/State';
-import EventCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/bCreatePage/extra/State';
-import EventRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/cRetrievePage/extra/State';
-import EventUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/dUpdatePage/extra/State';
-import EventDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/eDeletePage/extra/State';
-
-import EventCardListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/aListPage/extra/State';
-import EventCardCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/bCreatePage/extra/State';
-import EventCardRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/cRetrievePage/extra/State';
-import EventCardUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/dUpdatePage/extra/State';
-import EventCardDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/eDeletePage/extra/State';
-
-import BlogListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/aListPage/extra/State';
-import BlogCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/bCreatePage/extra/State';
-import BlogRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/cRetrievePage/extra/State';
-import BlogUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/dUpdatePage/extra/State';
-import BlogDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/eDeletePage/extra/State';
-
-import BlogCardListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/aListPage/extra/State';
-import BlogCardCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/bCreatePage/extra/State';
-import BlogCardRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/cRetrievePage/extra/State';
-import BlogCardUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/dUpdatePage/extra/State';
-import BlogCardDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/eDeletePage/extra/State';
+import ProjectListPageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/aListPage/extra/State';
+import ProjectCreatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/bCreatePage/extra/State';
+import ProjectRetrievePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/cRetrievePage/extra/State';
+import ProjectUpdatePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/dUpdatePage/extra/State';
+import ProjectDeletePageState8 from '../aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/eDeletePage/extra/State';
 
 
 
@@ -779,60 +725,42 @@ const RootReducer = combineReducers({
 							HeroRetrievePageState: HeroRetrievePageState6,
 							HeroUpdatePageState: HeroUpdatePageState6,
 							HeroDeletePageState: HeroDeletePageState6,
-				
+						
+							CounterListPageState: CounterListPageState6,
+							CounterCreatePageState: CounterCreatePageState6,
+							CounterRetrievePageState: CounterRetrievePageState6,
+							CounterUpdatePageState: CounterUpdatePageState6,
+							CounterDeletePageState: CounterDeletePageState6,
+						
 							AboutListPageState: AboutListPageState6,
 							AboutCreatePageState: AboutCreatePageState6,
 							AboutRetrievePageState: AboutRetrievePageState6,
 							AboutUpdatePageState: AboutUpdatePageState6,
 							AboutDeletePageState: AboutDeletePageState6,
-							
-							ExperienceListPageState: ExperienceListPageState6,
-							ExperienceCreatePageState: ExperienceCreatePageState6,
-							ExperienceRetrievePageState: ExperienceRetrievePageState6,
-							ExperienceUpdatePageState: ExperienceUpdatePageState6,
-							ExperienceDeletePageState: ExperienceDeletePageState6,
-							
+						
 							ServiceListPageState: ServiceListPageState6,
 							ServiceCreatePageState: ServiceCreatePageState6,
 							ServiceRetrievePageState: ServiceRetrievePageState6,
 							ServiceUpdatePageState: ServiceUpdatePageState6,
 							ServiceDeletePageState: ServiceDeletePageState6,
-							
-							PortfolioListPageState: PortfolioListPageState6,
-							PortfolioCreatePageState: PortfolioCreatePageState6,
-							PortfolioRetrievePageState: PortfolioRetrievePageState6,
-							PortfolioUpdatePageState: PortfolioUpdatePageState6,
-							PortfolioDeletePageState: PortfolioDeletePageState6,
-							
-							PortfolioCardListPageState: PortfolioCardListPageState6,
-							PortfolioCardCreatePageState: PortfolioCardCreatePageState6,
-							PortfolioCardRetrievePageState: PortfolioCardRetrievePageState6,
-							PortfolioCardUpdatePageState: PortfolioCardUpdatePageState6,
-							PortfolioCardDeletePageState: PortfolioCardDeletePageState6,
-							
-							EventListPageState: EventListPageState6,
-							EventCreatePageState: EventCreatePageState6,
-							EventRetrievePageState: EventRetrievePageState6,
-							EventUpdatePageState: EventUpdatePageState6,
-							EventDeletePageState: EventDeletePageState6,
-							
-							EventCardListPageState: EventCardListPageState6,
-							EventCardCreatePageState: EventCardCreatePageState6,
-							EventCardRetrievePageState: EventCardRetrievePageState6,
-							EventCardUpdatePageState: EventCardUpdatePageState6,
-							EventCardDeletePageState: EventCardDeletePageState6,
-							
-							BlogListPageState: BlogListPageState6,
-							BlogCreatePageState: BlogCreatePageState6,
-							BlogRetrievePageState: BlogRetrievePageState6,
-							BlogUpdatePageState: BlogUpdatePageState6,
-							BlogDeletePageState: BlogDeletePageState6,
-							
-							BlogCardListPageState: BlogCardListPageState6,
-							BlogCardCreatePageState: BlogCardCreatePageState6,
-							BlogCardRetrievePageState: BlogCardRetrievePageState6,
-							BlogCardUpdatePageState: BlogCardUpdatePageState6,
-							BlogCardDeletePageState: BlogCardDeletePageState6,		
+						
+							ProjectSectionListPageState: ProjectSectionListPageState6,
+							ProjectSectionCreatePageState: ProjectSectionCreatePageState6,
+							ProjectSectionRetrievePageState: ProjectSectionRetrievePageState6,
+							ProjectSectionUpdatePageState: ProjectSectionUpdatePageState6,
+							ProjectSectionDeletePageState: ProjectSectionDeletePageState6,
+						
+							ProjectGroupListPageState: ProjectGroupListPageState6,
+							ProjectGroupCreatePageState: ProjectGroupCreatePageState6,
+							ProjectGroupRetrievePageState: ProjectGroupRetrievePageState6,
+							ProjectGroupUpdatePageState: ProjectGroupUpdatePageState6,
+							ProjectGroupDeletePageState: ProjectGroupDeletePageState6,
+						
+							ProjectListPageState: ProjectListPageState6,
+							ProjectCreatePageState: ProjectCreatePageState6,
+							ProjectRetrievePageState: ProjectRetrievePageState6,
+							ProjectUpdatePageState: ProjectUpdatePageState6,
+							ProjectDeletePageState: ProjectDeletePageState6,		
 						}) : 
 						import.meta.env.VITE_APPLICATION === "BhagwadGitaApplication" ? ({
 							HeroListPageState: HeroListPageState7,
@@ -840,60 +768,42 @@ const RootReducer = combineReducers({
 							HeroRetrievePageState: HeroRetrievePageState7,
 							HeroUpdatePageState: HeroUpdatePageState7,
 							HeroDeletePageState: HeroDeletePageState7,
-				
+						
+							CounterListPageState: CounterListPageState7,
+							CounterCreatePageState: CounterCreatePageState7,
+							CounterRetrievePageState: CounterRetrievePageState7,
+							CounterUpdatePageState: CounterUpdatePageState7,
+							CounterDeletePageState: CounterDeletePageState7,
+						
 							AboutListPageState: AboutListPageState7,
 							AboutCreatePageState: AboutCreatePageState7,
 							AboutRetrievePageState: AboutRetrievePageState7,
 							AboutUpdatePageState: AboutUpdatePageState7,
 							AboutDeletePageState: AboutDeletePageState7,
-							
-							ExperienceListPageState: ExperienceListPageState7,
-							ExperienceCreatePageState: ExperienceCreatePageState7,
-							ExperienceRetrievePageState: ExperienceRetrievePageState7,
-							ExperienceUpdatePageState: ExperienceUpdatePageState7,
-							ExperienceDeletePageState: ExperienceDeletePageState7,
-							
+						
 							ServiceListPageState: ServiceListPageState7,
 							ServiceCreatePageState: ServiceCreatePageState7,
 							ServiceRetrievePageState: ServiceRetrievePageState7,
 							ServiceUpdatePageState: ServiceUpdatePageState7,
 							ServiceDeletePageState: ServiceDeletePageState7,
-							
-							PortfolioListPageState: PortfolioListPageState7,
-							PortfolioCreatePageState: PortfolioCreatePageState7,
-							PortfolioRetrievePageState: PortfolioRetrievePageState7,
-							PortfolioUpdatePageState: PortfolioUpdatePageState7,
-							PortfolioDeletePageState: PortfolioDeletePageState7,
-							
-							PortfolioCardListPageState: PortfolioCardListPageState7,
-							PortfolioCardCreatePageState: PortfolioCardCreatePageState7,
-							PortfolioCardRetrievePageState: PortfolioCardRetrievePageState7,
-							PortfolioCardUpdatePageState: PortfolioCardUpdatePageState7,
-							PortfolioCardDeletePageState: PortfolioCardDeletePageState7,
-							
-							EventListPageState: EventListPageState7,
-							EventCreatePageState: EventCreatePageState7,
-							EventRetrievePageState: EventRetrievePageState7,
-							EventUpdatePageState: EventUpdatePageState7,
-							EventDeletePageState: EventDeletePageState7,
-							
-							EventCardListPageState: EventCardListPageState7,
-							EventCardCreatePageState: EventCardCreatePageState7,
-							EventCardRetrievePageState: EventCardRetrievePageState7,
-							EventCardUpdatePageState: EventCardUpdatePageState7,
-							EventCardDeletePageState: EventCardDeletePageState7,
-							
-							BlogListPageState: BlogListPageState7,
-							BlogCreatePageState: BlogCreatePageState7,
-							BlogRetrievePageState: BlogRetrievePageState7,
-							BlogUpdatePageState: BlogUpdatePageState7,
-							BlogDeletePageState: BlogDeletePageState7,
-							
-							BlogCardListPageState: BlogCardListPageState7,
-							BlogCardCreatePageState: BlogCardCreatePageState7,
-							BlogCardRetrievePageState: BlogCardRetrievePageState7,
-							BlogCardUpdatePageState: BlogCardUpdatePageState7,
-							BlogCardDeletePageState: BlogCardDeletePageState7,		
+						
+							ProjectSectionListPageState: ProjectSectionListPageState7,
+							ProjectSectionCreatePageState: ProjectSectionCreatePageState7,
+							ProjectSectionRetrievePageState: ProjectSectionRetrievePageState7,
+							ProjectSectionUpdatePageState: ProjectSectionUpdatePageState7,
+							ProjectSectionDeletePageState: ProjectSectionDeletePageState7,
+						
+							ProjectGroupListPageState: ProjectGroupListPageState7,
+							ProjectGroupCreatePageState: ProjectGroupCreatePageState7,
+							ProjectGroupRetrievePageState: ProjectGroupRetrievePageState7,
+							ProjectGroupUpdatePageState: ProjectGroupUpdatePageState7,
+							ProjectGroupDeletePageState: ProjectGroupDeletePageState7,
+						
+							ProjectListPageState: ProjectListPageState7,
+							ProjectCreatePageState: ProjectCreatePageState7,
+							ProjectRetrievePageState: ProjectRetrievePageState7,
+							ProjectUpdatePageState: ProjectUpdatePageState7,
+							ProjectDeletePageState: ProjectDeletePageState7,		
 						}) : 
 						import.meta.env.VITE_APPLICATION === "InterviewQuestionApplication" ? ({
 							HeroListPageState: HeroListPageState8,
@@ -901,60 +811,42 @@ const RootReducer = combineReducers({
 							HeroRetrievePageState: HeroRetrievePageState8,
 							HeroUpdatePageState: HeroUpdatePageState8,
 							HeroDeletePageState: HeroDeletePageState8,
-				
+						
+							CounterListPageState: CounterListPageState8,
+							CounterCreatePageState: CounterCreatePageState8,
+							CounterRetrievePageState: CounterRetrievePageState8,
+							CounterUpdatePageState: CounterUpdatePageState8,
+							CounterDeletePageState: CounterDeletePageState8,
+						
 							AboutListPageState: AboutListPageState8,
 							AboutCreatePageState: AboutCreatePageState8,
 							AboutRetrievePageState: AboutRetrievePageState8,
 							AboutUpdatePageState: AboutUpdatePageState8,
 							AboutDeletePageState: AboutDeletePageState8,
-							
-							ExperienceListPageState: ExperienceListPageState8,
-							ExperienceCreatePageState: ExperienceCreatePageState8,
-							ExperienceRetrievePageState: ExperienceRetrievePageState8,
-							ExperienceUpdatePageState: ExperienceUpdatePageState8,
-							ExperienceDeletePageState: ExperienceDeletePageState8,
-							
+						
 							ServiceListPageState: ServiceListPageState8,
 							ServiceCreatePageState: ServiceCreatePageState8,
 							ServiceRetrievePageState: ServiceRetrievePageState8,
 							ServiceUpdatePageState: ServiceUpdatePageState8,
 							ServiceDeletePageState: ServiceDeletePageState8,
-							
-							PortfolioListPageState: PortfolioListPageState8,
-							PortfolioCreatePageState: PortfolioCreatePageState8,
-							PortfolioRetrievePageState: PortfolioRetrievePageState8,
-							PortfolioUpdatePageState: PortfolioUpdatePageState8,
-							PortfolioDeletePageState: PortfolioDeletePageState8,
-							
-							PortfolioCardListPageState: PortfolioCardListPageState8,
-							PortfolioCardCreatePageState: PortfolioCardCreatePageState8,
-							PortfolioCardRetrievePageState: PortfolioCardRetrievePageState8,
-							PortfolioCardUpdatePageState: PortfolioCardUpdatePageState8,
-							PortfolioCardDeletePageState: PortfolioCardDeletePageState8,
-							
-							EventListPageState: EventListPageState8,
-							EventCreatePageState: EventCreatePageState8,
-							EventRetrievePageState: EventRetrievePageState8,
-							EventUpdatePageState: EventUpdatePageState8,
-							EventDeletePageState: EventDeletePageState8,
-							
-							EventCardListPageState: EventCardListPageState8,
-							EventCardCreatePageState: EventCardCreatePageState8,
-							EventCardRetrievePageState: EventCardRetrievePageState8,
-							EventCardUpdatePageState: EventCardUpdatePageState8,
-							EventCardDeletePageState: EventCardDeletePageState8,
-							
-							BlogListPageState: BlogListPageState8,
-							BlogCreatePageState: BlogCreatePageState8,
-							BlogRetrievePageState: BlogRetrievePageState8,
-							BlogUpdatePageState: BlogUpdatePageState8,
-							BlogDeletePageState: BlogDeletePageState8,
-							
-							BlogCardListPageState: BlogCardListPageState8,
-							BlogCardCreatePageState: BlogCardCreatePageState8,
-							BlogCardRetrievePageState: BlogCardRetrievePageState8,
-							BlogCardUpdatePageState: BlogCardUpdatePageState8,
-							BlogCardDeletePageState: BlogCardDeletePageState8,		
+						
+							ProjectSectionListPageState: ProjectSectionListPageState8,
+							ProjectSectionCreatePageState: ProjectSectionCreatePageState8,
+							ProjectSectionRetrievePageState: ProjectSectionRetrievePageState8,
+							ProjectSectionUpdatePageState: ProjectSectionUpdatePageState8,
+							ProjectSectionDeletePageState: ProjectSectionDeletePageState8,
+						
+							ProjectGroupListPageState: ProjectGroupListPageState8,
+							ProjectGroupCreatePageState: ProjectGroupCreatePageState8,
+							ProjectGroupRetrievePageState: ProjectGroupRetrievePageState8,
+							ProjectGroupUpdatePageState: ProjectGroupUpdatePageState8,
+							ProjectGroupDeletePageState: ProjectGroupDeletePageState8,
+						
+							ProjectListPageState: ProjectListPageState8,
+							ProjectCreatePageState: ProjectCreatePageState8,
+							ProjectRetrievePageState: ProjectRetrievePageState8,
+							ProjectUpdatePageState: ProjectUpdatePageState8,
+							ProjectDeletePageState: ProjectDeletePageState8,		
 						}) : null
 					) : null
 				) :

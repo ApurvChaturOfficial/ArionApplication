@@ -280,17 +280,17 @@ const HeroRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMa
 const HeroUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/aHeroPage/dUpdatePage'));
 const HeroDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/aHeroPage/eDeletePage'));
 
-const AboutListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/aListPage'));
-const AboutCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/bCreatePage'));
-const AboutRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/cRetrievePage'));
-const AboutUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/dUpdatePage'));
-const AboutDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bAboutPage/eDeletePage'));
+const CounterListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/aListPage'));
+const CounterCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/bCreatePage'));
+const CounterRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/cRetrievePage'));
+const CounterUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/dUpdatePage'));
+const CounterDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/bCounterPage/eDeletePage'));
 
-const ExperienceListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/aListPage'));
-const ExperienceCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/bCreatePage'));
-const ExperienceRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/cRetrievePage'));
-const ExperienceUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/dUpdatePage'));
-const ExperienceDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cExperiencePage/eDeletePage'));
+const AboutListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/aListPage'));
+const AboutCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/bCreatePage'));
+const AboutRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/cRetrievePage'));
+const AboutUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/dUpdatePage'));
+const AboutDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/cAboutPage/eDeletePage'));
 
 const ServiceListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/aListPage'));
 const ServiceCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/bCreatePage'));
@@ -298,41 +298,23 @@ const ServiceRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/
 const ServiceUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/dUpdatePage'));
 const ServiceDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/dServicePage/eDeletePage'));
 
-const PortfolioListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/aListPage'));
-const PortfolioCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/bCreatePage'));
-const PortfolioRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/cRetrievePage'));
-const PortfolioUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/dUpdatePage'));
-const PortfolioDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/ePortfolioPage/eDeletePage'));
+const ProjectSectionListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/aListPage'));
+const ProjectSectionCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/bCreatePage'));
+const ProjectSectionRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/cRetrievePage'));
+const ProjectSectionUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/dUpdatePage'));
+const ProjectSectionDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hProjectSectionPage/eDeletePage'));
 
-const PortfolioCardListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/aListPage'));
-const PortfolioCardCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/bCreatePage'));
-const PortfolioCardRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/cRetrievePage'));
-const PortfolioCardUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/dUpdatePage'));
-const PortfolioCardDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/fPortfolioCardPage/eDeletePage'));
+const ProjectGroupListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/aListPage'));
+const ProjectGroupCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/bCreatePage'));
+const ProjectGroupRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/cRetrievePage'));
+const ProjectGroupUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/dUpdatePage'));
+const ProjectGroupDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iProjectGroupPage/eDeletePage'));
 
-const EventListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/aListPage'));
-const EventCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/bCreatePage'));
-const EventRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/cRetrievePage'));
-const EventUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/dUpdatePage'));
-const EventDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/gEventPage/eDeletePage'));
-
-const EventCardListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/aListPage'));
-const EventCardCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/bCreatePage'));
-const EventCardRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/cRetrievePage'));
-const EventCardUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/dUpdatePage'));
-const EventCardDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/hEventCardPage/eDeletePage'));
-
-const BlogListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/aListPage'));
-const BlogCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/bCreatePage'));
-const BlogRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/cRetrievePage'));
-const BlogUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/dUpdatePage'));
-const BlogDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/iBlogPage/eDeletePage'));
-
-const BlogCardListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/aListPage'));
-const BlogCardCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/bCreatePage'));
-const BlogCardRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/cRetrievePage'));
-const BlogCardUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/dUpdatePage'));
-const BlogCardDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jBlogCardPage/eDeletePage'));
+const ProjectListPage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/aListPage'));
+const ProjectCreatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/bCreatePage'));
+const ProjectRetrievePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/cRetrievePage'));
+const ProjectUpdatePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/dUpdatePage'));
+const ProjectDeletePage6 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/bSrimadBhagwatamApplication/jProjectPage/eDeletePage'));
 
 // Bhagwad Gita
 const HeroListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/aListPage'));
@@ -341,17 +323,17 @@ const HeroRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMa
 const HeroUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/dUpdatePage'));
 const HeroDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/aHeroPage/eDeletePage'));
 
-const AboutListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/aListPage'));
-const AboutCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/bCreatePage'));
-const AboutRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/cRetrievePage'));
-const AboutUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/dUpdatePage'));
-const AboutDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bAboutPage/eDeletePage'));
+const CounterListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/aListPage'));
+const CounterCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/bCreatePage'));
+const CounterRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/cRetrievePage'));
+const CounterUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/dUpdatePage'));
+const CounterDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/bCounterPage/eDeletePage'));
 
-const ExperienceListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/aListPage'));
-const ExperienceCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/bCreatePage'));
-const ExperienceRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/cRetrievePage'));
-const ExperienceUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/dUpdatePage'));
-const ExperienceDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cExperiencePage/eDeletePage'));
+const AboutListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/aListPage'));
+const AboutCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/bCreatePage'));
+const AboutRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/cRetrievePage'));
+const AboutUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/dUpdatePage'));
+const AboutDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/cAboutPage/eDeletePage'));
 
 const ServiceListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/aListPage'));
 const ServiceCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/bCreatePage'));
@@ -359,41 +341,23 @@ const ServiceRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/
 const ServiceUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/dUpdatePage'));
 const ServiceDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/dServicePage/eDeletePage'));
 
-const PortfolioListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/aListPage'));
-const PortfolioCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/bCreatePage'));
-const PortfolioRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/cRetrievePage'));
-const PortfolioUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/dUpdatePage'));
-const PortfolioDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/ePortfolioPage/eDeletePage'));
+const ProjectSectionListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/aListPage'));
+const ProjectSectionCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/bCreatePage'));
+const ProjectSectionRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/cRetrievePage'));
+const ProjectSectionUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/dUpdatePage'));
+const ProjectSectionDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hProjectSectionPage/eDeletePage'));
 
-const PortfolioCardListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/aListPage'));
-const PortfolioCardCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/bCreatePage'));
-const PortfolioCardRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/cRetrievePage'));
-const PortfolioCardUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/dUpdatePage'));
-const PortfolioCardDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/fPortfolioCardPage/eDeletePage'));
+const ProjectGroupListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/aListPage'));
+const ProjectGroupCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/bCreatePage'));
+const ProjectGroupRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/cRetrievePage'));
+const ProjectGroupUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/dUpdatePage'));
+const ProjectGroupDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iProjectGroupPage/eDeletePage'));
 
-const EventListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/aListPage'));
-const EventCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/bCreatePage'));
-const EventRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/cRetrievePage'));
-const EventUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/dUpdatePage'));
-const EventDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/gEventPage/eDeletePage'));
-
-const EventCardListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/aListPage'));
-const EventCardCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/bCreatePage'));
-const EventCardRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/cRetrievePage'));
-const EventCardUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/dUpdatePage'));
-const EventCardDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/hEventCardPage/eDeletePage'));
-
-const BlogListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/aListPage'));
-const BlogCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/bCreatePage'));
-const BlogRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/cRetrievePage'));
-const BlogUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/dUpdatePage'));
-const BlogDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/iBlogPage/eDeletePage'));
-
-const BlogCardListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/aListPage'));
-const BlogCardCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/bCreatePage'));
-const BlogCardRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/cRetrievePage'));
-const BlogCardUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/dUpdatePage'));
-const BlogCardDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jBlogCardPage/eDeletePage'));
+const ProjectListPage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/aListPage'));
+const ProjectCreatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/bCreatePage'));
+const ProjectRetrievePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/cRetrievePage'));
+const ProjectUpdatePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/dUpdatePage'));
+const ProjectDeletePage7 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/cBhagwadGitaApplication/jProjectPage/eDeletePage'));
 
 // Interview Question
 const HeroListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/aListPage'));
@@ -402,17 +366,17 @@ const HeroRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMa
 const HeroUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/dUpdatePage'));
 const HeroDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/aHeroPage/eDeletePage'));
 
-const AboutListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/aListPage'));
-const AboutCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/bCreatePage'));
-const AboutRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/cRetrievePage'));
-const AboutUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/dUpdatePage'));
-const AboutDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bAboutPage/eDeletePage'));
+const CounterListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/aListPage'));
+const CounterCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/bCreatePage'));
+const CounterRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/cRetrievePage'));
+const CounterUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/dUpdatePage'));
+const CounterDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/bCounterPage/eDeletePage'));
 
-const ExperienceListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/aListPage'));
-const ExperienceCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/bCreatePage'));
-const ExperienceRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/cRetrievePage'));
-const ExperienceUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/dUpdatePage'));
-const ExperienceDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cExperiencePage/eDeletePage'));
+const AboutListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/aListPage'));
+const AboutCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/bCreatePage'));
+const AboutRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/cRetrievePage'));
+const AboutUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/dUpdatePage'));
+const AboutDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/cAboutPage/eDeletePage'));
 
 const ServiceListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/aListPage'));
 const ServiceCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/bCreatePage'));
@@ -420,41 +384,23 @@ const ServiceRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/
 const ServiceUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/dUpdatePage'));
 const ServiceDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/dServicePage/eDeletePage'));
 
-const PortfolioListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/aListPage'));
-const PortfolioCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/bCreatePage'));
-const PortfolioRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/cRetrievePage'));
-const PortfolioUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/dUpdatePage'));
-const PortfolioDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/ePortfolioPage/eDeletePage'));
+const ProjectSectionListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/aListPage'));
+const ProjectSectionCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/bCreatePage'));
+const ProjectSectionRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/cRetrievePage'));
+const ProjectSectionUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/dUpdatePage'));
+const ProjectSectionDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hProjectSectionPage/eDeletePage'));
 
-const PortfolioCardListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/aListPage'));
-const PortfolioCardCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/bCreatePage'));
-const PortfolioCardRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/cRetrievePage'));
-const PortfolioCardUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/dUpdatePage'));
-const PortfolioCardDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/fPortfolioCardPage/eDeletePage'));
+const ProjectGroupListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/aListPage'));
+const ProjectGroupCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/bCreatePage'));
+const ProjectGroupRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/cRetrievePage'));
+const ProjectGroupUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/dUpdatePage'));
+const ProjectGroupDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iProjectGroupPage/eDeletePage'));
 
-const EventListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/aListPage'));
-const EventCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/bCreatePage'));
-const EventRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/cRetrievePage'));
-const EventUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/dUpdatePage'));
-const EventDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/gEventPage/eDeletePage'));
-
-const EventCardListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/aListPage'));
-const EventCardCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/bCreatePage'));
-const EventCardRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/cRetrievePage'));
-const EventCardUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/dUpdatePage'));
-const EventCardDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/hEventCardPage/eDeletePage'));
-
-const BlogListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/aListPage'));
-const BlogCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/bCreatePage'));
-const BlogRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/cRetrievePage'));
-const BlogUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/dUpdatePage'));
-const BlogDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/iBlogPage/eDeletePage'));
-
-const BlogCardListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/aListPage'));
-const BlogCardCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/bCreatePage'));
-const BlogCardRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/cRetrievePage'));
-const BlogCardUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/dUpdatePage'));
-const BlogCardDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jBlogCardPage/eDeletePage'));
+const ProjectListPage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/aListPage'));
+const ProjectCreatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/bCreatePage'));
+const ProjectRetrievePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/cRetrievePage'));
+const ProjectUpdatePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/dUpdatePage'));
+const ProjectDeletePage8 = React.lazy(() => import('@/love/aPage/gSidebarPage/cMainPage/aBeehiveCorporation/cTadpoleOrganisation/bBellatrixEnterprise/bBlogifyFirm/dInterviewQuestionApplication/jProjectPage/eDeletePage'));
 
 
 
@@ -969,61 +915,43 @@ function App() {
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.RetrieveRoute}/:id`} element={<HeroRetrievePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.UpdateRoute}/:id`} element={<HeroUpdatePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.DeleteRoute}/:id`} element={<HeroDeletePage6 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute} element={<CounterListPage6 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.CreateRoute} element={<CounterCreatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.RetrieveRoute}/:id`} element={<CounterRetrievePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.UpdateRoute}/:id`} element={<CounterUpdatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.DeleteRoute}/:id`} element={<CounterDeletePage6 ReduxUltimate={Redux} />} />
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute} element={<AboutListPage6 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.CreateRoute} element={<AboutCreatePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.RetrieveRoute}/:id`} element={<AboutRetrievePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.UpdateRoute}/:id`} element={<AboutUpdatePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.DeleteRoute}/:id`} element={<AboutDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute} element={<ExperienceListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.CreateRoute} element={<ExperienceCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.RetrieveRoute}/:id`} element={<ExperienceRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.UpdateRoute}/:id`} element={<ExperienceUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.DeleteRoute}/:id`} element={<ExperienceDeletePage6 ReduxUltimate={Redux} />} />
-                            
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute} element={<ServiceListPage6 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.CreateRoute} element={<ServiceCreatePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.RetrieveRoute}/:id`} element={<ServiceRetrievePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.UpdateRoute}/:id`} element={<ServiceUpdatePage6 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.DeleteRoute}/:id`} element={<ServiceDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute} element={<PortfolioListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.CreateRoute} element={<PortfolioCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.RetrieveRoute}/:id`} element={<PortfolioRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.UpdateRoute}/:id`} element={<PortfolioUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.DeleteRoute}/:id`} element={<PortfolioDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute} element={<PortfolioCardListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.CreateRoute} element={<PortfolioCardCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.RetrieveRoute}/:id`} element={<PortfolioCardRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.UpdateRoute}/:id`} element={<PortfolioCardUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.DeleteRoute}/:id`} element={<PortfolioCardDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute} element={<EventListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.CreateRoute} element={<EventCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.RetrieveRoute}/:id`} element={<EventRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.UpdateRoute}/:id`} element={<EventUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.DeleteRoute}/:id`} element={<EventDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute} element={<EventCardListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.CreateRoute} element={<EventCardCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.RetrieveRoute}/:id`} element={<EventCardRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.UpdateRoute}/:id`} element={<EventCardUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.DeleteRoute}/:id`} element={<EventCardDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute} element={<BlogListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.CreateRoute} element={<BlogCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.RetrieveRoute}/:id`} element={<BlogRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.UpdateRoute}/:id`} element={<BlogUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.DeleteRoute}/:id`} element={<BlogDeletePage6 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute} element={<BlogCardListPage6 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.CreateRoute} element={<BlogCardCreatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.RetrieveRoute}/:id`} element={<BlogCardRetrievePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.UpdateRoute}/:id`} element={<BlogCardUpdatePage6 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.DeleteRoute}/:id`} element={<BlogCardDeletePage6 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute} element={<ProjectSectionListPage6 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.CreateRoute} element={<ProjectSectionCreatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.RetrieveRoute}/:id`} element={<ProjectSectionRetrievePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.UpdateRoute}/:id`} element={<ProjectSectionUpdatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.DeleteRoute}/:id`} element={<ProjectSectionDeletePage6 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute} element={<ProjectGroupListPage6 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.CreateRoute} element={<ProjectGroupCreatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.RetrieveRoute}/:id`} element={<ProjectGroupRetrievePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.UpdateRoute}/:id`} element={<ProjectGroupUpdatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.DeleteRoute}/:id`} element={<ProjectGroupDeletePage6 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute} element={<ProjectListPage6 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.CreateRoute} element={<ProjectCreatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.RetrieveRoute}/:id`} element={<ProjectRetrievePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.UpdateRoute}/:id`} element={<ProjectUpdatePage6 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.DeleteRoute}/:id`} element={<ProjectDeletePage6 ReduxUltimate={Redux} />} />
+                          
                             </React.Fragment>
                           ) :
                           import.meta.env.VITE_APPLICATION === "BhagwadGitaApplication" ? ( 
@@ -1033,61 +961,43 @@ function App() {
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.RetrieveRoute}/:id`} element={<HeroRetrievePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.UpdateRoute}/:id`} element={<HeroUpdatePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.DeleteRoute}/:id`} element={<HeroDeletePage7 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute} element={<CounterListPage7 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.CreateRoute} element={<CounterCreatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.RetrieveRoute}/:id`} element={<CounterRetrievePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.UpdateRoute}/:id`} element={<CounterUpdatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.DeleteRoute}/:id`} element={<CounterDeletePage7 ReduxUltimate={Redux} />} />
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute} element={<AboutListPage7 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.CreateRoute} element={<AboutCreatePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.RetrieveRoute}/:id`} element={<AboutRetrievePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.UpdateRoute}/:id`} element={<AboutUpdatePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.DeleteRoute}/:id`} element={<AboutDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute} element={<ExperienceListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.CreateRoute} element={<ExperienceCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.RetrieveRoute}/:id`} element={<ExperienceRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.UpdateRoute}/:id`} element={<ExperienceUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.DeleteRoute}/:id`} element={<ExperienceDeletePage7 ReduxUltimate={Redux} />} />
-                            
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute} element={<ServiceListPage7 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.CreateRoute} element={<ServiceCreatePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.RetrieveRoute}/:id`} element={<ServiceRetrievePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.UpdateRoute}/:id`} element={<ServiceUpdatePage7 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.DeleteRoute}/:id`} element={<ServiceDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute} element={<PortfolioListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.CreateRoute} element={<PortfolioCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.RetrieveRoute}/:id`} element={<PortfolioRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.UpdateRoute}/:id`} element={<PortfolioUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.DeleteRoute}/:id`} element={<PortfolioDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute} element={<PortfolioCardListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.CreateRoute} element={<PortfolioCardCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.RetrieveRoute}/:id`} element={<PortfolioCardRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.UpdateRoute}/:id`} element={<PortfolioCardUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.DeleteRoute}/:id`} element={<PortfolioCardDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute} element={<EventListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.CreateRoute} element={<EventCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.RetrieveRoute}/:id`} element={<EventRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.UpdateRoute}/:id`} element={<EventUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.DeleteRoute}/:id`} element={<EventDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute} element={<EventCardListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.CreateRoute} element={<EventCardCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.RetrieveRoute}/:id`} element={<EventCardRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.UpdateRoute}/:id`} element={<EventCardUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.DeleteRoute}/:id`} element={<EventCardDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute} element={<BlogListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.CreateRoute} element={<BlogCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.RetrieveRoute}/:id`} element={<BlogRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.UpdateRoute}/:id`} element={<BlogUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.DeleteRoute}/:id`} element={<BlogDeletePage7 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute} element={<BlogCardListPage7 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.CreateRoute} element={<BlogCardCreatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.RetrieveRoute}/:id`} element={<BlogCardRetrievePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.UpdateRoute}/:id`} element={<BlogCardUpdatePage7 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.DeleteRoute}/:id`} element={<BlogCardDeletePage7 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute} element={<ProjectSectionListPage7 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.CreateRoute} element={<ProjectSectionCreatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.RetrieveRoute}/:id`} element={<ProjectSectionRetrievePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.UpdateRoute}/:id`} element={<ProjectSectionUpdatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.DeleteRoute}/:id`} element={<ProjectSectionDeletePage7 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute} element={<ProjectGroupListPage7 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.CreateRoute} element={<ProjectGroupCreatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.RetrieveRoute}/:id`} element={<ProjectGroupRetrievePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.UpdateRoute}/:id`} element={<ProjectGroupUpdatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.DeleteRoute}/:id`} element={<ProjectGroupDeletePage7 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute} element={<ProjectListPage7 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.CreateRoute} element={<ProjectCreatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.RetrieveRoute}/:id`} element={<ProjectRetrievePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.UpdateRoute}/:id`} element={<ProjectUpdatePage7 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.DeleteRoute}/:id`} element={<ProjectDeletePage7 ReduxUltimate={Redux} />} />
+                          
                             </React.Fragment>
                           ) :
                           import.meta.env.VITE_APPLICATION === "InterviewQuestionApplication" ? ( 
@@ -1097,61 +1007,43 @@ function App() {
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.RetrieveRoute}/:id`} element={<HeroRetrievePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.UpdateRoute}/:id`} element={<HeroUpdatePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.DeleteRoute}/:id`} element={<HeroDeletePage8 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute} element={<CounterListPage8 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.CreateRoute} element={<CounterCreatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.RetrieveRoute}/:id`} element={<CounterRetrievePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.UpdateRoute}/:id`} element={<CounterUpdatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.DeleteRoute}/:id`} element={<CounterDeletePage8 ReduxUltimate={Redux} />} />
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute} element={<AboutListPage8 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.CreateRoute} element={<AboutCreatePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.RetrieveRoute}/:id`} element={<AboutRetrievePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.UpdateRoute}/:id`} element={<AboutUpdatePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.DeleteRoute}/:id`} element={<AboutDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute} element={<ExperienceListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.CreateRoute} element={<ExperienceCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.RetrieveRoute}/:id`} element={<ExperienceRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.UpdateRoute}/:id`} element={<ExperienceUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.DeleteRoute}/:id`} element={<ExperienceDeletePage8 ReduxUltimate={Redux} />} />
-                            
+
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute} element={<ServiceListPage8 ReduxUltimate={Redux} />} />
                               <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.CreateRoute} element={<ServiceCreatePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.RetrieveRoute}/:id`} element={<ServiceRetrievePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.UpdateRoute}/:id`} element={<ServiceUpdatePage8 ReduxUltimate={Redux} />} />
                               <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.DeleteRoute}/:id`} element={<ServiceDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute} element={<PortfolioListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.CreateRoute} element={<PortfolioCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.RetrieveRoute}/:id`} element={<PortfolioRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.UpdateRoute}/:id`} element={<PortfolioUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.DeleteRoute}/:id`} element={<PortfolioDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute} element={<PortfolioCardListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.CreateRoute} element={<PortfolioCardCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.RetrieveRoute}/:id`} element={<PortfolioCardRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.UpdateRoute}/:id`} element={<PortfolioCardUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.DeleteRoute}/:id`} element={<PortfolioCardDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute} element={<EventListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.CreateRoute} element={<EventCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.RetrieveRoute}/:id`} element={<EventRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.UpdateRoute}/:id`} element={<EventUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.DeleteRoute}/:id`} element={<EventDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute} element={<EventCardListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.CreateRoute} element={<EventCardCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.RetrieveRoute}/:id`} element={<EventCardRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.UpdateRoute}/:id`} element={<EventCardUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.DeleteRoute}/:id`} element={<EventCardDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute} element={<BlogListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.CreateRoute} element={<BlogCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.RetrieveRoute}/:id`} element={<BlogRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.UpdateRoute}/:id`} element={<BlogUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.DeleteRoute}/:id`} element={<BlogDeletePage8 ReduxUltimate={Redux} />} />
-                            
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute} element={<BlogCardListPage8 ReduxUltimate={Redux} />} />
-                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.CreateRoute} element={<BlogCardCreatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.RetrieveRoute}/:id`} element={<BlogCardRetrievePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.UpdateRoute}/:id`} element={<BlogCardUpdatePage8 ReduxUltimate={Redux} />} />
-                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.DeleteRoute}/:id`} element={<BlogCardDeletePage8 ReduxUltimate={Redux} />} />
-                            
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute} element={<ProjectSectionListPage8 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.CreateRoute} element={<ProjectSectionCreatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.RetrieveRoute}/:id`} element={<ProjectSectionRetrievePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.UpdateRoute}/:id`} element={<ProjectSectionUpdatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.DeleteRoute}/:id`} element={<ProjectSectionDeletePage8 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute} element={<ProjectGroupListPage8 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.CreateRoute} element={<ProjectGroupCreatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.RetrieveRoute}/:id`} element={<ProjectGroupRetrievePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.UpdateRoute}/:id`} element={<ProjectGroupUpdatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.DeleteRoute}/:id`} element={<ProjectGroupDeletePage8 ReduxUltimate={Redux} />} />
+
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute} element={<ProjectListPage8 ReduxUltimate={Redux} />} />
+                              <Route path={RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.CreateRoute} element={<ProjectCreatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.RetrieveRoute}/:id`} element={<ProjectRetrievePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.UpdateRoute}/:id`} element={<ProjectUpdatePage8 ReduxUltimate={Redux} />} />
+                              <Route path={`${RouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.DeleteRoute}/:id`} element={<ProjectDeletePage8 ReduxUltimate={Redux} />} />
+                          
                             </React.Fragment>
                           ) : null
                         ) : null

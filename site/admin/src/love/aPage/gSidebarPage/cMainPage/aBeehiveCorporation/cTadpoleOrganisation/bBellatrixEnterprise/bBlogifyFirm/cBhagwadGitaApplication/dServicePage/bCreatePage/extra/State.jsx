@@ -12,13 +12,13 @@ const InitialState = {
 
 const ServiceCreatePageState = (state=InitialState, action) => {
 	switch (action.type) {
-		case 'form-object-hero-create-page':
+		case 'form-object-service-create-page':
 			return {...state, FormObject: action.payload}
-		case 'received-object-hero-create-page':
+		case 'received-object-service-create-page':
 			return {...state, ReceivedObject: action.payload}
-		case 'required-object-hero-create-page':
+		case 'required-object-service-create-page':
 			return {...state, RequiredObject: action.payload}
-		case 'extra-object-hero-create-page':
+		case 'extra-object-service-create-page':
 			return {...state, ExtraObject: action.payload}
 		default:
 			return state
@@ -26,10 +26,10 @@ const ServiceCreatePageState = (state=InitialState, action) => {
 }
 
 export const Action = {
-	FormObject: 'form-object-hero-create-page',
-	ReceivedObject: 'received-object-hero-create-page',
-	RequiredObject: 'required-object-hero-create-page',
-	ExtraObject: 'extra-object-hero-create-page',
+	FormObject: 'form-object-service-create-page',
+	ReceivedObject: 'received-object-service-create-page',
+	RequiredObject: 'required-object-service-create-page',
+	ExtraObject: 'extra-object-service-create-page',
 }  
 
 export default ServiceCreatePageState

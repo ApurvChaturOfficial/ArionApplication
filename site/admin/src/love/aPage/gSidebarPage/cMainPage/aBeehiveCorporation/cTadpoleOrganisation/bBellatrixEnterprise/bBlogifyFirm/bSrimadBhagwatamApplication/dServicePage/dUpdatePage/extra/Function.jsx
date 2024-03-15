@@ -3,10 +3,6 @@ const Function = {
   validateFormValues: FormValue => {
 		const errors = {}
 
-		// image
-		if (!FormValue.image) {
-			errors.image = "Please select image"
-		}
 		// title
 		if (!FormValue.title) {
 			errors.title = "Please enter title"

@@ -74,9 +74,18 @@ const Data = (Redux, id) => {
               values: [],  
             },
             {
-              display: false,
+              display: true,
               title: "More Info",
-              values: [],  
+              values: [
+                {
+                  label: "Tag",
+                  value: Redux.state.ReceivedObject?.Retrieve["tag"]
+                },
+                {
+                  label: "Type",
+                  value: Redux.state.ReceivedObject?.Retrieve["type"]
+                },
+              ],  
             },
           ],
         },

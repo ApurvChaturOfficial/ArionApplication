@@ -1,4 +1,3 @@
-
 import API from "@/love/aAPI/API";
 import loading from "@/love/dFunction/fLoading";
 import FinalRouteName from "@/love/gRoute/FinalRouteName";
@@ -22,8 +21,8 @@ const APIs = {
             image: serverResponse.retrieve.aImage,
             title: serverResponse.retrieve.aTitle,
             subtitle: serverResponse.retrieve.aSubtitle,
-            description: serverResponse.retrieve.aDescription,
             detail: serverResponse.retrieve.aDetail,
+            description: serverResponse.retrieve.aDescription,
             slug: serverResponse.retrieve.aSlug,
             status: serverResponse.retrieve.aStatus === true ? 'Active' : 'Inactive',
 
@@ -31,6 +30,11 @@ const APIs = {
             createdAt: moment(serverResponse.retrieve.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
             updatedBy: serverResponse.retrieve.bUpdatedBy,
             updatedAt: moment(serverResponse.retrieve.bUpdatedAt).format('MMM Do YYYY, h:mm:ss a'),
+
+            tag: serverResponse.retrieve.dTag,
+            type: serverResponse.retrieve.dType,
+            socialLinks: serverResponse.retrieve.dSocialLinks,
+            webLinks: serverResponse.retrieve.dWebLinks,
           }
         }})
       }
@@ -54,14 +58,17 @@ const APIs = {
       if (serverResponse.success === true) {
         toast({
           description: serverResponse.message,
-        }); 
+        });        
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute)
       }
     })
     .catch(error => {
         // console.log(error.response.data);
         const serverResponse = error.response.data
-    })
+        toast({
+          description: serverResponse.message,
+        });
+      })
     .finally(() => loading(ReduxUltimate, false) );
   },
 }

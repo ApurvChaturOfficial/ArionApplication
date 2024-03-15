@@ -2257,6 +2257,50 @@ const API = {
 										)
 									}, 
 								},		
+								CounterAPI: {
+									ListAPI: (props) => {
+										return (
+											APIBase({
+												method: "GET",
+												url: `/api/v1/counter/list`,
+											})
+										)
+									}, 
+									CreateAPI: (props) => {
+										return (
+											APIBase({
+												method: "POST",
+												url: `/api/v1/counter/create`,
+												data: props.data,
+											})
+										)
+									}, 
+									RetrieveAPI: (props) => {
+										return (
+											APIBase({
+												method: "GET",
+												url: `/api/v1/counter/retrieve/${props.id}`,
+											})
+										)
+									}, 
+									UpdateAPI: (props) => {
+										return (
+											APIBase({
+												method: "PUT",
+												url: `/api/v1/counter/update/${props.id}`,
+												data: props.data,
+											})
+										)
+									}, 
+									DeleteAPI: (props) => {
+										return (
+											APIBase({
+												method: "DELETE",
+												url: `/api/v1/counter/delete/${props.id}`,
+											})
+										)
+									}, 
+								},		
 								AboutAPI: {
 									ListAPI: (props) => {
 										return (
@@ -2297,50 +2341,6 @@ const API = {
 											APIBase({
 												method: "DELETE",
 												url: `/api/v1/about/delete/${props.id}`,
-											})
-										)
-									}, 
-								},		
-								ExperienceAPI: {
-									ListAPI: (props) => {
-										return (
-											APIBase({
-												method: "GET",
-												url: `/api/v1/experience/list`,
-											})
-										)
-									}, 
-									CreateAPI: (props) => {
-										return (
-											APIBase({
-												method: "POST",
-												url: `/api/v1/experience/create`,
-												data: props.data,
-											})
-										)
-									}, 
-									RetrieveAPI: (props) => {
-										return (
-											APIBase({
-												method: "GET",
-												url: `/api/v1/experience/retrieve/${props.id}`,
-											})
-										)
-									}, 
-									UpdateAPI: (props) => {
-										return (
-											APIBase({
-												method: "PUT",
-												url: `/api/v1/experience/update/${props.id}`,
-												data: props.data,
-											})
-										)
-									}, 
-									DeleteAPI: (props) => {
-										return (
-											APIBase({
-												method: "DELETE",
-												url: `/api/v1/experience/delete/${props.id}`,
 											})
 										)
 									}, 
@@ -2389,12 +2389,12 @@ const API = {
 										)
 									}, 
 								},		
-								PortfolioAPI: {
+								BranchAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/portfolio/list`,
+												url: `/api/v1/branch/list`,
 											})
 										)
 									}, 
@@ -2402,7 +2402,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/portfolio/create`,
+												url: `/api/v1/branch/create`,
 												data: props.data,
 											})
 										)
@@ -2411,7 +2411,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/portfolio/retrieve/${props.id}`,
+												url: `/api/v1/branch/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2419,7 +2419,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/portfolio/update/${props.id}`,
+												url: `/api/v1/branch/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2428,17 +2428,17 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/portfolio/delete/${props.id}`,
+												url: `/api/v1/branch/delete/${props.id}`,
 											})
 										)
 									}, 
 								},		
-								PortfolioCardAPI: {
+								SubBranchAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/portfolio-card/list`,
+												url: `/api/v1/sub-branch/list`,
 											})
 										)
 									}, 
@@ -2446,7 +2446,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/portfolio-card/create`,
+												url: `/api/v1/sub-branch/create`,
 												data: props.data,
 											})
 										)
@@ -2455,7 +2455,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/portfolio-card/retrieve/${props.id}`,
+												url: `/api/v1/sub-branch/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2463,7 +2463,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/portfolio-card/update/${props.id}`,
+												url: `/api/v1/sub-branch/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2472,17 +2472,17 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/portfolio-card/delete/${props.id}`,
+												url: `/api/v1/sub-branch/delete/${props.id}`,
 											})
 										)
 									}, 
 								},		
-								EventAPI: {
+								SubSubBranchAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/event/list`,
+												url: `/api/v1/sub-sub-branch/list`,
 											})
 										)
 									}, 
@@ -2490,7 +2490,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/event/create`,
+												url: `/api/v1/sub-sub-branch/create`,
 												data: props.data,
 											})
 										)
@@ -2499,7 +2499,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/event/retrieve/${props.id}`,
+												url: `/api/v1/sub-sub-branch/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2507,7 +2507,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/event/update/${props.id}`,
+												url: `/api/v1/sub-sub-branch/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2516,17 +2516,17 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/event/delete/${props.id}`,
+												url: `/api/v1/sub-sub-branch/delete/${props.id}`,
 											})
 										)
 									}, 
 								},		
-								EventCardAPI: {
+								ProjectSectionAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/event-card/list`,
+												url: `/api/v1/project-section/list`,
 											})
 										)
 									}, 
@@ -2534,7 +2534,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/event-card/create`,
+												url: `/api/v1/project-section/create`,
 												data: props.data,
 											})
 										)
@@ -2543,7 +2543,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/event-card/retrieve/${props.id}`,
+												url: `/api/v1/project-section/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2551,7 +2551,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/event-card/update/${props.id}`,
+												url: `/api/v1/project-section/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2560,17 +2560,17 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/event-card/delete/${props.id}`,
+												url: `/api/v1/project-section/delete/${props.id}`,
 											})
 										)
 									}, 
 								},		
-								BlogAPI: {
+								ProjectGroupAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/blog/list`,
+												url: `/api/v1/project-group/list`,
 											})
 										)
 									}, 
@@ -2578,7 +2578,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/blog/create`,
+												url: `/api/v1/project-group/create`,
 												data: props.data,
 											})
 										)
@@ -2587,7 +2587,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/blog/retrieve/${props.id}`,
+												url: `/api/v1/project-group/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2595,7 +2595,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/blog/update/${props.id}`,
+												url: `/api/v1/project-group/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2604,17 +2604,17 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/blog/delete/${props.id}`,
+												url: `/api/v1/project-group/delete/${props.id}`,
 											})
 										)
 									}, 
 								},		
-								BlogCardAPI: {
+								ProjectAPI: {
 									ListAPI: (props) => {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/blog-card/list`,
+												url: `/api/v1/project/list`,
 											})
 										)
 									}, 
@@ -2622,7 +2622,7 @@ const API = {
 										return (
 											APIBase({
 												method: "POST",
-												url: `/api/v1/blog-card/create`,
+												url: `/api/v1/project/create`,
 												data: props.data,
 											})
 										)
@@ -2631,7 +2631,7 @@ const API = {
 										return (
 											APIBase({
 												method: "GET",
-												url: `/api/v1/blog-card/retrieve/${props.id}`,
+												url: `/api/v1/project/retrieve/${props.id}`,
 											})
 										)
 									}, 
@@ -2639,7 +2639,7 @@ const API = {
 										return (
 											APIBase({
 												method: "PUT",
-												url: `/api/v1/blog-card/update/${props.id}`,
+												url: `/api/v1/project/update/${props.id}`,
 												data: props.data,
 											})
 										)
@@ -2648,7 +2648,7 @@ const API = {
 										return (
 											APIBase({
 												method: "DELETE",
-												url: `/api/v1/blog-card/delete/${props.id}`,
+												url: `/api/v1/project/delete/${props.id}`,
 											})
 										)
 									}, 

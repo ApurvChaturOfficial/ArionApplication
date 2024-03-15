@@ -8,7 +8,6 @@ import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
 import { useToast } from '@/components/ui/use-toast';
-import EventHandler from './extra/EventHandler';
 
 
 const ServiceCreatePage = ({ ReduxUltimate }) => {
@@ -29,23 +28,6 @@ const ServiceCreatePage = ({ ReduxUltimate }) => {
 	}		
 
   // All Render
-	// First Render
-	useEffect(() => {
-		Redux.dispatch({ type: Redux.action.FormObject, payload: {
-			...Redux.state.FormObject,
-			FormValue: {
-				...Redux.state.FormObject.FormValue,
-				cards: [{
-					title: "",
-					subtitle: "",
-					points: [{
-						title: "",
-					}],
-				}],
-			}
-		} })
-	}, [])
-	
 	// Submit Render
 	useEffect(() => {
 		submitFormObject(Redux, APICalls.CreateAPICall)
@@ -60,7 +42,7 @@ const ServiceCreatePage = ({ ReduxUltimate }) => {
   return (
     <React.Fragment>
 			{ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Service')[0]?.access?.create ? 
-				<MainSection2 Data={Data(Redux, EventHandler)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
+				<MainSection2 Data={Data(Redux)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
 				:
 				"Fuck Off! You don't have access to this route."
 			}

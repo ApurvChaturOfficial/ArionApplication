@@ -27,12 +27,14 @@ const APIs = {
             status: serverResponse.retrieve.aStatus === true ? 'Active' : 'Inactive',
 
             createdBy: serverResponse.retrieve.bCreatedBy,
-            createdAt: moment(serverResponse.retrieve.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
+            createdAt: serverResponse.retrieve.bCreatedAt,
             updatedBy: serverResponse.retrieve.bUpdatedBy,
-            updatedAt: moment(serverResponse.retrieve.bUpdatedAt).format('MMM Do YYYY, h:mm:ss a'),
+            updatedAt: serverResponse.retrieve.bUpdatedAt,
 
-            links: serverResponse.retrieve.dLinks,
-            resume: serverResponse.retrieve.dResume,
+            tag: serverResponse.retrieve.dTag,
+            type: serverResponse.retrieve.dType,
+            socialLinks: serverResponse.retrieve.dSocialLinks,
+            webLinks: serverResponse.retrieve.dWebLinks,
           }
         }})
       }
@@ -58,8 +60,10 @@ const APIs = {
         aImage: Redux.state.FormObject.FormValue.image,
         aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false,
 
-        dLinks: Redux.state.FormObject.FormValue.links,
-        dResume: Redux.state.FormObject.FormValue.resume,
+        dTag: Redux.state.FormObject.FormValue.tag,
+        dType: Redux.state.FormObject.FormValue.type,
+        dSocialLinks: Redux.state.FormObject.FormValue.socialLinks,
+        dWebLinks: Redux.state.FormObject.FormValue.webLinks,
 			}
     })
     .then(response => {
@@ -69,7 +73,7 @@ const APIs = {
       if (serverResponse.success === true) {
         toast({
           description: serverResponse.message,
-        });
+        });        
         clearFormObject(Redux)
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute)
       }
@@ -77,6 +81,9 @@ const APIs = {
     .catch(error => {
         // console.log(error.response.data);
         const serverResponse = error.response?.data
+        toast({
+          description: serverResponse.message,
+        });
     })
     .finally(() => loading(ReduxUltimate, false) );
   },

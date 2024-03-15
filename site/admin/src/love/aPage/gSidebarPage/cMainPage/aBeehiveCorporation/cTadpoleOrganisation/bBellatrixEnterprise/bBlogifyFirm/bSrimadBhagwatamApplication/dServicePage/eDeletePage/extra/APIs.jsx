@@ -2,6 +2,7 @@
 import API from "@/love/aAPI/API";
 import loading from "@/love/dFunction/fLoading";
 import FinalRouteName from "@/love/gRoute/FinalRouteName";
+import moment from "moment";
 
 const APIs = {
   // Retrieve API
@@ -22,13 +23,14 @@ const APIs = {
             title: serverResponse.retrieve.aTitle,
             subtitle: serverResponse.retrieve.aSubtitle,
             description: serverResponse.retrieve.aDescription,
+            detail: serverResponse.retrieve.aDetail,
             slug: serverResponse.retrieve.aSlug,
             status: serverResponse.retrieve.aStatus === true ? 'Active' : 'Inactive',
 
             createdBy: serverResponse.retrieve.bCreatedBy,
-            createdAt: serverResponse.retrieve.bCreatedAt,
+            createdAt: moment(serverResponse.retrieve.bCreatedAt).format('MMM Do YYYY, h:mm:ss a'),
             updatedBy: serverResponse.retrieve.bUpdatedBy,
-            updatedAt: serverResponse.retrieve.bUpdatedAt,
+            updatedAt: moment(serverResponse.retrieve.bUpdatedAt).format('MMM Do YYYY, h:mm:ss a'),
           }
         }})
       }
@@ -41,7 +43,7 @@ const APIs = {
   },
 
    // Delete API
-   DeleteAPI: (Redux, ReduxUltimate, id, navigate) => {
+   DeleteAPI: (Redux, ReduxUltimate, id, navigate, toast) => {
     loading(ReduxUltimate, true)
 
     API.ContentAPI.SidebarAPI.MainAPI.ServiceAPI.DeleteAPI({id})
@@ -52,7 +54,7 @@ const APIs = {
       if (serverResponse.success === true) {
         toast({
           description: serverResponse.message,
-        });
+        }); 
         navigate(FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute)
       }
     })

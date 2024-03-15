@@ -233,155 +233,110 @@ const items = (ReduxUltimate) => {
               mainItems.push({ title: "Program", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProgramRoute.ListRoute }))
     
           ) :
-          import.meta.env.VITE_APPLICATION === "SrimadBhagwatamApplication" ? ( 
+          import.meta.env.VITE_APPLICATION === "SrimadBhagwatamApplication" ? (
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Hero')[0]?.access?.list &&
               mainItems.push({ title: "Hero", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute }))
     
             &&
-        
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Counter')[0]?.access?.list &&
+              mainItems.push({ title: "Counter", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute }))
+    
+            &&
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'About')[0]?.access?.list &&
               mainItems.push({ title: "About", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Experience')[0]?.access?.list &&
-              mainItems.push({ title: "Experience", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute }))
-    
-            &&
-        
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Service')[0]?.access?.list &&
               mainItems.push({ title: "Service", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Section')[0]?.access?.list &&
+              mainItems.push({ title: "Project Section", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio Card')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Group')[0]?.access?.list &&
+              mainItems.push({ title: "Project Group", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event')[0]?.access?.list &&
-              mainItems.push({ title: "Event", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event Card')[0]?.access?.list &&
-              mainItems.push({ title: "Event Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog')[0]?.access?.list &&
-              mainItems.push({ title: "Blog", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog Card')[0]?.access?.list &&
-              mainItems.push({ title: "Blog Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute }))
-    
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project')[0]?.access?.list &&
+              mainItems.push({ title: "Project", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute }))
+              
           ) : 
-          import.meta.env.VITE_APPLICATION === "BhagwadGitaApplication" ? ( 
+          import.meta.env.VITE_APPLICATION === "BhagwadGitaApplication" ? (
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Hero')[0]?.access?.list &&
               mainItems.push({ title: "Hero", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute }))
     
             &&
-        
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Counter')[0]?.access?.list &&
+              mainItems.push({ title: "Counter", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute }))
+    
+            &&
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'About')[0]?.access?.list &&
               mainItems.push({ title: "About", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Experience')[0]?.access?.list &&
-              mainItems.push({ title: "Experience", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute }))
-    
-            &&
-        
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Service')[0]?.access?.list &&
               mainItems.push({ title: "Service", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Section')[0]?.access?.list &&
+              mainItems.push({ title: "Project Section", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio Card')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Group')[0]?.access?.list &&
+              mainItems.push({ title: "Project Group", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event')[0]?.access?.list &&
-              mainItems.push({ title: "Event", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event Card')[0]?.access?.list &&
-              mainItems.push({ title: "Event Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog')[0]?.access?.list &&
-              mainItems.push({ title: "Blog", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog Card')[0]?.access?.list &&
-              mainItems.push({ title: "Blog Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute }))
-    
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project')[0]?.access?.list &&
+              mainItems.push({ title: "Project", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute }))
+              
           ) : 
-          import.meta.env.VITE_APPLICATION === "InterviewQuestionApplication" ? ( 
+          import.meta.env.VITE_APPLICATION === "InterviewQuestionApplication" ? (
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Hero')[0]?.access?.list &&
               mainItems.push({ title: "Hero", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute }))
     
             &&
-        
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Counter')[0]?.access?.list &&
+              mainItems.push({ title: "Counter", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.CounterRoute.ListRoute }))
+    
+            &&
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'About')[0]?.access?.list &&
               mainItems.push({ title: "About", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.AboutRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Experience')[0]?.access?.list &&
-              mainItems.push({ title: "Experience", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ExperienceRoute.ListRoute }))
-    
-            &&
-        
+            
             (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Service')[0]?.access?.list &&
               mainItems.push({ title: "Service", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ServiceRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Section')[0]?.access?.list &&
+              mainItems.push({ title: "Project Section", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectSectionRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Portfolio Card')[0]?.access?.list &&
-              mainItems.push({ title: "Portfolio Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.PortfolioCardRoute.ListRoute }))
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project Group')[0]?.access?.list &&
+              mainItems.push({ title: "Project Group", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectGroupRoute.ListRoute }))
     
             &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event')[0]?.access?.list &&
-              mainItems.push({ title: "Event", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Event Card')[0]?.access?.list &&
-              mainItems.push({ title: "Event Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.EventCardRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog')[0]?.access?.list &&
-              mainItems.push({ title: "Blog", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogRoute.ListRoute }))
-    
-            &&
-        
-            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Blog Card')[0]?.access?.list &&
-              mainItems.push({ title: "Blog Card", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.BlogCardRoute.ListRoute }))
-    
+            
+            (ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Project')[0]?.access?.list &&
+              mainItems.push({ title: "Project", href: FinalRouteName.ContentRoute.SidebarRoute.MainRoute.ProjectRoute.ListRoute }))
+              
           ) : null
         ) : null
       ) :

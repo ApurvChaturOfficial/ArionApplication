@@ -3,7 +3,7 @@ import Function from "./Function"
 import handleInput from "@/love/dFunction/dHandleInput"
 import validateFormObject from "@/love/dFunction/bValidateFormObject"
 
-const Data = (Redux, id, EventHandler) => {
+const Data = (Redux, id) => {
   return (
     {
       header: {
@@ -55,17 +55,29 @@ const Data = (Redux, id, EventHandler) => {
                 {
                   label: "Description",
                   placeholder: "Description",
-                  type: "text",
+                  type: "text-area",
                   name: "description",
                   onChange: event => handleInput(event, Redux),
                   value: Redux.state.FormObject.FormValue?.description
-                },    
+                },  
+                {
+                  label: "Detail",
+                  placeholder: "Detail",
+                  type: "text-area",
+                  name: "detail",
+                  onChange: event => handleInput(event, Redux),
+                  value: Redux.state.FormObject.FormValue?.detail
+                },      
                 {
                   label: "Status",
                   placeholder: "Status",
-                  type: "radio",
+                  type: "radio-new",
                   name: "status",
-                  value: Redux.state.FormObject.FormValue?.status === 'Active' ? true : false,
+                  value: Redux.state.FormObject.FormValue?.status,
+                  options: [
+                    { label: "Active", value: "Active" },
+                    { label: "Inactive", value: "Inactive" },
+                  ],
                   onChange: event => Redux.dispatch({
                     type: Redux.action.FormObject,
                     payload: {
@@ -90,23 +102,9 @@ const Data = (Redux, id, EventHandler) => {
               inputs: [],  
             },
             {
-              display: true,
+              display: false,
               title: "More Info",
-              inputs: [
-                {
-                  label: "Cards",
-                  placeholder: "Cards",
-                  type: "dynamic-multiple",
-                  name: "cards",
-                  onChange: (event, index) => EventHandler.Card.Change(event, Redux, index),
-                  onAdd: () => EventHandler.Card.Add(Redux),
-                  onRemove: (index) => EventHandler.Card.Remove(Redux, index),
-                  onChange2: (event, index, index2) => EventHandler.Point.Change(event, Redux, index, index2),
-                  onAdd2: (index) => EventHandler.Point.Add(Redux, index),
-                  onRemove2: (index, index2) => EventHandler.Point.Remove(Redux, index, index2),
-                  inputs: Redux.state.FormObject.FormValue?.cards
-                },
-              ],  
+              inputs: [],  
             },
           ],
           buttons: [

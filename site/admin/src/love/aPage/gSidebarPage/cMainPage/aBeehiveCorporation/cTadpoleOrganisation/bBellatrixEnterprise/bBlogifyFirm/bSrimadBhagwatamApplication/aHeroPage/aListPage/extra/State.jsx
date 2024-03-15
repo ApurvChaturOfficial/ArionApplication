@@ -1,5 +1,5 @@
 const InitialState = {
-	A: "Bro... Inside Hero2ListPageState",
+	A: "Bro... Inside HeroListPageState",
 	FormObject: {
 		FormValue: {},
 		FormError: {},

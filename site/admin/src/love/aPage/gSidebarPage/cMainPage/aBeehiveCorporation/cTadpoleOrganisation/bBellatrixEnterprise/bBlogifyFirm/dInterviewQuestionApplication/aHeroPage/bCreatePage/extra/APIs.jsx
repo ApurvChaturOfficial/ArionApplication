@@ -16,8 +16,10 @@ const APIs = {
         aImage: Redux.state.FormObject.FormValue.image,
         aStatus: Redux.state.FormObject.FormValue.status === 'Active' ? true : false,
 
-        dLinks: Redux.state.FormObject.FormValue.links,
-        dResume: Redux.state.FormObject.FormValue.resume,
+        dTag: Redux.state.FormObject.FormValue.tag,
+        dType: Redux.state.FormObject.FormValue.type,
+        dSocialLinks: Redux.state.FormObject.FormValue.socialLinks,
+        dWebLinks: Redux.state.FormObject.FormValue.webLinks,
 			}
     })
     .then(response => {
@@ -35,6 +37,9 @@ const APIs = {
     .catch(error => {
         // console.log(error.response.data);
         const serverResponse = error.response?.data
+        toast({
+          description: serverResponse.message,
+        });
     })
     .finally(() => loading(ReduxUltimate, false) );
   },

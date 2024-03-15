@@ -1,15 +1,14 @@
 const EventHandler = {
-	Link: {
+	SocialLink: {
 		Add: Redux => {
 			return (
 				Redux.dispatch({ type: Redux.action.FormObject, payload: {
 					...Redux.state.FormObject,
 					FormValue: {
 						...Redux.state.FormObject.FormValue,
-						links: [
-							...Redux.state.FormObject.FormValue.links, {
+						socialLinks: [
+							...Redux.state.FormObject.FormValue.socialLinks, {
 							title: "",
-							icon: "",
 							url: "",
 						}]
 					}
@@ -22,9 +21,9 @@ const EventHandler = {
 					...Redux.state.FormObject,
 					FormValue: {
 						...Redux.state.FormObject.FormValue,
-						links: [
-							...Redux.state.FormObject.FormValue.links.slice(0, index),
-							...Redux.state.FormObject.FormValue.links.slice(index + 1)
+						socialLinks: [
+							...Redux.state.FormObject.FormValue.socialLinks.slice(0, index),
+							...Redux.state.FormObject.FormValue.socialLinks.slice(index + 1)
 						]
 					}
 				} })                        
@@ -34,7 +33,7 @@ const EventHandler = {
 			let {name, value} = event.target
 
 
-			let links1 = Redux.state.FormObject.FormValue.links
+			let links1 = Redux.state.FormObject.FormValue.socialLinks
 			links1[index] = {
 				...links1[index],
 				[name]: value
@@ -47,7 +46,62 @@ const EventHandler = {
 						...Redux.state.FormObject,
 						FormValue: {
 							...Redux.state.FormObject.FormValue,
-							links: links1
+							socialLinks: links1
+						},
+					},
+				})
+			)
+		}
+	},
+
+	WebLink: {
+		Add: Redux => {
+			return (
+				Redux.dispatch({ type: Redux.action.FormObject, payload: {
+					...Redux.state.FormObject,
+					FormValue: {
+						...Redux.state.FormObject.FormValue,
+						webLinks: [
+							...Redux.state.FormObject.FormValue.webLinks, {
+							title: "",
+							url: "",
+						}]
+					}
+				} })                        
+			)
+		},
+		Remove: (Redux, index) => {
+			return (
+				Redux.dispatch({ type: Redux.action.FormObject, payload: {
+					...Redux.state.FormObject,
+					FormValue: {
+						...Redux.state.FormObject.FormValue,
+						webLinks: [
+							...Redux.state.FormObject.FormValue.webLinks.slice(0, index),
+							...Redux.state.FormObject.FormValue.webLinks.slice(index + 1)
+						]
+					}
+				} })                        
+			)
+		},
+		Change: (event, Redux, index) => {
+			let {name, value} = event.target
+
+
+			let links1 = Redux.state.FormObject.FormValue.webLinks
+			links1[index] = {
+				...links1[index],
+				[name]: value
+			}
+
+			return (
+				Redux.dispatch({
+					type: Redux.action.FormObject,
+					payload: {
+						...Redux.state.FormObject,
+						FormValue: {
+							...Redux.state.FormObject.FormValue,
+							webLinks: links1
 						},
 					},
 				})

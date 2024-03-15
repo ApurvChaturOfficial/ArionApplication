@@ -34,7 +34,7 @@ const Data = (Redux, id, EventHandler) => {
                   type: "file",
                   name: "image",
                   onChange: event => handleInput(event, Redux),
-                  value: Redux.state.FormObject.FormValue?.image?.url,
+                  // value: Redux.state.FormObject.FormValue?.image
                 },
                 {
                   label: "Title",
@@ -106,22 +106,44 @@ const Data = (Redux, id, EventHandler) => {
               title: "More Info",
               inputs: [
                 {
-                  label: "Resume",
-                  placeholder: "Resume",
-                  type: "file",
-                  name: "resume",
-                  value: Redux.state.FormObject.FormValue?.resume?.url,
+                  label: "Tag",
+                  placeholder: "Tag",
+                  type: "text",
+                  name: "tag",
                   onChange: event => handleInput(event, Redux),
+                  value: Redux.state.FormObject.FormValue?.tag,
+                },    
+                {
+                  label: "Type",
+                  placeholder: "Type",
+                  type: "radio-new",
+                  name: "type",
+                  onChange: event => handleInput(event, Redux),
+                  value: Redux.state.FormObject.FormValue?.type,
+                  options: [
+                    { label: "Frontend", value: "Frontend" },
+                    { label: "Admin", value: "Admin" },
+                  ]
                 },
                 {
-                  label: "Links",
-                  placeholder: "Links",
+                  label: "Web Links",
+                  placeholder: "Web Links",
                   type: "dynamic-multiple",
-                  name: "links",
-                  onChange: (event, index) => EventHandler.Link.Change(event, Redux, index),
-                  onAdd: () => EventHandler.Link.Add(Redux),
-                  onRemove: (index) => EventHandler.Link.Remove(Redux, index),
-                  inputs: Redux.state.FormObject.FormValue?.links
+                  name: "webLinks",
+                  onChange: (event, index) => EventHandler.WebLink.Change(event, Redux, index),
+                  onAdd: () => EventHandler.WebLink.Add(Redux),
+                  onRemove: (index) => EventHandler.WebLink.Remove(Redux, index),
+                  inputs: Redux.state.FormObject.FormValue?.webLinks
+                },
+                {
+                  label: "Social Links",
+                  placeholder: "Social Links",
+                  type: "dynamic-multiple",
+                  name: "socialLinks",
+                  onChange: (event, index) => EventHandler.SocialLink.Change(event, Redux, index),
+                  onAdd: () => EventHandler.SocialLink.Add(Redux),
+                  onRemove: (index) => EventHandler.SocialLink.Remove(Redux, index),
+                  inputs: Redux.state.FormObject.FormValue?.socialLinks
                 },
               ],  
             },

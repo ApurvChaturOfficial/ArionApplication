@@ -7,8 +7,8 @@ import APIs from './extra/APIs';
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
-import { useToast } from '@/components/ui/use-toast';
 import EventHandler from './extra/EventHandler';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const HeroCreatePage = ({ ReduxUltimate }) => {
@@ -35,11 +35,14 @@ const HeroCreatePage = ({ ReduxUltimate }) => {
 			...Redux.state.FormObject,
 			FormValue: {
 				...Redux.state.FormObject.FormValue,
-				links: [{
+				socialLinks: [{
 					title: "",
-					icon: "",
 					url: "",
 				}],
+				webLinks: [{
+					title: "",
+					url: "",
+				}]
 			}
 		} })
 	}, [])

@@ -47,6 +47,10 @@ const Data = (Redux, id) => {
                   value: Redux.state.ReceivedObject?.Retrieve["description"]
                 },
                 {
+                  label: "Detail",
+                  value: Redux.state.ReceivedObject?.Retrieve["detail"]
+                },
+                {
                   label: "Slug",
                   value: Redux.state.ReceivedObject?.Retrieve["slug"]
                 },
@@ -80,9 +84,28 @@ const Data = (Redux, id) => {
               values: [],  
             },
             {
-              display: false,
+              display: true,
               title: "More Info",
-              values: [],  
+              values: [
+                {
+                  label: "Tag",
+                  value: Redux.state.ReceivedObject?.Retrieve["tag"]
+                },
+                {
+                  label: "Type",
+                  value: Redux.state.ReceivedObject?.Retrieve["type"]
+                },
+                {
+                  type: "links2",
+                  label: "Social Links",
+                  value: Redux.state.ReceivedObject?.Retrieve["socialLinks"]
+                },
+                {
+                  type: "links1",
+                  label: "Web Links",
+                  value: Redux.state.ReceivedObject?.Retrieve["webLinks"]
+                },
+              ],  
             },
           ],
         },

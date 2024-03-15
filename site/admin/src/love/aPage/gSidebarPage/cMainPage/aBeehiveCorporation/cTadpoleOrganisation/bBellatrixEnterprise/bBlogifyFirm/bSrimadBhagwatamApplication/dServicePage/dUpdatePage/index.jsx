@@ -6,7 +6,7 @@ import APIs from './extra/APIs';
 import { useNavigate, useParams } from 'react-router-dom';
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 import MainSection2 from '@/love/aComponent/gSidebarComponent/children/aMain2';
-import EventHandler from './extra/EventHandler';
+import { useToast } from '@/components/ui/use-toast';
 
 
 const ServiceUpdatePage = ({ ReduxUltimate }) => {
@@ -25,7 +25,7 @@ const ServiceUpdatePage = ({ ReduxUltimate }) => {
 	// API Calls
 	const APICalls = {
 		RetrieveAPICall: () => APIs.RetrieveAPI(Redux, ReduxUltimate, id),
-		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate),
+		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate, toast),
 	}		
 
   // All Render
@@ -48,7 +48,7 @@ const ServiceUpdatePage = ({ ReduxUltimate }) => {
   return (
     <React.Fragment>
 			{ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Service')[0]?.access?.update ? 
-				<MainSection2 Data={Data(Redux, id, EventHandler)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
+				<MainSection2 Data={Data(Redux, id)} Redux={Redux} ReduxUltimate={ReduxUltimate} />
 				:
 				"Fuck Off! You don't have access to this route."
 			}
