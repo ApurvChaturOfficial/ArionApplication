@@ -14,6 +14,11 @@ import techfolio from "@/love/hAsset/business/13.png";
 import apurvchatur from "@/love/hAsset/business/14.png";
 import anushreemandape from "@/love/hAsset/business/15.png";
 import sofieberkin from "@/love/hAsset/business/16.png";
+import blogify from "@/love/hAsset/business/17.png";
+import srimadbhagwatam from "@/love/hAsset/business/18.png";
+import bhagwadgita from "@/love/hAsset/business/19.png";
+import interviewquestion from "@/love/hAsset/business/20.png";
+import swifttalk from "@/love/hAsset/business/21.png";
 
 
 const brand = () => {
@@ -57,7 +62,7 @@ const brand = () => {
 							switch (import.meta.env.VITE_APPLICATION) {
 								case 'SwiftTalkApplication':
 									brandObject = {
-										logo: abol,
+										logo: swifttalk,
 										name: "Swift Talk",
 									}
 									break;
@@ -178,25 +183,25 @@ const brand = () => {
 									switch (import.meta.env.VITE_APPLICATION) {
 										case 'BlogifyApplication':
 											brandObject = {
-												logo: techfolio,
+												logo: blogify,
 												name: "Blogify Firm",
 											}
 											break;
 										case 'SrimadBhagwatamApplication':
 											brandObject = {
-												logo: apurvchatur,
+												logo: srimadbhagwatam,
 												name: "Srimad Bhagwatam",
 											}
 											break;
 										case 'BhagwadGitaApplication':
 											brandObject = {
-												logo: anushreemandape,
+												logo: bhagwadgita,
 												name: "Bhagwad Gita",
 											}
 											break;
 										case 'InterviewQuestionApplication':
 											brandObject = {
-												logo: sofieberkin,
+												logo: interviewquestion,
 												name: "Interview Question",
 											}
 											break;

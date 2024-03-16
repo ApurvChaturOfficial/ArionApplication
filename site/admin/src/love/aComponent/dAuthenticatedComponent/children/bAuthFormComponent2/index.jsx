@@ -5,7 +5,7 @@ import { Label } from '@/components/ui/label';
 import { cn } from '@/lib/utils';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Image1 from '@/love/hAsset/wallpaper/summer.jpg'
+import Image1 from '@/love/hAsset/wallpaper/lady.jpeg'
 import { Separator } from '@/components/ui/separator';
 
 
