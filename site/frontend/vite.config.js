@@ -12,8 +12,8 @@ export default defineConfig({
         "name":"Arion",
         "short_name":"Arion",
         "display": "standalone",
-        "background_color": "#071952",
-        "theme_color": "#071952",
+        "background_color": "#420516",
+        "theme_color": "#420516",
         "icons":[
           {
             src: "Business/Arion/favicon_io/android-chrome-512x512.png",

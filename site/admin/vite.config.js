@@ -19,8 +19,8 @@ export default defineConfig(({ mode }) => {
         "name":"Beehive Corporation Admin",
         "short_name":"Beehive Admin",
         "display": "standalone",
-        "background_color": "#071952",
-        "theme_color": "#071952",
+        "background_color": "#00203F",
+        "theme_color": "#00203F",
         "icons":[
           {
             src: "Business/Beehive/favicon_io/android-chrome-512x512.png",
@@ -42,8 +42,8 @@ export default defineConfig(({ mode }) => {
         "name":"Andromeda Organisation Admin",
         "short_name":"Andromeda Admin",
         "display": "standalone",
-        "background_color": "#22092C",
-        "theme_color": "#22092C",
+        "background_color": "#A4193D",
+        "theme_color": "#A4193D",
         "icons":[
           {
             src: "Business/Andromeda/favicon_io/android-chrome-512x512.png",
@@ -65,8 +65,8 @@ export default defineConfig(({ mode }) => {
         "name":"Pinwheel Organisation Admin",
         "short_name":"Pinwheel Admin",
         "display": "standalone",
-        "background_color": "#241468",
-        "theme_color": "#241468",
+        "background_color": "#4831D4",
+        "theme_color": "#4831D4",
         "icons":[
           {
             src: "Business/Pinwheel/favicon_io/android-chrome-512x512.png",
@@ -88,8 +88,8 @@ export default defineConfig(({ mode }) => {
         "name":"Tadpole Organisation Admin",
         "short_name":"Tadpole Admin",
         "display": "standalone",
-        "background_color": "#3D0C11",
-        "theme_color": "#3D0C11",
+        "background_color": "#02343F",
+        "theme_color": "#02343F",
         "icons":[
           {
             src: "Business/Tadpole/favicon_io/android-chrome-512x512.png",
@@ -111,8 +111,8 @@ export default defineConfig(({ mode }) => {
         "name":"Acrux Enterprise Admin",
         "short_name":"Acrux Admin",
         "display": "standalone",
-        "background_color": "#451952",
-        "theme_color": "#451952",
+        "background_color": "#331B3F",
+        "theme_color": "#331B3F",
         "icons":[
           {
             src: "Business/Acrux/favicon_io/android-chrome-512x512.png",
@@ -134,8 +134,8 @@ export default defineConfig(({ mode }) => {
         "name":"Anser Enterprise Admin",
         "short_name":"Anser Admin",
         "display": "standalone",
-        "background_color": "#004225",
-        "theme_color": "#004225",
+        "background_color": "#07553B",
+        "theme_color": "#07553B",
         "icons":[
           {
             src: "Business/Anser/favicon_io/android-chrome-512x512.png",
@@ -157,8 +157,8 @@ export default defineConfig(({ mode }) => {
         "name":"Aquila Enterprise Admin",
         "short_name":"Aquila Admin",
         "display": "standalone",
-        "background_color": "#141E46",
-        "theme_color": "#141E46",
+        "background_color": "#101820",
+        "theme_color": "#101820",
         "icons":[
           {
             src: "Business/Aquila/favicon_io/android-chrome-512x512.png",
@@ -180,8 +180,8 @@ export default defineConfig(({ mode }) => {
         "name":"Bellatrix Enterprise Admin",
         "short_name":"Bellatrix Admin",
         "display": "standalone",
-        "background_color": "#35155D",
-        "theme_color": "#35155D",
+        "background_color": "#333D79",
+        "theme_color": "#333D79",
         "icons":[
           {
             src: "Business/Bellatrix/favicon_io/android-chrome-512x512.png",
@@ -203,8 +203,8 @@ export default defineConfig(({ mode }) => {
         "name":"Capella Enterprise Admin",
         "short_name":"Capella Admin",
         "display": "standalone",
-        "background_color": "#4C4B16",
-        "theme_color": "#4C4B16",
+        "background_color": "#2C5F2D",
+        "theme_color": "#2C5F2D",
         "icons":[
           {
             src: "Business/Capella/favicon_io/android-chrome-512x512.png",
@@ -249,8 +249,8 @@ export default defineConfig(({ mode }) => {
         "name":"Ankas Admin",
         "short_name":"Ankas Admin",
         "display": "standalone",
-        "background_color": "#352F44",
-        "theme_color": "#352F44",
+        "background_color": "#755139",
+        "theme_color": "#755139",
         "icons":[
           {
             src: "Business/Ankas/favicon_io/android-chrome-512x512.png",
@@ -272,8 +272,8 @@ export default defineConfig(({ mode }) => {
         "name":"Abol Admin",
         "short_name":"Abol Admin",
         "display": "standalone",
-        "background_color": "#072227",
-        "theme_color": "#072227",
+        "background_color": "#4A274F",
+        "theme_color": "#4A274F",
         "icons":[
           {
             src: "Business/Abol/favicon_io/android-chrome-512x512.png",
@@ -295,8 +295,8 @@ export default defineConfig(({ mode }) => {
         "name":"Techfolio Firm Admin",
         "short_name":"Techfolio Admin",
         "display": "standalone",
-        "background_color": "#0F2167",
-        "theme_color": "#0F2167",
+        "background_color": "#2D2926",
+        "theme_color": "#2D2926",
         "icons":[
           {
             src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
@@ -387,16 +387,16 @@ export default defineConfig(({ mode }) => {
         "name":"Blogify Firm Admin",
         "short_name":"Blogify Admin",
         "display": "standalone",
-        "background_color": "#0F2167",
-        "theme_color": "#0F2167",
+        "background_color": "#96351F",
+        "theme_color": "#96351F",
         "icons":[
           {
-            src: "Business/Techfolio/favicon_io/android-chrome-512x512.png",
+            src: "Business/Blogify/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "Business/Techfolio/favicon_io/android-chrome-192x192.png",
+            src: "Business/Blogify/favicon_io/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
@@ -410,16 +410,16 @@ export default defineConfig(({ mode }) => {
         "name":"Srimad Bhagwatam Admin",
         "short_name":"Srimad Bhagwatam Admin",
         "display": "standalone",
-        "background_color": "#4db5ff",
-        "theme_color": "#4db5ff",
+        "background_color": "#990011",
+        "theme_color": "#990011",
         "icons":[
           {
-            src: "Business/ApurvChatur/favicon_io/android-chrome-512x512.png",
+            src: "Business/SrimadBhagwatam/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "Business/ApurvChatur/favicon_io/android-chrome-192x192.png",
+            src: "Business/SrimadBhagwatam/favicon_io/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
@@ -433,16 +433,16 @@ export default defineConfig(({ mode }) => {
         "name":"Bhagwad Gita Admin",
         "short_name":"Bhagwad Gita Admin",
         "display": "standalone",
-        "background_color": "#C8A2C8",
-        "theme_color": "#C8A2C8",
+        "background_color": "#234E70",
+        "theme_color": "#234E70",
         "icons":[
           {
-            src: "Business/AnushreeMandape/favicon_io/android-chrome-512x512.png",
+            src: "Business/BhagwadGita/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "Business/AnushreeMandape/favicon_io/android-chrome-192x192.png",
+            src: "Business/BhagwadGita/favicon_io/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
@@ -456,16 +456,16 @@ export default defineConfig(({ mode }) => {
         "name":"Interview Question Admin",
         "short_name":"Interview Question Admin",
         "display": "standalone",
-        "background_color": "#06b7b7",
-        "theme_color": "#06b7b7",
+        "background_color": "#9000FF",
+        "theme_color": "#9000FF",
         "icons":[
           {
-            src: "Business/SofieBerkin/favicon_io/android-chrome-512x512.png",
+            src: "Business/InterviewQuestion/favicon_io/android-chrome-512x512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "Business/SofieBerkin/favicon_io/android-chrome-192x192.png",
+            src: "Business/InterviewQuestion/favicon_io/android-chrome-192x192.png",
             sizes: "192x192",
             type: "image/png",
           },
