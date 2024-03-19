@@ -26,7 +26,7 @@ const StaticDataUpdatePage = ({ ReduxUltimate }) => {
 	// API Calls
 	const APICalls = {
 		RetrieveAPICall: () => APIs.RetrieveAPI(Redux, ReduxUltimate, id),
-		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate),
+		UpdateAPICall: () => APIs.UpdateAPI(Redux, ReduxUltimate, id, navigate, toast),
 	}		
 
   // All Render

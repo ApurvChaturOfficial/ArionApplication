@@ -4,7 +4,17 @@ import FinalRouteName from '@/love/gRoute/FinalRouteName'
 import brand from '@/love/dFunction/gBrand';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { EnvelopeOpenIcon, LockOpen2Icon, InstagramLogoIcon, TwitterLogoIcon, LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons"
+import { 
+  EnvelopeOpenIcon,
+  Link2Icon,
+  InstagramLogoIcon,
+  TwitterLogoIcon,
+  LinkedInLogoIcon,
+  GitHubLogoIcon,
+  PersonIcon,
+  UpdateIcon,
+  HomeIcon
+} from "@radix-ui/react-icons"
 import Image1 from '@/love/hAsset/assets/1.png'
 import { Separator } from '@/components/ui/separator';
 
@@ -13,81 +23,6 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
   return (
     Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve &&
     <React.Fragment>
-      {/* <section>
-        <div className="grid max-w-screen-xl h-[calc(100vh-3.5rem)] px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
-          <div className="mr-auto place-self-center lg:col-span-7">
-            <div className='mb-4' >
-              <Badge variant="secondary">{Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.tag}</Badge>
-            </div>
-            <h1 className="max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl">
-              {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.title}
-            </h1>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl">
-              {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle}
-            </p>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description}
-            </p>
-
-            <div className="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-              <Link to="hero-list" >
-                <Button className="w-full sm:w-auto" variant="outline">
-                    <LockOpen2Icon className="mr-2 h-4 w-4" /> Let's Visit Admin
-                </Button>
-              </Link>
-
-              <Button className="w-full sm:w-auto" variant="outline">
-                <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> Login with Email
-              </Button>
-            </div>
-
-            <p className="max-w-2xl mt-6 mb-2 font-light lg:mt-8 md:text-lg lg:text-xl text-center sm:text-start ">
-              Follow us on:
-            </p>
-            <div className="flex justify-center space-x-2 sm:flex sm:justify-start sm:space-y-0 sm:space-x-4">
-              <Button variant="ghost" size="icon" asChild >
-                <Link 
-                  to="https://github.com/shadcn-ui/ui/blob/main/apps/www/components/site-header.tsx"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <InstagramLogoIcon className="h-4 w-4" />
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" asChild >
-                <Link 
-                  to="https://github.com/shadcn-ui/ui/blob/main/apps/www/components/site-header.tsx"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <TwitterLogoIcon className="h-4 w-4" />
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" asChild >
-                <Link 
-                  to="https://github.com/shadcn-ui/ui/blob/main/apps/www/components/site-header.tsx"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <LinkedInLogoIcon className="h-4 w-4" />
-                </Link>
-              </Button>
-              <Button variant="ghost" size="icon" asChild >
-                <Link 
-                  to="https://github.com/shadcn-ui/ui/blob/main/apps/www/components/site-header.tsx"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <GitHubLogoIcon className="h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-          <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <img src={Image1} alt="hero image" />
-          </div>                
-        </div>
-      </section> */}
       <section
         id="home"
         className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
@@ -99,47 +34,61 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <Badge className="mb-2" variant="secondary">{Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.tag}</Badge>
-                <h1 className="mb-2 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <Badge className="mb-2">{Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.tag}</Badge>
+                <h1 className="mb-2 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.title}
                 </h1>
-                <h1 className="mb-5 text-xl font-normal leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
+                <h1 className="mb-5 text-xl font-normal leading-tight sm:text-2xl sm:leading-tight md:text-3xl md:leading-tight">
                   {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.subtitle}
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.description}
                 </p>
-                {/* <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
-                    href="https://nextjstemplates.com/templates/startup"
-                    className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-primary/80"
-                  >
-                    Download Now
-                  </Link>
-                  <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="rounded-md bg-black/20 py-4 px-8 text-base font-semibold text-black duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
-                  >
-                    Star on GitHub
-                  </Link>
-                </div> */}
-                <div className="space-y-4 sm:flex justify-center items-center sm:space-y-0 sm:space-x-4">
-                  <Link to="hero-list" >
-                    <Button className="w-full sm:w-auto" variant="outline">
-                        <LockOpen2Icon className="mr-2 h-4 w-4" /> Let's Visit Admin
+                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                  {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.webLinks?.map((each, index) => (
+                    <Button asChild key={index} >
+                      <Link to={each?.url} target="_blank" rel="noreferrer" >
+                        <UpdateIcon className="mr-2 h-4 w-4" /> {each?.title}
+                      </Link>
                     </Button>
-                  </Link>
+                  ))}
 
-                  <Button className="w-full sm:w-auto" variant="outline">
-                    <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> Login with Email
-                  </Button>
+                  {ReduxUltimate.state.RequiredObject?.Loading ? null :
+                    ReduxUltimate.state.ReceivedObject?.ProfileRetrieve ? (
+                      <Button asChild >
+                        <Link to={FinalRouteName.ContentRoute.SidebarRoute.MainRoute.HeroRoute.ListRoute}>
+                          <HomeIcon className="mr-2 h-4 w-4" /> Let's Get Started
+                        </Link>
+                      </Button>
+                    ) : (
+                      <Button asChild >
+                        <Link to={FinalRouteName.AuthRoute.LoginRoute}>
+                          <EnvelopeOpenIcon className="mr-2 h-4 w-4" /> Sign in with Email
+                        </Link>
+                      </Button>
+                    )
+                  }
                 </div>
 
                 <p className="mt-6 mb-2 font-light lg:mt-8 md:text-lg lg:text-xl text-center">
                   Follow us on:
                 </p>
                 <div className="flex justify-center space-x-2 sm:flex sm:space-y-0 sm:space-x-4">
-                  <Button variant="ghost" size="icon" asChild >
+                  {Redux.state.ReceivedObject?.Retrieve?.HeroRetrieve?.socialLinks?.map((each, index) => (
+                    <Button key={index} variant="ghost" size="icon" asChild >
+                      <Link to={each?.url} target="_blank" rel="noreferrer" >
+                        {
+                          each?.title.toLowerCase() === "instagram" ? <InstagramLogoIcon className="h-4 w-4" /> :
+                          each?.title.toLowerCase() === "twitter" ? <TwitterLogoIcon className="h-4 w-4" /> :
+                          each?.title.toLowerCase() === "threads" ? <Link2Icon className="h-4 w-4" /> :
+                          each?.title.toLowerCase() === "linkedin" ? <LinkedInLogoIcon className="h-4 w-4" /> :
+                          each?.title.toLowerCase() === "github" ? <GitHubLogoIcon className="h-4 w-4" /> :
+                          <Link2Icon className="h-4 w-4" />
+                        }
+                      </Link>
+                    </Button>
+                  ))}
+                  {/* <Button variant="ghost" size="icon" asChild >
                     <Link 
                       to="https://github.com/shadcn-ui/ui/blob/main/apps/www/components/site-header.tsx"
                       target="_blank"
@@ -174,7 +123,7 @@ const HomePageComponent = ({ Redux, ReduxUltimate }) => {
                     >
                       <GitHubLogoIcon className="h-4 w-4" />
                     </Link>
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>
