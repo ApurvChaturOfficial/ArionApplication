@@ -15,6 +15,7 @@ import ProfileUpdateComponent from '@/love/aComponent/fTopbarComponent/children/
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 import validateFormObject from '@/love/dFunction/bValidateFormObject';
 import EventHandler from './extra/EventHandler';
+import Loader from '@/love/aComponent/aGlobalComponent/component/aLoader';
 
 
 const ProfileUpdatePage = ({ ReduxUltimate }) => {
@@ -50,7 +51,7 @@ const ProfileUpdatePage = ({ ReduxUltimate }) => {
   // JSX
   return (
     <React.Fragment>
-			{ReduxUltimate.state.RequiredObject?.Loading ? "Loading..." :
+			{ReduxUltimate.state.RequiredObject?.Loading ? <Loader /> :
 				<ProfileUpdateComponent Redux={Redux} EventHandler={EventHandler} OnClick={event => validateFormObject(event, Redux, Function.validateFormValues)} />
 			}
     </React.Fragment>

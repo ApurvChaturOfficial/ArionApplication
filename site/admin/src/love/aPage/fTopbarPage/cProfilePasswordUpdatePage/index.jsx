@@ -14,6 +14,7 @@ import ProfilePasswordUpdateComponent from '@/love/aComponent/fTopbarComponent/c
 // Other
 import submitFormObject from '@/love/dFunction/cSubmitFormObject';
 import validateFormObject from '@/love/dFunction/bValidateFormObject';
+import Loader from '@/love/aComponent/aGlobalComponent/component/aLoader';
 
 
 const ProfilePasswordUpdatePage = ({ ReduxUltimate }) => {
@@ -49,7 +50,7 @@ const ProfilePasswordUpdatePage = ({ ReduxUltimate }) => {
   // JSX
   return (
     <React.Fragment>
-      {ReduxUltimate.state.RequiredObject?.Loading ? "Loading..." :
+      {ReduxUltimate.state.RequiredObject?.Loading ? <Loader /> :
 				<ProfilePasswordUpdateComponent Redux={Redux} OnClick={event => validateFormObject(event, Redux, Function.validateFormValues)} />
 			}
     </React.Fragment>

@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button';
 import MainList from './children/fMainContent/bMainList';
 import MainForm from './children/fMainContent/cMainForm';
 import MainDetail from './children/fMainContent/dMainDetail';
+import Loader from '@/love/aComponent/aGlobalComponent/component/aLoader';
 
 
 const MainSection2 = ({ Data, Redux, ReduxUltimate, DeleteAPI, }) => {
@@ -17,7 +18,7 @@ const MainSection2 = ({ Data, Redux, ReduxUltimate, DeleteAPI, }) => {
   // JSX
   return (
     <React.Fragment>
-      {ReduxUltimate.state.RequiredObject?.Loading ? "Loading" :
+      {ReduxUltimate.state.RequiredObject?.Loading ? <Loader /> :
         <main className="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr]">
           <div className="mx-auto w-full min-w-0">
 
