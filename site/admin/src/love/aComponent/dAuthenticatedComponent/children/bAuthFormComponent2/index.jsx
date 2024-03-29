@@ -7,7 +7,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Image1 from '@/love/hAsset/wallpaper/lady.jpeg'
 import { Separator } from '@/components/ui/separator';
-
+import { RocketIcon } from "@radix-ui/react-icons"
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/alert"
 
 const AuthFormComponent2 = ({ Data, Redux, ReduxUltimate }) => {
   // JSX
@@ -39,6 +44,38 @@ const AuthFormComponent2 = ({ Data, Redux, ReduxUltimate }) => {
                 {Data.subtitle}
               </p>
             </div>
+
+            <div>
+              <Alert>
+                <RocketIcon className="h-4 w-4" />
+                <AlertTitle>Readymade User!</AlertTitle>
+                <AlertDescription>
+                  <p><b>Email:</b> {
+                    import.meta.env.VITE_APPLICATION === "BeehiveApplication" ? "shraddha.kapoor@beehive.com" :
+                    import.meta.env.VITE_APPLICATION === "AndromedaApplication" ? "shraddha.kapoor@andromeda.com" :
+                    import.meta.env.VITE_APPLICATION === "PinwheelApplication" ? "shraddha.kapoor@pinwheel.com" :
+                    import.meta.env.VITE_APPLICATION === "TadpoleApplication" ? "shraddha.kapoor@tadpole.com" :
+                    import.meta.env.VITE_APPLICATION === "AcruxApplication" ? "shraddha.kapoor@acrux.com" :
+                    import.meta.env.VITE_APPLICATION === "AnserApplication" ? "shraddha.kapoor@anser.com" :
+                    import.meta.env.VITE_APPLICATION === "AquilaApplication" ? "shraddha.kapoor@aquila.com" :
+                    import.meta.env.VITE_APPLICATION === "BellatrixApplication" ? "shraddha.kapoor@bellatrix.com" :
+                    import.meta.env.VITE_APPLICATION === "CapellaApplication" ? "shraddha.kapoor@capella.com" :
+                    import.meta.env.VITE_APPLICATION === "ArionApplication" ? "shraddha.kapoor@arion.com" :
+                    import.meta.env.VITE_APPLICATION === "AnkasApplication" ? "shraddha.kapoor@ankas.com" :
+                    import.meta.env.VITE_APPLICATION === "AbolApplication" ? "shraddha.kapoor@abol.com" :
+                    import.meta.env.VITE_APPLICATION === "TechfolioApplication" ? "shraddha.kapoor@techfolio.com" :
+                    import.meta.env.VITE_APPLICATION === "ApurvChaturApplication" ? "shraddha.kapoor@apurvchatur.com" :
+                    import.meta.env.VITE_APPLICATION === "AnushreeMandapeApplication" ? "shraddha.kapoor@anushreemandape.com" :
+                    import.meta.env.VITE_APPLICATION === "SofieBerkinApplication" ? "shraddha.kapoor@sofieberkin.com" :
+                    null
+                  }</p> 
+                  <p><b>Password:</b> Shraddha@123</p>
+                  <p><b>Role:</b> Super Admin</p>
+                  
+                </AlertDescription>
+              </Alert>
+            </div>
+
             <div className={cn("grid gap-6")}>
               <form>
                 <div className="grid gap-2">

@@ -346,13 +346,13 @@ const items = (ReduxUltimate) => {
 
   let administrationItems = []
 
-  // ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'User')[0]?.access?.list &&
+  ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'User')[0]?.access?.list &&
     administrationItems.push({ title: "User", href: FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.UserRoute.ListRoute })
 
-  // ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Role')[0]?.access?.list &&
+  ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Role')[0]?.access?.list &&
     administrationItems.push({ title: "Role", href: FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.RoleRoute.ListRoute })
 
-  // ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.list &&
+  ReduxUltimate.state.ReceivedObject?.ProfileRetrieve?.cRole?.cMenus?.filter(each => each?.menu?.aTitle === 'Menu')[0]?.access?.list &&
     administrationItems.push({ title: "Menu", href: FinalRouteName.ContentRoute.SidebarRoute.AdministrationRoute.MenuRoute.ListRoute })
 
   let settingItems = []
