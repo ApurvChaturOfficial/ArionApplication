@@ -41,9 +41,9 @@ const PortfolioCardUpdatePage = ({ ReduxUltimate }) => {
 	}, [Redux.state.FormObject.FormError])
 	
 	// Extra Render
-	// useEffect(() => {
-	// 	console.log(Redux.state)
-	// }, [Redux.state])
+	useEffect(() => {
+		console.log(Redux.state)
+	}, [Redux.state])
 
   // JSX
   return (

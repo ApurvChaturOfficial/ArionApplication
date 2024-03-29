@@ -143,11 +143,6 @@ const MainForm = ({ Content, Redux }) => {
                                         <SelectItem key={index2} value={each2.value} >{each2.label}</SelectItem>
                                         ))
                                       }
-                                      {/* <SelectItem value="apple">Apple</SelectItem>
-                                      <SelectItem value="banana">Banana</SelectItem>
-                                      <SelectItem value="blueberry">Blueberry</SelectItem>
-                                      <SelectItem value="grapes">Grapes</SelectItem>
-                                      <SelectItem value="pineapple">Pineapple</SelectItem> */}
                                     </SelectGroup>
                                   </SelectContent>
                                 </Select>
@@ -168,13 +163,6 @@ const MainForm = ({ Content, Redux }) => {
                                       onChange={each1.onChange} 
                                       checked={each1?.value?.includes(each2.value)}
                                     />
-                                    {/* <Checkbox 
-                                      id={index2} 
-                                      name={each1.name} 
-                                      value={each2.value} 
-                                      onCheckedChange={each1.onChange} 
-                                      checked={each1?.value?.includes(each2.value)}
-                                    /> */}
                                     <label htmlFor={index2} className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70" >
                                       {each2.label}
                                     </label>
@@ -315,104 +303,27 @@ const MainForm = ({ Content, Redux }) => {
                                     </Card>
                                     )
                                 })}
-
-                                {/* {each1?.inputs?.map((each2, index2) => {
-                                  return (
-                                    <React.Fragment key={index2}>
-                                      <MDBox pb={1} mt={1}>
-
-                                        {Object.keys(each2)?.map((each3, index3) => {
-                                          return (
-                                            each3 !== "_id" && typeof each2[each3] === "object" ?
-                                              <React.Fragment key={index3}>
-                                                <MDBox display="flex" justifyContent="space-between" alignItems="center" pt={0.5} pb={1} mx={1}>
-                                                  <MDTypography variant="button" textTransform="capitalize">
-                                                    {each3[0].toUpperCase() + each3.slice(1)}: 
-                                                  </MDTypography>
-                                                  <MDButton variant="outlined" color="info" iconOnly size="small"
-                                                    onClick={() => each1.onAdd2(index2)}
-                                                  >
-                                                    <Icon>add</Icon>
-                                                  </MDButton>
-                                                </MDBox>
-
-                                                {each2[each3]?.map((each4, index4) => {
-                                                  return (
-                                                    <MDBox key={index4} display="flex">
-                                                      {Object.keys(each4)?.map((each5, index5) => {
-                                                        return (
-                                                          each5 !== "_id" &&
-                                                          <React.Fragment key={index5}>
-                                                            <MDBox display="flex" px={0.5} py={0.5} mr={0.5}>
-                                                              <MDInput 
-                                                                fullWidth
-                                                                type="text"  
-                                                                name={each5}
-                                                                label={each5[0].toUpperCase() + each5.slice(1)}
-                                                                placeholder={each5[0].toUpperCase() + each5.slice(1)}
-                                                                onChange={(event) => each1.onChange2(event, index2, index4)}  
-                                                                value={each4?.[each5]} 
-                                                              />
-                                                            </MDBox>
-                                                            <MDTypography variant="caption" color='error'>
-                                                              {Redux.state.FormObject.FormError?.[each21.name]}
-                                                            </MDTypography>
-                                                          </React.Fragment>
-                                                        )
-                                                      })}
-                                                      <MDBox display="flex" justifyContent="space-between" alignItems="center" my={0.5} mx={1}>
-                                                        <MDButton variant="outlined" color="error" size="small" iconOnly  
-                                                          onClick={() => each1.onRemove2(index2, index4)}
-                                                        >
-                                                          <Icon>remove</Icon>
-                                                        </MDButton>                              
-                                                      </MDBox>
-                                                    </MDBox>
-                                                  )
-                                                })}
-                                              </React.Fragment>
-                                              :
-                                              each3 !== "_id" &&
-                                              <React.Fragment key={index3}>
-                                                <MDBox display="flex" px={0.5} py={0.5} mr={0.5}>
-                                                  <MDInput 
-                                                    fullWidth
-                                                    type="text"  
-                                                    name={each3}
-                                                    label={each3[0].toUpperCase() + each3.slice(1)}
-                                                    placeholder={each3[0].toUpperCase() + each3.slice(1)}
-                                                    onChange={(event) => each1.onChange(event, index2)}  
-                                                    value={each2?.[each3]} 
-                                                  />
-                                                </MDBox>
-                                                <MDTypography variant="caption" color='error'>
-                                                  {Redux.state.FormObject.FormError?.[each21.name]}
-                                                </MDTypography>
-                                              </React.Fragment>
-                                          )
-                                        })}
-
-                                        <MDBox display="flex" justifyContent="space-between" alignItems="center" my={0.5}>
-                                          <MDButton variant="outlined" color="error" size="small" fullWidth 
-                                            onClick={() => each1.onRemove(index2)}
-                                          >
-                                            <Icon>remove</Icon>&nbsp;
-                                            Remove
-                                          </MDButton>                              
-                                        </MDBox>
-                                      </MDBox>
-                                    </React.Fragment>
-                                  )
-                                })} */}
                               </div>
                             )
                           
                           case 'rich-text':
                             return (
                               <div className="grid gap-2" key={index1}>
+                                <Label htmlFor={each1.label}>{each1.label} :</Label>
                                 <JoditEditor
+                                  ref={editor1}
                                   value={each1.value}
                                   tabIndex={1}
+                                  onBlur={value => Redux.dispatch({
+                                    type: Redux.action.FormObject,
+                                    payload: {
+                                      ...Redux.state.FormObject,
+                                      FormValue: {
+                                        ...Redux.state.FormObject?.FormValue,
+                                        [each1.name]: value,
+                                      },
+                                    },
+                                  })}
                                   onChange={value => Redux.dispatch({
                                     type: Redux.action.FormObject,
                                     payload: {
