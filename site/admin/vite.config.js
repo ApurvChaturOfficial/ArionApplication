@@ -111,8 +111,8 @@ export default defineConfig(({ mode }) => {
         "name":"Acrux Enterprise Admin",
         "short_name":"Acrux Admin",
         "display": "standalone",
-        "background_color": "#331B3F",
-        "theme_color": "#331B3F",
+        "background_color": "#603F83",
+        "theme_color": "#603F83",
         "icons":[
           {
             src: "Business/Acrux/favicon_io/android-chrome-512x512.png",
